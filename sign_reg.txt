@@ -1,0 +1,92 @@
+﻿"AutoHR.exe" (Win32). Загружено "C:\Users\user\source\repos\AutoHR\x64\Debug\AutoHR.exe". Символы загружены.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\mscoree.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\apphelp.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". Загрузка символов отключена параметром включения и исключения.
+Поток 25748 завершился с кодом 0 (0x0).
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\advapi32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\sechost.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\rpcrt4.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\shlwapi.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\ucrtbase.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\windows.storage.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\combase.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\msvcp_win.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\version.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\user32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1_clr0400.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\ucrtbase_clr0400.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_clr0400.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\win32u.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\gdi32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\gdi32full.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\imm32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\psapi.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Выгружено "C:\Windows\System32\psapi.dll"
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\76cc8cd31b99e4657b7fa51813603db8\mscorlib.ni.dll". 
+"AutoHR.exe" (CLR v4.0.30319: DefaultDomain). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\ole32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\bcryptprimitives.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\uxtheme.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (CLR v4.0.30319: DefaultDomain). Загружено "C:\Users\user\source\repos\AutoHR\x64\Debug\AutoHR.exe". Символы загружены.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\diasymreader.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System\d4bdee93a2422be7ed56b39c2554e1ae\System.ni.dll". 
+"AutoHR.exe" (CLR v4.0.30319: DefaultDomain). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\273e99947fa8c5b9d2838e3a00645750\System.Drawing.ni.dll". 
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\bcd0e79a47e9f9323982a8deaea8d774\System.Windows.Forms.ni.dll". 
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\318c241e7a02d80c9524df93922eabae\System.Core.ni.dll". 
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\aee4a9b1feab1017f9c0be0b2ddab3ff\System.Configuration.ni.dll". 
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (Win32). Загружено "C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\24459e28621b293eb94adc2d3d46a29d\System.Xml.ni.dll". 
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll". Загрузка символов пропущена. Модуль оптимизирован, включен параметр отладчика "Только мой код".
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\shell32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\WinTypes.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\SHCore.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\profapi.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\bcrypt.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\cryptsp.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\rsaenh.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\cryptbase.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8037_none_87ebc5097a2f9e52\comctl32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.8036_none_6ef439583dc61568\GdiPlus.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\DWrite.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\msctf.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\TextShaping.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8037_none_3e092faae333b53b\comctl32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\oleaut32.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\TextInputFramework.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\CoreMessaging.dll". Загрузка символов отключена параметром включения и исключения.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\System32\CoreUIComponents.dll". Загрузка символов отключена параметром включения и исключения.
+com\oleaut32\stdtypes\pictobj.cpp(3114)\ole32.dll!00007FFBC23DA801: (caller: 00007FFBC246BC04) LogHr(1) tid(1cbc) 8007029C Произошла ошибка подтверждения.
+com\oleaut32\stdtypes\pictobj.cpp(3114)\ole32.dll!00007FFBC23DA801: (caller: 00007FFBC246BC04) LogHr(2) tid(1cbc) 8007029C Произошла ошибка подтверждения.
+Поток 1396 завершился с кодом 0 (0x0).
+Поток 32224 завершился с кодом 0 (0x0).
+Поток 31540 завершился с кодом 0 (0x0).
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll". Сборка модуля выполнена без символов.
+"AutoHR.exe" (Win32). Загружено "C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll". Сборка модуля выполнена без символов.
+"AutoHR.exe" (Win32). Выгружено "C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll"
+"AutoHR.exe" (CLR v4.0.30319: AutoHR.exe). Загружено "C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll". Сборка модуля выполнена без символов.
+Поток 24504 завершился с кодом 0 (0x0).
+Поток 31948 завершился с кодом 0 (0x0).
+Поток 7308 завершился с кодом 0 (0x0).
+Поток 27988 завершился с кодом 0 (0x0).
+Поток 25876 завершился с кодом 0 (0x0).
+Поток 31872 завершился с кодом 0 (0x0).
+Поток 29032 завершился с кодом 0 (0x0).
+Поток 25856 завершился с кодом 0 (0x0).
+Поток 27360 завершился с кодом 0 (0x0).
+Поток 23468 завершился с кодом 0 (0x0).
+Программа "[32732] AutoHR.exe" завершилась с кодом 0 (0x0).
