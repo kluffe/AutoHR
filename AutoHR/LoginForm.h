@@ -1,7 +1,10 @@
 #pragma once
 #include <msclr/marshal_cppstd.h>
+#include "MainForm.h"
+#include "RegisterForm.h"
 using namespace msclr::interop;
 #include <fstream>  // Без этого ifstream и getline работать не будут
+#include "MainForm.h"
 namespace AutoHR {
 
 	using namespace System;
@@ -60,6 +63,16 @@ namespace AutoHR {
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
+		// Implement small TextChanged handlers before InitializeComponent so they can be referenced
+		private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
+		private: System::Void txtEmail_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+			// Forward to the original handler (no-op) to preserve any existing logic
+			this->textBox2_TextChanged(sender, e);
+		}
+
+		// Declaration for handler implemented in MyForm.cpp
+		private: System::Void linkLabel2_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e);
+
 #pragma region Windows Form Designer generated code
 		/// <summary>
 		/// Требуемый метод для поддержки конструктора — не изменяйте 
@@ -104,7 +117,8 @@ namespace AutoHR {
 			this->txtEmail->Name = L"txtEmail";
 			this->txtEmail->Size = System::Drawing::Size(348, 22);
 			this->txtEmail->TabIndex = 2;
-			this->txtEmail->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox2_TextChanged);
+			// Wire TextChanged to a handler with the correct signature
+			this->txtEmail->TextChanged += gcnew System::EventHandler(this, &MyForm::txtEmail_TextChanged);
 			// 
 			// label1
 			// 
@@ -114,52 +128,49 @@ namespace AutoHR {
 			this->label1->Size = System::Drawing::Size(41, 16);
 			this->label1->TabIndex = 3;
 			this->label1->Text = L"Email";
-			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(63, 219);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(67, 16);
-			this->label2->TabIndex = 4;
-			this->label2->Text = L"Password";
-			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
-			// 
+	 this->label2->Name = L"label2";
+	 this->label2->Size = System::Drawing::Size(67, 16);
+	 this->label2->TabIndex = 4;
+	 this->label2->Text = L"Password";
+	 // 
 			// label3
 			// 
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label3->Location = System::Drawing::Point(132, 24);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(239, 69);
-			this->label3->TabIndex = 5;
-			this->label3->Text = L"Sign in";
-			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
+	 this->label3->Name = L"label3";
+	 this->label3->Size = System::Drawing::Size(239, 69);
+	 this->label3->TabIndex = 5;
+	 this->label3->Text = L"Sign in";
+	 this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// chkRemember
 			// 
 			this->chkRemember->AutoSize = true;
 			this->chkRemember->Location = System::Drawing::Point(66, 290);
-		 this->chkRemember->Name = L"chkRemember";
-			this->chkRemember->Size = System::Drawing::Size(119, 20);
-			this->chkRemember->TabIndex = 6;
-			this->chkRemember->Text = L"Remember me";
-			this->chkRemember->UseVisualStyleBackColor = true;
-			this->chkRemember->CheckedChanged += gcnew System::EventHandler(this, &MyForm::chkRemember_CheckedChanged);
+	 this->chkRemember->Name = L"chkRemember";
+	 this->chkRemember->Size = System::Drawing::Size(119, 20);
+	 this->chkRemember->TabIndex = 6;
+	 this->chkRemember->Text = L"Remember me";
+	 this->chkRemember->UseVisualStyleBackColor = true;
+	 this->chkRemember->CheckedChanged += gcnew System::EventHandler(this, &MyForm::chkRemember_CheckedChanged);
 			// 
 			// linkLabel1
 			// 
 			this->linkLabel1->AutoSize = true;
 			this->linkLabel1->LinkColor = System::Drawing::Color::DimGray;
 			this->linkLabel1->Location = System::Drawing::Point(299, 291);
-			this->linkLabel1->Name = L"linkLabel1";
-			this->linkLabel1->Size = System::Drawing::Size(115, 16);
-			this->linkLabel1->TabIndex = 7;
-			this->linkLabel1->TabStop = true;
-			this->linkLabel1->Text = L"Forgot password\?";
-			this->linkLabel1->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &MyForm::linkLabel1_LinkClicked);
+	 this->linkLabel1->Name = L"linkLabel1";
+	 this->linkLabel1->Size = System::Drawing::Size(115, 16);
+	 this->linkLabel1->TabIndex = 7;
+	 this->linkLabel1->TabStop = true;
+	 this->linkLabel1->Text = L"Forgot password\?";
+	 this->linkLabel1->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &MyForm::linkLabel1_LinkClicked);
 			// 
 			// label4
 			// 
@@ -167,16 +178,15 @@ namespace AutoHR {
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label4->Location = System::Drawing::Point(147, 515);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(97, 18);
-			this->label4->TabIndex = 8;
-			this->label4->Text = L"Are you new\?";
-			this->label4->Click += gcnew System::EventHandler(this, &MyForm::label4_Click);
+	 this->label4->Name = L"label4";
+	 this->label4->Size = System::Drawing::Size(97, 18);
+	 this->label4->TabIndex = 8;
+	 this->label4->Text = L"Are you new\?";
 			// 
 			// linkRegister
 			// 
 			this->linkRegister->AutoSize = true;
-			this->linkRegister->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+	 this->linkRegister->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->linkRegister->LinkColor = System::Drawing::Color::DimGray;
 			this->linkRegister->Location = System::Drawing::Point(250, 515);
@@ -194,24 +204,37 @@ namespace AutoHR {
 			this->ClientSize = System::Drawing::Size(504, 692);
 			this->Controls->Add(this->linkRegister);
 			this->Controls->Add(this->label4);
-			this->Controls->Add(this->linkLabel1);
-			this->Controls->Add(this->chkRemember);
-			this->Controls->Add(this->label3);
-			this->Controls->Add(this->label2);
-			this->Controls->Add(this->label1);
-			this->Controls->Add(this->txtEmail);
-			this->Controls->Add(this->txtPassword);
-			this->Controls->Add(this->btnSignIn);
-			this->Name = L"MyForm";
-			this->Text = L"sign in";
-			this->ResumeLayout(false);
-			this->PerformLayout();
+	 this->Controls->Add(this->linkLabel1);
+	 this->Controls->Add(this->chkRemember);
+	 this->Controls->Add(this->label3);
+	 this->Controls->Add(this->label2);
+	 this->Controls->Add(this->label1);
+	 this->Controls->Add(this->txtEmail);
+	 this->Controls->Add(this->txtPassword);
+	 this->Controls->Add(this->btnSignIn);
+	 this->Name = L"MyForm";
+	 this->Text = L"sign in";
+	 this->ResumeLayout(false);
+	 this->PerformLayout();
 
-		}
+			}
 #pragma endregion
 
-		// 1. Поиск пароля (кнопка входа)
+        // 1. Поиск пароля (кнопка входа)
 	private: System::Void btnSignIn_Click(System::Object^ sender, System::EventArgs^ e) {
+		// Проверка, что поля не пустые
+		if (txtEmail->Text->Trim()->Length == 0 || txtPassword->Text->Trim()->Length == 0) {
+			MessageBox::Show("Пожалуйста, заполните все поля!", "Ошибка");
+			return; // Останавливаем выполнение, если данные пустые
+		}
+
+		// Если всё ок, создаем и показываем главное окно
+		MainForm^ mainForm = gcnew MainForm();
+		mainForm->Show();
+
+		// Скрываем текущее окно входа
+		this->Hide();
+
 		std::string inputEmail = msclr::interop::marshal_as<std::string>(txtEmail->Text);
 		std::string inputPass = msclr::interop::marshal_as<std::string>(txtPassword->Text);
 
@@ -235,22 +258,19 @@ namespace AutoHR {
 		}
 	}
 
-		   // 2. Переход на регистрацию (ВАЖНО: проверь имя linkLabel2_LinkClicked в дизайнере!)
-	private: System::Void linkLabel2_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e);
-
-		   // 3. Забыли пароль
+       // 3. Забыли пароль
 	private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) {
 		MessageBox::Show("Обратитесь к администратору");
 	}
 
-		   // Лишние пустые функции, которые создала студия
-	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
+       // Лишние пустые функции, которые создала студия
+	// txtEmail_TextChanged and textBox2_TextChanged were moved above InitializeComponent
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {}
 	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {}
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {}
 	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {}
 	private: System::Void chkRemember_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {}
 
-}; // Конец класса MyForm
-}  // Конец пространства имен AutoHR
+	}; // Конец класса MyForm
+} 	 // Конец пространства имен AutoHR
 
