@@ -1,5 +1,6 @@
-#include "LoginForm.h"
+﻿#include "LoginForm.h"
 #include "RegisterForm.h" // Обязательно подключаем регистрацию здесь!
+#include "MainFormDesigner.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -14,6 +15,6 @@ void main(array<String^>^ args) {
 
 // Код перехода
 void AutoHR::MyForm::linkLabel2_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) {
-    AutoHR::MyForm1^ regForm = gcnew AutoHR::MyForm1();
+    AutoHR::RegisterForm^ regForm = gcnew AutoHR::RegisterForm();
 	regForm->ShowDialog();
 }

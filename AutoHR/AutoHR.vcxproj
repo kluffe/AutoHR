@@ -121,13 +121,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyForm1.cpp" />
     <ClCompile Include="RegisterForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LoginForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MainForm.h" />
+    <ClInclude Include="MainFormDesigner.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="RegisterForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -136,9 +139,15 @@
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainFormDesigner.resx">
+      <DependentUpon>MainFormDesigner.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,12 +11,12 @@ namespace AutoHR {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm1
+	/// Сводка для RegisterForm
 	/// </summary>
-	public ref class MyForm1 : public System::Windows::Forms::Form
+	public ref class RegisterForm : public System::Windows::Forms::Form
 	{
 	public:
-		MyForm1(void)
+		RegisterForm(void)
 		{
 			InitializeComponent();
 			//
@@ -28,7 +28,7 @@ namespace AutoHR {
 		/// <summary>
 		/// Освободить все используемые ресурсы.
 		/// </summary>
-		~MyForm1()
+		~RegisterForm()
 		{
 			if (components)
 			{
@@ -100,7 +100,7 @@ namespace AutoHR {
 			this->txtRegEmail->Name = L"txtRegEmail";
 			this->txtRegEmail->Size = System::Drawing::Size(271, 22);
 			this->txtRegEmail->TabIndex = 1;
-			this->txtRegEmail->TextChanged += gcnew System::EventHandler(this, &MyForm1::textBox1_TextChanged);
+			this->txtRegEmail->TextChanged += gcnew System::EventHandler(this, &RegisterForm::textBox1_TextChanged);
 			// 
 			// txtFirstName
 			// 
@@ -132,7 +132,7 @@ namespace AutoHR {
 			this->linkSignIn->TabIndex = 5;
 			this->linkSignIn->TabStop = true;
 			this->linkSignIn->Text = L"Already have an account\? Sign In";
-			this->linkSignIn->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &MyForm1::linkSignIn_LinkClicked);
+			this->linkSignIn->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &RegisterForm::linkSignIn_LinkClicked);
 			// 
 			// btnRegister
 			// 
@@ -144,7 +144,7 @@ namespace AutoHR {
 			this->btnRegister->TabIndex = 6;
 			this->btnRegister->Text = L"Next";
 			this->btnRegister->UseVisualStyleBackColor = true;
-			this->btnRegister->Click += gcnew System::EventHandler(this, &MyForm1::btnNext_Click);
+			this->btnRegister->Click += gcnew System::EventHandler(this, &RegisterForm::btnNext_Click);
 			// label2
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -188,7 +188,7 @@ namespace AutoHR {
 			this->label5->TabIndex = 10;
 			this->label5->Text = L"Password";
 			// 
-			// MyForm1
+			// RegisterForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -204,7 +204,7 @@ namespace AutoHR {
 			this->Controls->Add(this->txtFirstName);
 			this->Controls->Add(this->txtRegEmail);
 			this->Controls->Add(this->label1);
-			this->Name = L"MyForm1";
+			this->Name = L"RegisterForm";
 			this->Text = L"RegisterForm";
 			this->ResumeLayout(false);
 			this->PerformLayout();
