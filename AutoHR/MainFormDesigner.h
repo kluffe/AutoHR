@@ -1958,12 +1958,12 @@ private: System::Windows::Forms::Label^ label38;
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1512, 756);
-			this->Controls->Add(this->panelPageTitle);
 			this->Controls->Add(this->header);
 			this->Controls->Add(this->flowStats);
 			this->Controls->Add(this->panelControlBar);
 			this->Controls->Add(this->flowEmployeeList);
 			this->Controls->Add(this->sidebar);
+			this->Controls->Add(this->panelPageTitle);
 			this->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->ForeColor = System::Drawing::SystemColors::ButtonFace;
