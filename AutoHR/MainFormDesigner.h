@@ -1,6 +1,8 @@
 ﻿#pragma once
+#include "Employee.h"
 
 namespace AutoHR {
+
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -34,27 +36,27 @@ namespace AutoHR {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Panel^ sidebar;
-	protected:
 
 	protected:
-	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Panel^ pnlProfile;
-	private: System::Windows::Forms::Label^ name;
+
+	protected:
 
 
-	private: System::Windows::Forms::PictureBox^ photo;
 
-	private: System::Windows::Forms::Button^ button8;
-	private: System::Windows::Forms::Button^ button7;
-	private: System::Windows::Forms::Button^ button6;
-	private: System::Windows::Forms::Button^ button5;
-	private: System::Windows::Forms::Button^ button4;
-	private: System::Windows::Forms::Button^ button3;
-	private: System::Windows::Forms::Button^ button2;
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Panel^ header;
 
-	private: System::Windows::Forms::PictureBox^ logo;
+
 
 
 
@@ -184,8 +186,34 @@ namespace AutoHR {
 	private: System::Windows::Forms::Panel^ panel48;
 	private: System::Windows::Forms::Label^ label36;
 	private: System::Windows::Forms::Label^ label37;
-private: System::Windows::Forms::Panel^ panelPageTitle;
+
 private: System::Windows::Forms::Label^ label38;
+private: System::Windows::Forms::Panel^ pnlProfile;
+private: System::Windows::Forms::Label^ name;
+private: System::Windows::Forms::PictureBox^ photo;
+private: System::Windows::Forms::Button^ button2;
+private: System::Windows::Forms::Button^ button3;
+private: System::Windows::Forms::Button^ button5;
+private: System::Windows::Forms::Button^ button6;
+private: System::Windows::Forms::Button^ button7;
+private: System::Windows::Forms::Button^ button8;
+private: System::Windows::Forms::Button^ button1;
+private: System::Windows::Forms::Label^ label39;
+private: System::Windows::Forms::Panel^ sidebar;
+private: System::Windows::Forms::Button^ button4;
+private: System::Windows::Forms::Button^ button11;
+private: System::Windows::Forms::Button^ button10;
+private: System::Windows::Forms::PictureBox^ pictureBox24;
+private: System::Windows::Forms::PictureBox^ pictureBox23;
+private: System::Windows::Forms::PictureBox^ pictureBox25;
+private: System::Windows::Forms::PictureBox^ pictureBox32;
+private: System::Windows::Forms::PictureBox^ pictureBox31;
+private: System::Windows::Forms::PictureBox^ pictureBox30;
+private: System::Windows::Forms::PictureBox^ pictureBox29;
+private: System::Windows::Forms::PictureBox^ pictureBox28;
+private: System::Windows::Forms::PictureBox^ pictureBox27;
+private: System::Windows::Forms::PictureBox^ pictureBox26;
+
 
 
 
@@ -207,25 +235,13 @@ private: System::Windows::Forms::Label^ label38;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->sidebar = (gcnew System::Windows::Forms::Panel());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
-			this->button7 = (gcnew System::Windows::Forms::Button());
-			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->pnlProfile = (gcnew System::Windows::Forms::Panel());
-			this->name = (gcnew System::Windows::Forms::Label());
-			this->photo = (gcnew System::Windows::Forms::PictureBox());
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm1::typeid));
 			this->header = (gcnew System::Windows::Forms::Panel());
 			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
 			this->button12 = (gcnew System::Windows::Forms::Button());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->logo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel3 = (gcnew System::Windows::Forms::Panel());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
@@ -244,23 +260,24 @@ private: System::Windows::Forms::Label^ label38;
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->panelControlBar = (gcnew System::Windows::Forms::Panel());
-			this->panelSearchBox = (gcnew System::Windows::Forms::Panel());
-			this->textSearch = (gcnew System::Windows::Forms::TextBox());
-			this->buttonFilter = (gcnew System::Windows::Forms::Button());
 			this->buttonAddEmployee = (gcnew System::Windows::Forms::Button());
+			this->buttonFilter = (gcnew System::Windows::Forms::Button());
+			this->panelSearchBox = (gcnew System::Windows::Forms::Panel());
+			this->лупа = (gcnew System::Windows::Forms::PictureBox());
+			this->textSearch = (gcnew System::Windows::Forms::TextBox());
 			this->flowEmployeeList = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->cardTemplate = (gcnew System::Windows::Forms::Panel());
-			this->pictureBoxAvatar = (gcnew System::Windows::Forms::PictureBox());
-			this->имя = (gcnew System::Windows::Forms::Label());
-			this->должность = (gcnew System::Windows::Forms::Label());
-			this->почта = (gcnew System::Windows::Forms::Panel());
-			this->звонок = (gcnew System::Windows::Forms::Panel());
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->panel5 = (gcnew System::Windows::Forms::Panel());
 			this->pictureBox7 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel6 = (gcnew System::Windows::Forms::Panel());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->звонок = (gcnew System::Windows::Forms::Panel());
+			this->pictureBoxAvatar = (gcnew System::Windows::Forms::PictureBox());
+			this->почта = (gcnew System::Windows::Forms::Panel());
+			this->должность = (gcnew System::Windows::Forms::Label());
+			this->имя = (gcnew System::Windows::Forms::Label());
 			this->panel7 = (gcnew System::Windows::Forms::Panel());
 			this->panel8 = (gcnew System::Windows::Forms::Panel());
 			this->panel9 = (gcnew System::Windows::Forms::Panel());
@@ -345,16 +362,35 @@ private: System::Windows::Forms::Label^ label38;
 			this->panel48 = (gcnew System::Windows::Forms::Panel());
 			this->label36 = (gcnew System::Windows::Forms::Label());
 			this->label37 = (gcnew System::Windows::Forms::Label());
-			this->лупа = (gcnew System::Windows::Forms::PictureBox());
-			this->panelPageTitle = (gcnew System::Windows::Forms::Panel());
 			this->label38 = (gcnew System::Windows::Forms::Label());
-			this->sidebar->SuspendLayout();
-			this->pnlProfile->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
+			this->pnlProfile = (gcnew System::Windows::Forms::Panel());
+			this->photo = (gcnew System::Windows::Forms::PictureBox());
+			this->name = (gcnew System::Windows::Forms::Label());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->button5 = (gcnew System::Windows::Forms::Button());
+			this->button6 = (gcnew System::Windows::Forms::Button());
+			this->button7 = (gcnew System::Windows::Forms::Button());
+			this->button8 = (gcnew System::Windows::Forms::Button());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->label39 = (gcnew System::Windows::Forms::Label());
+			this->sidebar = (gcnew System::Windows::Forms::Panel());
+			this->button4 = (gcnew System::Windows::Forms::Button());
+			this->button10 = (gcnew System::Windows::Forms::Button());
+			this->button11 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox25 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox24 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox26 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->logo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
 			this->panel3->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -367,11 +403,12 @@ private: System::Windows::Forms::Label^ label38;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox8))->BeginInit();
 			this->panelControlBar->SuspendLayout();
 			this->panelSearchBox->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->BeginInit();
 			this->flowEmployeeList->SuspendLayout();
 			this->cardTemplate->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxAvatar))->BeginInit();
 			this->panel2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox7))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxAvatar))->BeginInit();
 			this->panel7->SuspendLayout();
 			this->panel8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->BeginInit();
@@ -400,187 +437,20 @@ private: System::Windows::Forms::Label^ label38;
 			this->panel44->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox21))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox22))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->BeginInit();
-			this->panelPageTitle->SuspendLayout();
+			this->pnlProfile->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
+			this->sidebar->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// sidebar
-			// 
-			this->sidebar->BackColor = System::Drawing::Color::DarkBlue;
-			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
-			this->sidebar->Controls->Add(this->button7);
-			this->sidebar->Controls->Add(this->button6);
-			this->sidebar->Controls->Add(this->button5);
-			this->sidebar->Controls->Add(this->button4);
-			this->sidebar->Controls->Add(this->button3);
-			this->sidebar->Controls->Add(this->button2);
-			this->sidebar->Controls->Add(this->pnlProfile);
-			this->sidebar->Location = System::Drawing::Point(0, 49);
-			this->sidebar->Name = L"sidebar";
-			this->sidebar->Size = System::Drawing::Size(250, 707);
-			this->sidebar->TabIndex = 0;
-			// 
-			// button1
-			// 
-			this->button1->FlatAppearance->BorderSize = 0;
-			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->button1->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button1->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button1->Location = System::Drawing::Point(12, 141);
-			this->button1->Margin = System::Windows::Forms::Padding(5);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(219, 34);
-			this->button1->TabIndex = 0;
-			this->button1->Text = L"Главная страница";
-			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &MyForm1::button1_Click);
-			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderSize = 0;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(12, 598);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 34);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			this->button8->Click += gcnew System::EventHandler(this, &MyForm1::button8_Click);
-			// 
-			// button7
-			// 
-			this->button7->FlatAppearance->BorderSize = 0;
-			this->button7->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(12, 528);
-			this->button7->Margin = System::Windows::Forms::Padding(5);
-			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(219, 34);
-			this->button7->TabIndex = 6;
-			this->button7->Text = L"База знаний";
-			this->button7->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &MyForm1::button7_Click);
-			// 
-			// button6
-			// 
-			this->button6->FlatAppearance->BorderSize = 0;
-			this->button6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button6->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button6->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button6->Location = System::Drawing::Point(12, 462);
-			this->button6->Margin = System::Windows::Forms::Padding(5);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(219, 34);
-			this->button6->TabIndex = 5;
-			this->button6->Text = L"Проекты";
-			this->button6->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &MyForm1::button6_Click);
-			// 
-			// button5
-			// 
-			this->button5->FlatAppearance->BorderSize = 0;
-			this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button5->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button5->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button5->Location = System::Drawing::Point(12, 395);
-			this->button5->Margin = System::Windows::Forms::Padding(5);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(219, 34);
-			this->button5->TabIndex = 4;
-			this->button5->Text = L"Сотрудники";
-			this->button5->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button5->UseVisualStyleBackColor = true;
-			this->button5->Click += gcnew System::EventHandler(this, &MyForm1::button5_Click);
-			// 
-			// button4
-			// 
-			this->button4->FlatAppearance->BorderSize = 0;
-			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button4->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button4->Location = System::Drawing::Point(12, 329);
-			this->button4->Margin = System::Windows::Forms::Padding(5);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(219, 34);
-			this->button4->TabIndex = 3;
-			this->button4->Text = L"Время";
-			this->button4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button4->UseVisualStyleBackColor = true;
-			this->button4->Click += gcnew System::EventHandler(this, &MyForm1::button4_Click);
-			// 
-			// button3
-			// 
-			this->button3->FlatAppearance->BorderSize = 0;
-			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button3->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button3->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button3->Location = System::Drawing::Point(12, 260);
-			this->button3->Margin = System::Windows::Forms::Padding(5);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(219, 34);
-			this->button3->TabIndex = 2;
-			this->button3->Text = L"Задачи";
-			this->button3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &MyForm1::button3_Click);
-			// 
-			// button2
-			// 
-			this->button2->FlatAppearance->BorderSize = 0;
-			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button2->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->button2->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button2->Location = System::Drawing::Point(12, 201);
-			this->button2->Margin = System::Windows::Forms::Padding(5);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(219, 34);
-			this->button2->TabIndex = 1;
-			this->button2->Text = L"Мои активности";
-			this->button2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &MyForm1::button2_Click);
-			// 
-			// pnlProfile
-			// 
-			this->pnlProfile->BackColor = System::Drawing::Color::DarkBlue;
-			this->pnlProfile->Controls->Add(this->name);
-			this->pnlProfile->Controls->Add(this->photo);
-			this->pnlProfile->Dock = System::Windows::Forms::DockStyle::Top;
-			this->pnlProfile->Location = System::Drawing::Point(0, 0);
-			this->pnlProfile->Name = L"pnlProfile";
-			this->pnlProfile->Size = System::Drawing::Size(250, 100);
-			this->pnlProfile->TabIndex = 1;
-			this->pnlProfile->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm1::pnlProfile_Paint);
-			// 
-			// name
-			// 
-			this->name->AutoSize = true;
-			this->name->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->name->Location = System::Drawing::Point(108, 34);
-			this->name->Name = L"name";
-			this->name->Size = System::Drawing::Size(102, 13);
-			this->name->TabIndex = 1;
-			this->name->Text = L"Имя пользователя";
-			// 
-			// photo
-			// 
-			this->photo->Location = System::Drawing::Point(12, 12);
-			this->photo->Name = L"photo";
-			this->photo->Size = System::Drawing::Size(78, 68);
-			this->photo->TabIndex = 0;
-			this->photo->TabStop = false;
 			// 
 			// header
 			// 
@@ -590,7 +460,6 @@ private: System::Windows::Forms::Label^ label38;
 			this->header->Controls->Add(this->pictureBox6);
 			this->header->Controls->Add(this->button12);
 			this->header->Controls->Add(this->textBox1);
-			this->header->Controls->Add(this->logo);
 			this->header->Controls->Add(this->pictureBox4);
 			this->header->Controls->Add(this->panel3);
 			this->header->Controls->Add(this->button9);
@@ -602,9 +471,11 @@ private: System::Windows::Forms::Label^ label38;
 			// 
 			// pictureBox5
 			// 
+			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
 			this->pictureBox5->Location = System::Drawing::Point(1450, 7);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(49, 36);
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox5->TabIndex = 2;
 			this->pictureBox5->TabStop = false;
 			// 
@@ -612,18 +483,20 @@ private: System::Windows::Forms::Label^ label38;
 			// 
 			this->label2->AutoSize = true;
 			this->label2->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->label2->Location = System::Drawing::Point(1342, 20);
+			this->label2->Location = System::Drawing::Point(1325, 16);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(102, 13);
+			this->label2->Size = System::Drawing::Size(125, 19);
 			this->label2->TabIndex = 2;
 			this->label2->Text = L"Имя пользователя";
 			this->label2->Click += gcnew System::EventHandler(this, &MyForm1::label2_Click);
 			// 
 			// pictureBox6
 			// 
+			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
 			this->pictureBox6->Location = System::Drawing::Point(1281, 15);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(23, 20);
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox6->TabIndex = 7;
 			this->pictureBox6->TabStop = false;
 			// 
@@ -640,24 +513,17 @@ private: System::Windows::Forms::Label^ label38;
 			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->textBox1->Location = System::Drawing::Point(1068, 21);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(100, 15);
+			this->textBox1->Size = System::Drawing::Size(100, 19);
 			this->textBox1->TabIndex = 2;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm1::textBox1_TextChanged);
 			// 
-			// logo
-			// 
-			this->logo->Location = System::Drawing::Point(16, 7);
-			this->logo->Name = L"logo";
-			this->logo->Size = System::Drawing::Size(87, 35);
-			this->logo->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->logo->TabIndex = 2;
-			this->logo->TabStop = false;
-			// 
 			// pictureBox4
 			// 
+			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
 			this->pictureBox4->Location = System::Drawing::Point(1227, 15);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(23, 20);
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 3;
 			this->pictureBox4->TabStop = false;
 			// 
@@ -672,9 +538,11 @@ private: System::Windows::Forms::Label^ label38;
 			// 
 			// pictureBox3
 			// 
+			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
 			this->pictureBox3->Location = System::Drawing::Point(5, 3);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(25, 25);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 3;
 			this->pictureBox3->TabStop = false;
 			this->pictureBox3->Click += gcnew System::EventHandler(this, &MyForm1::pictureBox3_Click);
@@ -727,7 +595,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 36));
 			this->label3->Location = System::Drawing::Point(24, 28);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(54, 65);
+			this->label3->Size = System::Drawing::Size(67, 81);
 			this->label3->TabIndex = 3;
 			this->label3->Text = L"7";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm1::label3_Click);
@@ -739,7 +607,7 @@ private: System::Windows::Forms::Label^ label38;
 				static_cast<System::Byte>(204)));
 			this->label1->Location = System::Drawing::Point(21, 106);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(88, 21);
+			this->label1->Size = System::Drawing::Size(115, 28);
 			this->label1->TabIndex = 3;
 			this->label1->Text = L"онбординг";
 			// 
@@ -770,7 +638,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 36));
 			this->label4->Location = System::Drawing::Point(24, 28);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(54, 65);
+			this->label4->Size = System::Drawing::Size(67, 81);
 			this->label4->TabIndex = 3;
 			this->label4->Text = L"7";
 			// 
@@ -781,7 +649,7 @@ private: System::Windows::Forms::Label^ label38;
 				static_cast<System::Byte>(204)));
 			this->label5->Location = System::Drawing::Point(21, 106);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(187, 21);
+			this->label5->Size = System::Drawing::Size(239, 28);
 			this->label5->TabIndex = 3;
 			this->label5->Text = L"на испытательном сроке";
 			// 
@@ -812,7 +680,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Segoe UI", 36));
 			this->label8->Location = System::Drawing::Point(24, 28);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(54, 65);
+			this->label8->Size = System::Drawing::Size(67, 81);
 			this->label8->TabIndex = 3;
 			this->label8->Text = L"7";
 			// 
@@ -823,7 +691,7 @@ private: System::Windows::Forms::Label^ label38;
 				static_cast<System::Byte>(204)));
 			this->label9->Location = System::Drawing::Point(21, 106);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(90, 21);
+			this->label9->Size = System::Drawing::Size(117, 28);
 			this->label9->TabIndex = 3;
 			this->label9->Text = L"офбординг";
 			// 
@@ -840,38 +708,6 @@ private: System::Windows::Forms::Label^ label38;
 			this->panelControlBar->TabIndex = 3;
 			this->panelControlBar->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm1::panel2_Paint);
 			// 
-			// panelSearchBox
-			// 
-			this->panelSearchBox->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->panelSearchBox->Controls->Add(this->лупа);
-			this->panelSearchBox->Controls->Add(this->textSearch);
-			this->panelSearchBox->Location = System::Drawing::Point(23, 20);
-			this->panelSearchBox->Name = L"panelSearchBox";
-			this->panelSearchBox->Size = System::Drawing::Size(250, 35);
-			this->panelSearchBox->TabIndex = 4;
-			// 
-			// textSearch
-			// 
-			this->textSearch->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textSearch->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textSearch->Location = System::Drawing::Point(66, 7);
-			this->textSearch->Name = L"textSearch";
-			this->textSearch->Size = System::Drawing::Size(170, 18);
-			this->textSearch->TabIndex = 4;
-			this->textSearch->TextChanged += gcnew System::EventHandler(this, &MyForm1::textSearch_TextChanged);
-			// 
-			// buttonFilter
-			// 
-			this->buttonFilter->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonFilter->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->buttonFilter->Location = System::Drawing::Point(282, 27);
-			this->buttonFilter->Name = L"buttonFilter";
-			this->buttonFilter->Size = System::Drawing::Size(75, 23);
-			this->buttonFilter->TabIndex = 4;
-			this->buttonFilter->Text = L"фильтр(19)";
-			this->buttonFilter->UseVisualStyleBackColor = true;
-			// 
 			// buttonAddEmployee
 			// 
 			this->buttonAddEmployee->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
@@ -887,6 +723,47 @@ private: System::Windows::Forms::Label^ label38;
 			this->buttonAddEmployee->TabIndex = 4;
 			this->buttonAddEmployee->Text = L"+ Добавить сотрудника";
 			this->buttonAddEmployee->UseVisualStyleBackColor = false;
+			this->buttonAddEmployee->Click += gcnew System::EventHandler(this, &MyForm1::buttonAddEmployee_Click);
+			// 
+			// buttonFilter
+			// 
+			this->buttonFilter->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonFilter->ForeColor = System::Drawing::SystemColors::WindowText;
+			this->buttonFilter->Location = System::Drawing::Point(282, 22);
+			this->buttonFilter->Name = L"buttonFilter";
+			this->buttonFilter->Size = System::Drawing::Size(105, 35);
+			this->buttonFilter->TabIndex = 4;
+			this->buttonFilter->Text = L"фильтр";
+			this->buttonFilter->UseVisualStyleBackColor = true;
+			// 
+			// panelSearchBox
+			// 
+			this->panelSearchBox->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->panelSearchBox->Controls->Add(this->лупа);
+			this->panelSearchBox->Controls->Add(this->textSearch);
+			this->panelSearchBox->Location = System::Drawing::Point(23, 20);
+			this->panelSearchBox->Name = L"panelSearchBox";
+			this->panelSearchBox->Size = System::Drawing::Size(250, 35);
+			this->panelSearchBox->TabIndex = 4;
+			// 
+			// лупа
+			// 
+			this->лупа->Location = System::Drawing::Point(11, 4);
+			this->лупа->Name = L"лупа";
+			this->лупа->Size = System::Drawing::Size(35, 23);
+			this->лупа->TabIndex = 5;
+			this->лупа->TabStop = false;
+			// 
+			// textSearch
+			// 
+			this->textSearch->BorderStyle = System::Windows::Forms::BorderStyle::None;
+			this->textSearch->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->textSearch->Location = System::Drawing::Point(66, 7);
+			this->textSearch->Name = L"textSearch";
+			this->textSearch->Size = System::Drawing::Size(170, 22);
+			this->textSearch->TabIndex = 4;
+			this->textSearch->TextChanged += gcnew System::EventHandler(this, &MyForm1::textSearch_TextChanged);
 			// 
 			// flowEmployeeList
 			// 
@@ -921,55 +798,6 @@ private: System::Windows::Forms::Label^ label38;
 			this->cardTemplate->Name = L"cardTemplate";
 			this->cardTemplate->Size = System::Drawing::Size(280, 120);
 			this->cardTemplate->TabIndex = 0;
-			// 
-			// pictureBoxAvatar
-			// 
-			this->pictureBoxAvatar->Location = System::Drawing::Point(17, 19);
-			this->pictureBoxAvatar->Name = L"pictureBoxAvatar";
-			this->pictureBoxAvatar->Size = System::Drawing::Size(60, 60);
-			this->pictureBoxAvatar->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->pictureBoxAvatar->TabIndex = 1;
-			this->pictureBoxAvatar->TabStop = false;
-			// 
-			// имя
-			// 
-			this->имя->AutoSize = true;
-			this->имя->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->имя->ForeColor = System::Drawing::SystemColors::WindowText;
-			this->имя->Location = System::Drawing::Point(104, 19);
-			this->имя->Name = L"имя";
-			this->имя->Size = System::Drawing::Size(54, 21);
-			this->имя->TabIndex = 1;
-			this->имя->Text = L"label6";
-			// 
-			// должность
-			// 
-			this->должность->AutoSize = true;
-			this->должность->BackColor = System::Drawing::SystemColors::Window;
-			this->должность->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->должность->ForeColor = System::Drawing::Color::MidnightBlue;
-			this->должность->Location = System::Drawing::Point(105, 54);
-			this->должность->Name = L"должность";
-			this->должность->Size = System::Drawing::Size(38, 15);
-			this->должность->TabIndex = 2;
-			this->должность->Text = L"label7";
-			// 
-			// почта
-			// 
-			this->почта->BackColor = System::Drawing::SystemColors::ScrollBar;
-			this->почта->Location = System::Drawing::Point(216, 86);
-			this->почта->Name = L"почта";
-			this->почта->Size = System::Drawing::Size(20, 20);
-			this->почта->TabIndex = 1;
-			// 
-			// звонок
-			// 
-			this->звонок->BackColor = System::Drawing::SystemColors::ScrollBar;
-			this->звонок->Location = System::Drawing::Point(246, 86);
-			this->звонок->Name = L"звонок";
-			this->звонок->Size = System::Drawing::Size(20, 20);
-			this->звонок->TabIndex = 2;
 			// 
 			// panel2
 			// 
@@ -1018,7 +846,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label6->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label6->Location = System::Drawing::Point(105, 54);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(38, 15);
+			this->label6->Size = System::Drawing::Size(50, 20);
 			this->label6->TabIndex = 2;
 			this->label6->Text = L"label7";
 			// 
@@ -1030,9 +858,58 @@ private: System::Windows::Forms::Label^ label38;
 			this->label7->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label7->Location = System::Drawing::Point(104, 19);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(54, 21);
+			this->label7->Size = System::Drawing::Size(66, 28);
 			this->label7->TabIndex = 1;
 			this->label7->Text = L"label6";
+			// 
+			// звонок
+			// 
+			this->звонок->BackColor = System::Drawing::SystemColors::ScrollBar;
+			this->звонок->Location = System::Drawing::Point(246, 86);
+			this->звонок->Name = L"звонок";
+			this->звонок->Size = System::Drawing::Size(20, 20);
+			this->звонок->TabIndex = 2;
+			// 
+			// pictureBoxAvatar
+			// 
+			this->pictureBoxAvatar->Location = System::Drawing::Point(17, 19);
+			this->pictureBoxAvatar->Name = L"pictureBoxAvatar";
+			this->pictureBoxAvatar->Size = System::Drawing::Size(60, 60);
+			this->pictureBoxAvatar->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBoxAvatar->TabIndex = 1;
+			this->pictureBoxAvatar->TabStop = false;
+			// 
+			// почта
+			// 
+			this->почта->BackColor = System::Drawing::SystemColors::ScrollBar;
+			this->почта->Location = System::Drawing::Point(216, 86);
+			this->почта->Name = L"почта";
+			this->почта->Size = System::Drawing::Size(20, 20);
+			this->почта->TabIndex = 1;
+			// 
+			// должность
+			// 
+			this->должность->AutoSize = true;
+			this->должность->BackColor = System::Drawing::SystemColors::Window;
+			this->должность->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->должность->ForeColor = System::Drawing::Color::MidnightBlue;
+			this->должность->Location = System::Drawing::Point(105, 54);
+			this->должность->Name = L"должность";
+			this->должность->Size = System::Drawing::Size(50, 20);
+			this->должность->TabIndex = 2;
+			this->должность->Text = L"label7";
+			// 
+			// имя
+			// 
+			this->имя->AutoSize = true;
+			this->имя->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->имя->ForeColor = System::Drawing::SystemColors::WindowText;
+			this->имя->Location = System::Drawing::Point(104, 19);
+			this->имя->Name = L"имя";
+			this->имя->Size = System::Drawing::Size(66, 28);
+			this->имя->TabIndex = 1;
+			this->имя->Text = L"label6";
 			// 
 			// panel7
 			// 
@@ -1096,7 +973,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label10->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label10->Location = System::Drawing::Point(105, 54);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(38, 15);
+			this->label10->Size = System::Drawing::Size(50, 20);
 			this->label10->TabIndex = 2;
 			this->label10->Text = L"label7";
 			// 
@@ -1108,7 +985,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label11->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label11->Location = System::Drawing::Point(104, 19);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(54, 21);
+			this->label11->Size = System::Drawing::Size(66, 28);
 			this->label11->TabIndex = 1;
 			this->label11->Text = L"label6";
 			// 
@@ -1145,7 +1022,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label12->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label12->Location = System::Drawing::Point(105, 54);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(38, 15);
+			this->label12->Size = System::Drawing::Size(50, 20);
 			this->label12->TabIndex = 2;
 			this->label12->Text = L"label7";
 			// 
@@ -1157,7 +1034,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label13->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label13->Location = System::Drawing::Point(104, 19);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(54, 21);
+			this->label13->Size = System::Drawing::Size(66, 28);
 			this->label13->TabIndex = 1;
 			this->label13->Text = L"label6";
 			// 
@@ -1223,7 +1100,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label14->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label14->Location = System::Drawing::Point(105, 54);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(38, 15);
+			this->label14->Size = System::Drawing::Size(50, 20);
 			this->label14->TabIndex = 2;
 			this->label14->Text = L"label7";
 			// 
@@ -1235,7 +1112,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label15->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label15->Location = System::Drawing::Point(104, 19);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(54, 21);
+			this->label15->Size = System::Drawing::Size(66, 28);
 			this->label15->TabIndex = 1;
 			this->label15->Text = L"label6";
 			// 
@@ -1272,7 +1149,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label16->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label16->Location = System::Drawing::Point(105, 54);
 			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(38, 15);
+			this->label16->Size = System::Drawing::Size(50, 20);
 			this->label16->TabIndex = 2;
 			this->label16->Text = L"label7";
 			// 
@@ -1284,7 +1161,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label17->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label17->Location = System::Drawing::Point(104, 19);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(54, 21);
+			this->label17->Size = System::Drawing::Size(66, 28);
 			this->label17->TabIndex = 1;
 			this->label17->Text = L"label6";
 			// 
@@ -1350,7 +1227,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label18->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label18->Location = System::Drawing::Point(105, 54);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(38, 15);
+			this->label18->Size = System::Drawing::Size(50, 20);
 			this->label18->TabIndex = 2;
 			this->label18->Text = L"label7";
 			// 
@@ -1362,7 +1239,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label19->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label19->Location = System::Drawing::Point(104, 19);
 			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(54, 21);
+			this->label19->Size = System::Drawing::Size(66, 28);
 			this->label19->TabIndex = 1;
 			this->label19->Text = L"label6";
 			// 
@@ -1399,7 +1276,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label20->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label20->Location = System::Drawing::Point(105, 54);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(38, 15);
+			this->label20->Size = System::Drawing::Size(50, 20);
 			this->label20->TabIndex = 2;
 			this->label20->Text = L"label7";
 			// 
@@ -1411,7 +1288,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label21->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label21->Location = System::Drawing::Point(104, 19);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(54, 21);
+			this->label21->Size = System::Drawing::Size(66, 28);
 			this->label21->TabIndex = 1;
 			this->label21->Text = L"label6";
 			// 
@@ -1477,7 +1354,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label22->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label22->Location = System::Drawing::Point(105, 54);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(38, 15);
+			this->label22->Size = System::Drawing::Size(50, 20);
 			this->label22->TabIndex = 2;
 			this->label22->Text = L"label7";
 			// 
@@ -1489,7 +1366,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label23->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label23->Location = System::Drawing::Point(104, 19);
 			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(54, 21);
+			this->label23->Size = System::Drawing::Size(66, 28);
 			this->label23->TabIndex = 1;
 			this->label23->Text = L"label6";
 			// 
@@ -1526,7 +1403,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label24->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label24->Location = System::Drawing::Point(105, 54);
 			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(38, 15);
+			this->label24->Size = System::Drawing::Size(50, 20);
 			this->label24->TabIndex = 2;
 			this->label24->Text = L"label7";
 			// 
@@ -1538,7 +1415,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label25->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label25->Location = System::Drawing::Point(104, 19);
 			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(54, 21);
+			this->label25->Size = System::Drawing::Size(66, 28);
 			this->label25->TabIndex = 1;
 			this->label25->Text = L"label6";
 			// 
@@ -1604,7 +1481,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label26->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label26->Location = System::Drawing::Point(105, 54);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(38, 15);
+			this->label26->Size = System::Drawing::Size(50, 20);
 			this->label26->TabIndex = 2;
 			this->label26->Text = L"label7";
 			// 
@@ -1616,7 +1493,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label27->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label27->Location = System::Drawing::Point(104, 19);
 			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(54, 21);
+			this->label27->Size = System::Drawing::Size(66, 28);
 			this->label27->TabIndex = 1;
 			this->label27->Text = L"label6";
 			// 
@@ -1653,7 +1530,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label28->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label28->Location = System::Drawing::Point(105, 54);
 			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(38, 15);
+			this->label28->Size = System::Drawing::Size(50, 20);
 			this->label28->TabIndex = 2;
 			this->label28->Text = L"label7";
 			// 
@@ -1665,7 +1542,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label29->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label29->Location = System::Drawing::Point(104, 19);
 			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(54, 21);
+			this->label29->Size = System::Drawing::Size(66, 28);
 			this->label29->TabIndex = 1;
 			this->label29->Text = L"label6";
 			// 
@@ -1731,7 +1608,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label30->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label30->Location = System::Drawing::Point(105, 54);
 			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(38, 15);
+			this->label30->Size = System::Drawing::Size(50, 20);
 			this->label30->TabIndex = 2;
 			this->label30->Text = L"label7";
 			// 
@@ -1743,7 +1620,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label31->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label31->Location = System::Drawing::Point(104, 19);
 			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(54, 21);
+			this->label31->Size = System::Drawing::Size(66, 28);
 			this->label31->TabIndex = 1;
 			this->label31->Text = L"label6";
 			// 
@@ -1780,7 +1657,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label32->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label32->Location = System::Drawing::Point(105, 54);
 			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(38, 15);
+			this->label32->Size = System::Drawing::Size(50, 20);
 			this->label32->TabIndex = 2;
 			this->label32->Text = L"label7";
 			// 
@@ -1792,7 +1669,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label33->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label33->Location = System::Drawing::Point(104, 19);
 			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(54, 21);
+			this->label33->Size = System::Drawing::Size(66, 28);
 			this->label33->TabIndex = 1;
 			this->label33->Text = L"label6";
 			// 
@@ -1858,7 +1735,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label34->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label34->Location = System::Drawing::Point(105, 54);
 			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(38, 15);
+			this->label34->Size = System::Drawing::Size(50, 20);
 			this->label34->TabIndex = 2;
 			this->label34->Text = L"label7";
 			// 
@@ -1870,7 +1747,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label35->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label35->Location = System::Drawing::Point(104, 19);
 			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(54, 21);
+			this->label35->Size = System::Drawing::Size(66, 28);
 			this->label35->TabIndex = 1;
 			this->label35->Text = L"label6";
 			// 
@@ -1907,7 +1784,7 @@ private: System::Windows::Forms::Label^ label38;
 			this->label36->ForeColor = System::Drawing::Color::MidnightBlue;
 			this->label36->Location = System::Drawing::Point(105, 54);
 			this->label36->Name = L"label36";
-			this->label36->Size = System::Drawing::Size(38, 15);
+			this->label36->Size = System::Drawing::Size(50, 20);
 			this->label36->TabIndex = 2;
 			this->label36->Text = L"label7";
 			// 
@@ -1919,25 +1796,9 @@ private: System::Windows::Forms::Label^ label38;
 			this->label37->ForeColor = System::Drawing::SystemColors::WindowText;
 			this->label37->Location = System::Drawing::Point(104, 19);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(54, 21);
+			this->label37->Size = System::Drawing::Size(66, 28);
 			this->label37->TabIndex = 1;
 			this->label37->Text = L"label6";
-			// 
-			// лупа
-			// 
-			this->лупа->Location = System::Drawing::Point(11, 4);
-			this->лупа->Name = L"лупа";
-			this->лупа->Size = System::Drawing::Size(35, 23);
-			this->лупа->TabIndex = 5;
-			this->лупа->TabStop = false;
-			// 
-			// panelPageTitle
-			// 
-			this->panelPageTitle->Controls->Add(this->label38);
-			this->panelPageTitle->Location = System::Drawing::Point(289, 66);
-			this->panelPageTitle->Name = L"panelPageTitle";
-			this->panelPageTitle->Size = System::Drawing::Size(291, 40);
-			this->panelPageTitle->TabIndex = 5;
 			// 
 			// label38
 			// 
@@ -1945,40 +1806,393 @@ private: System::Windows::Forms::Label^ label38;
 			this->label38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label38->ForeColor = System::Drawing::SystemColors::MenuText;
-			this->label38->Location = System::Drawing::Point(9, 5);
+			this->label38->Location = System::Drawing::Point(289, 61);
 			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(277, 30);
+			this->label38->Size = System::Drawing::Size(360, 37);
 			this->label38->TabIndex = 0;
 			this->label38->Text = L"Справочник сотрудников";
 			this->label38->Click += gcnew System::EventHandler(this, &MyForm1::label38_Click);
 			// 
+			// pnlProfile
+			// 
+			this->pnlProfile->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->pnlProfile->Controls->Add(this->name);
+			this->pnlProfile->Controls->Add(this->photo);
+			this->pnlProfile->Dock = System::Windows::Forms::DockStyle::Top;
+			this->pnlProfile->Location = System::Drawing::Point(0, 0);
+			this->pnlProfile->Name = L"pnlProfile";
+			this->pnlProfile->Size = System::Drawing::Size(283, 100);
+			this->pnlProfile->TabIndex = 1;
+			this->pnlProfile->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm1::pnlProfile_Paint);
+			// 
+			// photo
+			// 
+			this->photo->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"photo.Image")));
+			this->photo->Location = System::Drawing::Point(12, 12);
+			this->photo->Name = L"photo";
+			this->photo->Size = System::Drawing::Size(78, 68);
+			this->photo->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->photo->TabIndex = 0;
+			this->photo->TabStop = false;
+			// 
+			// name
+			// 
+			this->name->AutoSize = true;
+			this->name->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->name->Location = System::Drawing::Point(108, 34);
+			this->name->Name = L"name";
+			this->name->Size = System::Drawing::Size(125, 19);
+			this->name->TabIndex = 1;
+			this->name->Text = L"Имя пользователя";
+			// 
+			// button2
+			// 
+			this->button2->FlatAppearance->BorderSize = 0;
+			this->button2->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button2->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button2->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button2->Location = System::Drawing::Point(62, 171);
+			this->button2->Margin = System::Windows::Forms::Padding(5);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(233, 40);
+			this->button2->TabIndex = 1;
+			this->button2->Text = L"Мои активности";
+			this->button2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &MyForm1::button2_Click);
+			// 
+			// button3
+			// 
+			this->button3->FlatAppearance->BorderSize = 0;
+			this->button3->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button3->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button3->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button3->Location = System::Drawing::Point(62, 228);
+			this->button3->Margin = System::Windows::Forms::Padding(5);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(219, 40);
+			this->button3->TabIndex = 2;
+			this->button3->Text = L"Задачи";
+			this->button3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm1::button3_Click);
+			// 
+			// button5
+			// 
+			this->button5->FlatAppearance->BorderSize = 0;
+			this->button5->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button5->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button5->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button5->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button5->Location = System::Drawing::Point(62, 369);
+			this->button5->Margin = System::Windows::Forms::Padding(5);
+			this->button5->Name = L"button5";
+			this->button5->Size = System::Drawing::Size(219, 40);
+			this->button5->TabIndex = 4;
+			this->button5->Text = L"Сотрудники";
+			this->button5->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &MyForm1::button5_Click);
+			// 
+			// button6
+			// 
+			this->button6->FlatAppearance->BorderSize = 0;
+			this->button6->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button6->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button6->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button6->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button6->Location = System::Drawing::Point(62, 483);
+			this->button6->Margin = System::Windows::Forms::Padding(5);
+			this->button6->Name = L"button6";
+			this->button6->Size = System::Drawing::Size(219, 40);
+			this->button6->TabIndex = 5;
+			this->button6->Text = L"Проекты";
+			this->button6->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &MyForm1::button6_Click);
+			// 
+			// button7
+			// 
+			this->button7->FlatAppearance->BorderSize = 0;
+			this->button7->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button7->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button7->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Margin = System::Windows::Forms::Padding(5);
+			this->button7->Name = L"button7";
+			this->button7->Size = System::Drawing::Size(219, 40);
+			this->button7->TabIndex = 6;
+			this->button7->Text = L"База знаний";
+			this->button7->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &MyForm1::button7_Click);
+			// 
+			// button8
+			// 
+			this->button8->FlatAppearance->BorderSize = 0;
+			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button8->Location = System::Drawing::Point(62, 539);
+			this->button8->Margin = System::Windows::Forms::Padding(5);
+			this->button8->Name = L"button8";
+			this->button8->Size = System::Drawing::Size(219, 40);
+			this->button8->TabIndex = 8;
+			this->button8->Text = L"Опросы";
+			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &MyForm1::button8_Click);
+			// 
+			// button1
+			// 
+			this->button1->FlatAppearance->BorderSize = 0;
+			this->button1->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button1->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button1->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button1->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button1->Location = System::Drawing::Point(61, 109);
+			this->button1->Margin = System::Windows::Forms::Padding(5);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(219, 40);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"Главная страница";
+			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm1::button1_Click);
+			// 
+			// label39
+			// 
+			this->label39->AutoSize = true;
+			this->label39->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label39->Location = System::Drawing::Point(3, 275);
+			this->label39->Name = L"label39";
+			this->label39->Size = System::Drawing::Size(124, 28);
+			this->label39->TabIndex = 9;
+			this->label39->Text = L"-Компания-";
+			this->label39->Click += gcnew System::EventHandler(this, &MyForm1::label39_Click);
+			// 
+			// sidebar
+			// 
+			this->sidebar->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->sidebar->Controls->Add(this->pictureBox32);
+			this->sidebar->Controls->Add(this->pictureBox31);
+			this->sidebar->Controls->Add(this->pictureBox30);
+			this->sidebar->Controls->Add(this->pictureBox29);
+			this->sidebar->Controls->Add(this->pictureBox28);
+			this->sidebar->Controls->Add(this->pictureBox27);
+			this->sidebar->Controls->Add(this->pictureBox26);
+			this->sidebar->Controls->Add(this->pictureBox24);
+			this->sidebar->Controls->Add(this->pictureBox23);
+			this->sidebar->Controls->Add(this->pictureBox25);
+			this->sidebar->Controls->Add(this->button11);
+			this->sidebar->Controls->Add(this->button10);
+			this->sidebar->Controls->Add(this->button4);
+			this->sidebar->Controls->Add(this->label39);
+			this->sidebar->Controls->Add(this->button1);
+			this->sidebar->Controls->Add(this->button8);
+			this->sidebar->Controls->Add(this->button7);
+			this->sidebar->Controls->Add(this->button6);
+			this->sidebar->Controls->Add(this->button5);
+			this->sidebar->Controls->Add(this->button3);
+			this->sidebar->Controls->Add(this->button2);
+			this->sidebar->Controls->Add(this->pnlProfile);
+			this->sidebar->Location = System::Drawing::Point(0, 49);
+			this->sidebar->Name = L"sidebar";
+			this->sidebar->Size = System::Drawing::Size(283, 707);
+			this->sidebar->TabIndex = 0;
+			// 
+			// button4
+			// 
+			this->button4->FlatAppearance->BorderSize = 0;
+			this->button4->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button4->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button4->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button4->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button4->Location = System::Drawing::Point(62, 311);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(219, 40);
+			this->button4->TabIndex = 4;
+			this->button4->Text = L"Календарь";
+			this->button4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button4->UseVisualStyleBackColor = true;
+			// 
+			// button10
+			// 
+			this->button10->FlatAppearance->BorderSize = 0;
+			this->button10->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button10->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button10->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button10->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button10->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button10->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button10->Location = System::Drawing::Point(61, 424);
+			this->button10->Name = L"button10";
+			this->button10->Size = System::Drawing::Size(219, 40);
+			this->button10->TabIndex = 4;
+			this->button10->Text = L"Рекрутинг";
+			this->button10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &MyForm1::button10_Click);
+			// 
+			// button11
+			// 
+			this->button11->FlatAppearance->BorderSize = 0;
+			this->button11->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button11->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button11->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button11->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Name = L"button11";
+			this->button11->Size = System::Drawing::Size(218, 40);
+			this->button11->TabIndex = 11;
+			this->button11->Text = L"Отчеты";
+			this->button11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button11->UseVisualStyleBackColor = true;
+			// 
+			// pictureBox25
+			// 
+			this->pictureBox25->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox25.Image")));
+			this->pictureBox25->Location = System::Drawing::Point(15, 109);
+			this->pictureBox25->Name = L"pictureBox25";
+			this->pictureBox25->Size = System::Drawing::Size(42, 40);
+			this->pictureBox25->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox25->TabIndex = 14;
+			this->pictureBox25->TabStop = false;
+			// 
+			// pictureBox23
+			// 
+			this->pictureBox23->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox23.Image")));
+			this->pictureBox23->Location = System::Drawing::Point(15, 171);
+			this->pictureBox23->Name = L"pictureBox23";
+			this->pictureBox23->Size = System::Drawing::Size(42, 40);
+			this->pictureBox23->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox23->TabIndex = 15;
+			this->pictureBox23->TabStop = false;
+			this->pictureBox23->Click += gcnew System::EventHandler(this, &MyForm1::pictureBox23_Click);
+			// 
+			// pictureBox24
+			// 
+			this->pictureBox24->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox24.Image")));
+			this->pictureBox24->Location = System::Drawing::Point(15, 228);
+			this->pictureBox24->Name = L"pictureBox24";
+			this->pictureBox24->Size = System::Drawing::Size(42, 40);
+			this->pictureBox24->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox24->TabIndex = 16;
+			this->pictureBox24->TabStop = false;
+			// 
+			// pictureBox26
+			// 
+			this->pictureBox26->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox26.Image")));
+			this->pictureBox26->Location = System::Drawing::Point(15, 311);
+			this->pictureBox26->Name = L"pictureBox26";
+			this->pictureBox26->Size = System::Drawing::Size(42, 40);
+			this->pictureBox26->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox26->TabIndex = 17;
+			this->pictureBox26->TabStop = false;
+			// 
+			// pictureBox27
+			// 
+			this->pictureBox27->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox27.Image")));
+			this->pictureBox27->Location = System::Drawing::Point(15, 369);
+			this->pictureBox27->Name = L"pictureBox27";
+			this->pictureBox27->Size = System::Drawing::Size(42, 40);
+			this->pictureBox27->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox27->TabIndex = 18;
+			this->pictureBox27->TabStop = false;
+			// 
+			// pictureBox28
+			// 
+			this->pictureBox28->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox28.Image")));
+			this->pictureBox28->Location = System::Drawing::Point(15, 424);
+			this->pictureBox28->Name = L"pictureBox28";
+			this->pictureBox28->Size = System::Drawing::Size(42, 40);
+			this->pictureBox28->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox28->TabIndex = 19;
+			this->pictureBox28->TabStop = false;
+			// 
+			// pictureBox29
+			// 
+			this->pictureBox29->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox29.Image")));
+			this->pictureBox29->Location = System::Drawing::Point(15, 483);
+			this->pictureBox29->Name = L"pictureBox29";
+			this->pictureBox29->Size = System::Drawing::Size(42, 40);
+			this->pictureBox29->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox29->TabIndex = 20;
+			this->pictureBox29->TabStop = false;
+			// 
+			// pictureBox30
+			// 
+			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
+			this->pictureBox30->Location = System::Drawing::Point(15, 539);
+			this->pictureBox30->Name = L"pictureBox30";
+			this->pictureBox30->Size = System::Drawing::Size(42, 40);
+			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox30->TabIndex = 21;
+			this->pictureBox30->TabStop = false;
+			// 
+			// pictureBox31
+			// 
+			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
+			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Name = L"pictureBox31";
+			this->pictureBox31->Size = System::Drawing::Size(42, 40);
+			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox31->TabIndex = 22;
+			this->pictureBox31->TabStop = false;
+			// 
+			// pictureBox32
+			// 
+			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
+			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Name = L"pictureBox32";
+			this->pictureBox32->Size = System::Drawing::Size(42, 40);
+			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox32->TabIndex = 23;
+			this->pictureBox32->TabStop = false;
+			// 
 			// MyForm1
 			// 
 			this->AccessibleName = L"";
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 19);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1512, 756);
+			this->Controls->Add(this->label38);
 			this->Controls->Add(this->header);
 			this->Controls->Add(this->flowStats);
 			this->Controls->Add(this->panelControlBar);
 			this->Controls->Add(this->flowEmployeeList);
 			this->Controls->Add(this->sidebar);
-			this->Controls->Add(this->panelPageTitle);
 			this->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->Name = L"MyForm1";
 			this->Text = L"MainFormDesigner.h";
 			this->Load += gcnew System::EventHandler(this, &MyForm1::MyForm1_Load);
-			this->sidebar->ResumeLayout(false);
-			this->pnlProfile->ResumeLayout(false);
-			this->pnlProfile->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			this->header->ResumeLayout(false);
 			this->header->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->logo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 			this->panel3->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
@@ -1995,13 +2209,14 @@ private: System::Windows::Forms::Label^ label38;
 			this->panelControlBar->ResumeLayout(false);
 			this->panelSearchBox->ResumeLayout(false);
 			this->panelSearchBox->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->EndInit();
 			this->flowEmployeeList->ResumeLayout(false);
 			this->cardTemplate->ResumeLayout(false);
 			this->cardTemplate->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxAvatar))->EndInit();
 			this->panel2->ResumeLayout(false);
 			this->panel2->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox7))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxAvatar))->EndInit();
 			this->panel7->ResumeLayout(false);
 			this->panel7->PerformLayout();
 			this->panel8->ResumeLayout(false);
@@ -2044,10 +2259,23 @@ private: System::Windows::Forms::Label^ label38;
 			this->panel44->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox21))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox22))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->EndInit();
-			this->panelPageTitle->ResumeLayout(false);
-			this->panelPageTitle->PerformLayout();
+			this->pnlProfile->ResumeLayout(false);
+			this->pnlProfile->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
+			this->sidebar->ResumeLayout(false);
+			this->sidebar->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
@@ -2089,6 +2317,22 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void buttonAddEmployee_Click(System::Object^ sender, System::EventArgs^ e) {
+	//MyForm1^ mainForm = gcnew MyForm1(); // Создаем экземпляр главного окна
+	//mainForm->ShowDialog(); // Открываем его и ждем, пока оно закроется
+
+	// 1. Создаем экземпляр второго окна
+	Employee^ employeeWindow = gcnew Employee();
+
+	// 2. Показываем его
+	employeeWindow->ShowDialog();
+}
+private: System::Void label39_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox23_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

@@ -131,6 +131,9 @@
     <ClInclude Include="MainFormDesigner.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Employee.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="RegisterForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -141,6 +144,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainFormDesigner.resx">
       <DependentUpon>MainFormDesigner.h</DependentUpon>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AutoHR.MyForm1.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.h</DependentUpon>
