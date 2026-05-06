@@ -213,6 +213,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox29;
 private: System::Windows::Forms::PictureBox^ pictureBox28;
 private: System::Windows::Forms::PictureBox^ pictureBox27;
 private: System::Windows::Forms::PictureBox^ pictureBox26;
+private: System::Windows::Forms::Panel^ panel49;
 
 
 
@@ -266,6 +267,8 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->лупа = (gcnew System::Windows::Forms::PictureBox());
 			this->textSearch = (gcnew System::Windows::Forms::TextBox());
 			this->flowEmployeeList = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->panel49 = (gcnew System::Windows::Forms::Panel());
+			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->cardTemplate = (gcnew System::Windows::Forms::Panel());
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->panel5 = (gcnew System::Windows::Forms::Panel());
@@ -362,10 +365,9 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel48 = (gcnew System::Windows::Forms::Panel());
 			this->label36 = (gcnew System::Windows::Forms::Label());
 			this->label37 = (gcnew System::Windows::Forms::Label());
-			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->pnlProfile = (gcnew System::Windows::Forms::Panel());
-			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->name = (gcnew System::Windows::Forms::Label());
+			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
@@ -375,19 +377,19 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->sidebar = (gcnew System::Windows::Forms::Panel());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->button10 = (gcnew System::Windows::Forms::Button());
-			this->button11 = (gcnew System::Windows::Forms::Button());
-			this->pictureBox25 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox23 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox24 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox26 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox26 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox24 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox25 = (gcnew System::Windows::Forms::PictureBox());
+			this->button11 = (gcnew System::Windows::Forms::Button());
+			this->button10 = (gcnew System::Windows::Forms::Button());
+			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
@@ -405,6 +407,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panelSearchBox->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->BeginInit();
 			this->flowEmployeeList->SuspendLayout();
+			this->panel49->SuspendLayout();
 			this->cardTemplate->SuspendLayout();
 			this->panel2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox7))->BeginInit();
@@ -440,16 +443,16 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->pnlProfile->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			this->sidebar->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// header
@@ -466,7 +469,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->header->Dock = System::Windows::Forms::DockStyle::Top;
 			this->header->Location = System::Drawing::Point(0, 0);
 			this->header->Name = L"header";
-			this->header->Size = System::Drawing::Size(1512, 50);
+			this->header->Size = System::Drawing::Size(1522, 50);
 			this->header->TabIndex = 1;
 			// 
 			// pictureBox5
@@ -561,7 +564,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->flowStats->Controls->Add(this->cardOnBoarding);
 			this->flowStats->Controls->Add(this->panel1);
 			this->flowStats->Controls->Add(this->panel4);
-			this->flowStats->Location = System::Drawing::Point(289, 112);
+			this->flowStats->Location = System::Drawing::Point(15, 68);
 			this->flowStats->Name = L"flowStats";
 			this->flowStats->Padding = System::Windows::Forms::Padding(20);
 			this->flowStats->Size = System::Drawing::Size(1059, 205);
@@ -701,7 +704,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panelControlBar->Controls->Add(this->buttonAddEmployee);
 			this->panelControlBar->Controls->Add(this->buttonFilter);
 			this->panelControlBar->Controls->Add(this->panelSearchBox);
-			this->panelControlBar->Location = System::Drawing::Point(289, 312);
+			this->panelControlBar->Location = System::Drawing::Point(15, 268);
 			this->panelControlBar->Name = L"panelControlBar";
 			this->panelControlBar->Padding = System::Windows::Forms::Padding(20, 0, 20, 0);
 			this->panelControlBar->Size = System::Drawing::Size(1059, 73);
@@ -770,6 +773,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->flowEmployeeList->AutoScroll = true;
 			this->flowEmployeeList->BackColor = System::Drawing::SystemColors::ScrollBar;
 			this->flowEmployeeList->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->flowEmployeeList->Controls->Add(this->panel49);
 			this->flowEmployeeList->Controls->Add(this->cardTemplate);
 			this->flowEmployeeList->Controls->Add(this->panel7);
 			this->flowEmployeeList->Controls->Add(this->panel13);
@@ -778,11 +782,36 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->flowEmployeeList->Controls->Add(this->panel31);
 			this->flowEmployeeList->Controls->Add(this->panel37);
 			this->flowEmployeeList->Controls->Add(this->panel43);
-			this->flowEmployeeList->Location = System::Drawing::Point(289, 419);
+			this->flowEmployeeList->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowEmployeeList->Location = System::Drawing::Point(283, 50);
 			this->flowEmployeeList->Name = L"flowEmployeeList";
 			this->flowEmployeeList->Padding = System::Windows::Forms::Padding(20);
-			this->flowEmployeeList->Size = System::Drawing::Size(1190, 292);
+			this->flowEmployeeList->Size = System::Drawing::Size(1239, 635);
 			this->flowEmployeeList->TabIndex = 4;
+			// 
+			// panel49
+			// 
+			this->panel49->Controls->Add(this->flowStats);
+			this->panel49->Controls->Add(this->label38);
+			this->panel49->Controls->Add(this->panelControlBar);
+			this->panel49->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel49->Location = System::Drawing::Point(23, 23);
+			this->panel49->Name = L"panel49";
+			this->panel49->Size = System::Drawing::Size(1078, 349);
+			this->panel49->TabIndex = 5;
+			// 
+			// label38
+			// 
+			this->label38->AutoSize = true;
+			this->label38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label38->ForeColor = System::Drawing::SystemColors::MenuText;
+			this->label38->Location = System::Drawing::Point(15, 17);
+			this->label38->Name = L"label38";
+			this->label38->Size = System::Drawing::Size(360, 37);
+			this->label38->TabIndex = 0;
+			this->label38->Text = L"Справочник сотрудников";
+			this->label38->Click += gcnew System::EventHandler(this, &MyForm1::label38_Click);
 			// 
 			// cardTemplate
 			// 
@@ -794,7 +823,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->cardTemplate->Controls->Add(this->почта);
 			this->cardTemplate->Controls->Add(this->должность);
 			this->cardTemplate->Controls->Add(this->имя);
-			this->cardTemplate->Location = System::Drawing::Point(23, 23);
+			this->cardTemplate->Location = System::Drawing::Point(23, 378);
 			this->cardTemplate->Name = L"cardTemplate";
 			this->cardTemplate->Size = System::Drawing::Size(280, 120);
 			this->cardTemplate->TabIndex = 0;
@@ -921,7 +950,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel7->Controls->Add(this->panel12);
 			this->panel7->Controls->Add(this->label12);
 			this->panel7->Controls->Add(this->label13);
-			this->panel7->Location = System::Drawing::Point(309, 23);
+			this->panel7->Location = System::Drawing::Point(309, 378);
 			this->panel7->Name = L"panel7";
 			this->panel7->Size = System::Drawing::Size(280, 120);
 			this->panel7->TabIndex = 5;
@@ -1048,7 +1077,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel13->Controls->Add(this->panel18);
 			this->panel13->Controls->Add(this->label16);
 			this->panel13->Controls->Add(this->label17);
-			this->panel13->Location = System::Drawing::Point(595, 23);
+			this->panel13->Location = System::Drawing::Point(595, 378);
 			this->panel13->Name = L"panel13";
 			this->panel13->Size = System::Drawing::Size(280, 120);
 			this->panel13->TabIndex = 6;
@@ -1175,7 +1204,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel19->Controls->Add(this->panel24);
 			this->panel19->Controls->Add(this->label20);
 			this->panel19->Controls->Add(this->label21);
-			this->panel19->Location = System::Drawing::Point(881, 23);
+			this->panel19->Location = System::Drawing::Point(881, 378);
 			this->panel19->Name = L"panel19";
 			this->panel19->Size = System::Drawing::Size(280, 120);
 			this->panel19->TabIndex = 7;
@@ -1302,7 +1331,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel25->Controls->Add(this->panel30);
 			this->panel25->Controls->Add(this->label24);
 			this->panel25->Controls->Add(this->label25);
-			this->panel25->Location = System::Drawing::Point(23, 149);
+			this->panel25->Location = System::Drawing::Point(23, 504);
 			this->panel25->Name = L"panel25";
 			this->panel25->Size = System::Drawing::Size(280, 120);
 			this->panel25->TabIndex = 8;
@@ -1429,7 +1458,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel31->Controls->Add(this->panel36);
 			this->panel31->Controls->Add(this->label28);
 			this->panel31->Controls->Add(this->label29);
-			this->panel31->Location = System::Drawing::Point(309, 149);
+			this->panel31->Location = System::Drawing::Point(309, 504);
 			this->panel31->Name = L"panel31";
 			this->panel31->Size = System::Drawing::Size(280, 120);
 			this->panel31->TabIndex = 4;
@@ -1556,7 +1585,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel37->Controls->Add(this->panel42);
 			this->panel37->Controls->Add(this->label32);
 			this->panel37->Controls->Add(this->label33);
-			this->panel37->Location = System::Drawing::Point(595, 149);
+			this->panel37->Location = System::Drawing::Point(595, 504);
 			this->panel37->Name = L"panel37";
 			this->panel37->Size = System::Drawing::Size(280, 120);
 			this->panel37->TabIndex = 9;
@@ -1683,7 +1712,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panel43->Controls->Add(this->panel48);
 			this->panel43->Controls->Add(this->label36);
 			this->panel43->Controls->Add(this->label37);
-			this->panel43->Location = System::Drawing::Point(881, 149);
+			this->panel43->Location = System::Drawing::Point(881, 504);
 			this->panel43->Name = L"panel43";
 			this->panel43->Size = System::Drawing::Size(280, 120);
 			this->panel43->TabIndex = 4;
@@ -1800,19 +1829,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->label37->TabIndex = 1;
 			this->label37->Text = L"label6";
 			// 
-			// label38
-			// 
-			this->label38->AutoSize = true;
-			this->label38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label38->ForeColor = System::Drawing::SystemColors::MenuText;
-			this->label38->Location = System::Drawing::Point(289, 61);
-			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(360, 37);
-			this->label38->TabIndex = 0;
-			this->label38->Text = L"Справочник сотрудников";
-			this->label38->Click += gcnew System::EventHandler(this, &MyForm1::label38_Click);
-			// 
 			// pnlProfile
 			// 
 			this->pnlProfile->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -1822,19 +1838,9 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->pnlProfile->Dock = System::Windows::Forms::DockStyle::Top;
 			this->pnlProfile->Location = System::Drawing::Point(0, 0);
 			this->pnlProfile->Name = L"pnlProfile";
-			this->pnlProfile->Size = System::Drawing::Size(283, 100);
+			this->pnlProfile->Size = System::Drawing::Size(265, 100);
 			this->pnlProfile->TabIndex = 1;
 			this->pnlProfile->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm1::pnlProfile_Paint);
-			// 
-			// photo
-			// 
-			this->photo->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"photo.Image")));
-			this->photo->Location = System::Drawing::Point(12, 12);
-			this->photo->Name = L"photo";
-			this->photo->Size = System::Drawing::Size(78, 68);
-			this->photo->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->photo->TabIndex = 0;
-			this->photo->TabStop = false;
 			// 
 			// name
 			// 
@@ -1845,6 +1851,16 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->name->Size = System::Drawing::Size(125, 19);
 			this->name->TabIndex = 1;
 			this->name->Text = L"Имя пользователя";
+			// 
+			// photo
+			// 
+			this->photo->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"photo.Image")));
+			this->photo->Location = System::Drawing::Point(12, 12);
+			this->photo->Name = L"photo";
+			this->photo->Size = System::Drawing::Size(78, 68);
+			this->photo->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->photo->TabIndex = 0;
+			this->photo->TabStop = false;
 			// 
 			// button2
 			// 
@@ -1989,8 +2005,10 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			// 
 			// sidebar
 			// 
+			this->sidebar->AutoScroll = true;
 			this->sidebar->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
 			this->sidebar->Controls->Add(this->pictureBox30);
@@ -2012,28 +2030,130 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->sidebar->Controls->Add(this->button5);
 			this->sidebar->Controls->Add(this->button3);
 			this->sidebar->Controls->Add(this->button2);
-			this->sidebar->Controls->Add(this->pnlProfile);
-			this->sidebar->Location = System::Drawing::Point(0, 49);
+			this->sidebar->Dock = System::Windows::Forms::DockStyle::Left;
+			this->sidebar->Location = System::Drawing::Point(0, 50);
 			this->sidebar->Name = L"sidebar";
-			this->sidebar->Size = System::Drawing::Size(283, 707);
+			this->sidebar->Padding = System::Windows::Forms::Padding(0, 0, 30, 0);
+			this->sidebar->Size = System::Drawing::Size(283, 635);
 			this->sidebar->TabIndex = 0;
 			// 
-			// button4
+			// pictureBox32
 			// 
-			this->button4->FlatAppearance->BorderSize = 0;
-			this->button4->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button4->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button4->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button4->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button4->Location = System::Drawing::Point(62, 311);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(219, 40);
-			this->button4->TabIndex = 4;
-			this->button4->Text = L"Календарь";
-			this->button4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button4->UseVisualStyleBackColor = true;
+			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
+			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Name = L"pictureBox32";
+			this->pictureBox32->Size = System::Drawing::Size(42, 40);
+			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox32->TabIndex = 23;
+			this->pictureBox32->TabStop = false;
+			// 
+			// pictureBox31
+			// 
+			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
+			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Name = L"pictureBox31";
+			this->pictureBox31->Size = System::Drawing::Size(42, 40);
+			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox31->TabIndex = 22;
+			this->pictureBox31->TabStop = false;
+			// 
+			// pictureBox30
+			// 
+			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
+			this->pictureBox30->Location = System::Drawing::Point(15, 539);
+			this->pictureBox30->Name = L"pictureBox30";
+			this->pictureBox30->Size = System::Drawing::Size(42, 40);
+			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox30->TabIndex = 21;
+			this->pictureBox30->TabStop = false;
+			// 
+			// pictureBox29
+			// 
+			this->pictureBox29->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox29.Image")));
+			this->pictureBox29->Location = System::Drawing::Point(15, 483);
+			this->pictureBox29->Name = L"pictureBox29";
+			this->pictureBox29->Size = System::Drawing::Size(42, 40);
+			this->pictureBox29->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox29->TabIndex = 20;
+			this->pictureBox29->TabStop = false;
+			// 
+			// pictureBox28
+			// 
+			this->pictureBox28->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox28.Image")));
+			this->pictureBox28->Location = System::Drawing::Point(15, 424);
+			this->pictureBox28->Name = L"pictureBox28";
+			this->pictureBox28->Size = System::Drawing::Size(42, 40);
+			this->pictureBox28->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox28->TabIndex = 19;
+			this->pictureBox28->TabStop = false;
+			// 
+			// pictureBox27
+			// 
+			this->pictureBox27->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox27.Image")));
+			this->pictureBox27->Location = System::Drawing::Point(15, 369);
+			this->pictureBox27->Name = L"pictureBox27";
+			this->pictureBox27->Size = System::Drawing::Size(42, 40);
+			this->pictureBox27->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox27->TabIndex = 18;
+			this->pictureBox27->TabStop = false;
+			// 
+			// pictureBox26
+			// 
+			this->pictureBox26->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox26.Image")));
+			this->pictureBox26->Location = System::Drawing::Point(15, 311);
+			this->pictureBox26->Name = L"pictureBox26";
+			this->pictureBox26->Size = System::Drawing::Size(42, 40);
+			this->pictureBox26->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox26->TabIndex = 17;
+			this->pictureBox26->TabStop = false;
+			// 
+			// pictureBox24
+			// 
+			this->pictureBox24->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox24.Image")));
+			this->pictureBox24->Location = System::Drawing::Point(15, 228);
+			this->pictureBox24->Name = L"pictureBox24";
+			this->pictureBox24->Size = System::Drawing::Size(42, 40);
+			this->pictureBox24->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox24->TabIndex = 16;
+			this->pictureBox24->TabStop = false;
+			// 
+			// pictureBox23
+			// 
+			this->pictureBox23->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox23.Image")));
+			this->pictureBox23->Location = System::Drawing::Point(15, 171);
+			this->pictureBox23->Name = L"pictureBox23";
+			this->pictureBox23->Size = System::Drawing::Size(42, 40);
+			this->pictureBox23->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox23->TabIndex = 15;
+			this->pictureBox23->TabStop = false;
+			this->pictureBox23->Click += gcnew System::EventHandler(this, &MyForm1::pictureBox23_Click);
+			// 
+			// pictureBox25
+			// 
+			this->pictureBox25->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox25.Image")));
+			this->pictureBox25->Location = System::Drawing::Point(15, 109);
+			this->pictureBox25->Name = L"pictureBox25";
+			this->pictureBox25->Size = System::Drawing::Size(42, 40);
+			this->pictureBox25->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox25->TabIndex = 14;
+			this->pictureBox25->TabStop = false;
+			// 
+			// button11
+			// 
+			this->button11->FlatAppearance->BorderSize = 0;
+			this->button11->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button11->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button11->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button11->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Name = L"button11";
+			this->button11->Size = System::Drawing::Size(218, 40);
+			this->button11->TabIndex = 11;
+			this->button11->Text = L"Отчеты";
+			this->button11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button11->UseVisualStyleBackColor = true;
 			// 
 			// button10
 			// 
@@ -2053,141 +2173,39 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &MyForm1::button10_Click);
 			// 
-			// button11
+			// button4
 			// 
-			this->button11->FlatAppearance->BorderSize = 0;
-			this->button11->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button11->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button11->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button11->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
-			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(218, 40);
-			this->button11->TabIndex = 11;
-			this->button11->Text = L"Отчеты";
-			this->button11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->UseVisualStyleBackColor = true;
-			// 
-			// pictureBox25
-			// 
-			this->pictureBox25->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox25.Image")));
-			this->pictureBox25->Location = System::Drawing::Point(15, 109);
-			this->pictureBox25->Name = L"pictureBox25";
-			this->pictureBox25->Size = System::Drawing::Size(42, 40);
-			this->pictureBox25->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox25->TabIndex = 14;
-			this->pictureBox25->TabStop = false;
-			// 
-			// pictureBox23
-			// 
-			this->pictureBox23->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox23.Image")));
-			this->pictureBox23->Location = System::Drawing::Point(15, 171);
-			this->pictureBox23->Name = L"pictureBox23";
-			this->pictureBox23->Size = System::Drawing::Size(42, 40);
-			this->pictureBox23->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox23->TabIndex = 15;
-			this->pictureBox23->TabStop = false;
-			this->pictureBox23->Click += gcnew System::EventHandler(this, &MyForm1::pictureBox23_Click);
-			// 
-			// pictureBox24
-			// 
-			this->pictureBox24->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox24.Image")));
-			this->pictureBox24->Location = System::Drawing::Point(15, 228);
-			this->pictureBox24->Name = L"pictureBox24";
-			this->pictureBox24->Size = System::Drawing::Size(42, 40);
-			this->pictureBox24->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox24->TabIndex = 16;
-			this->pictureBox24->TabStop = false;
-			// 
-			// pictureBox26
-			// 
-			this->pictureBox26->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox26.Image")));
-			this->pictureBox26->Location = System::Drawing::Point(15, 311);
-			this->pictureBox26->Name = L"pictureBox26";
-			this->pictureBox26->Size = System::Drawing::Size(42, 40);
-			this->pictureBox26->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox26->TabIndex = 17;
-			this->pictureBox26->TabStop = false;
-			// 
-			// pictureBox27
-			// 
-			this->pictureBox27->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox27.Image")));
-			this->pictureBox27->Location = System::Drawing::Point(15, 369);
-			this->pictureBox27->Name = L"pictureBox27";
-			this->pictureBox27->Size = System::Drawing::Size(42, 40);
-			this->pictureBox27->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox27->TabIndex = 18;
-			this->pictureBox27->TabStop = false;
-			// 
-			// pictureBox28
-			// 
-			this->pictureBox28->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox28.Image")));
-			this->pictureBox28->Location = System::Drawing::Point(15, 424);
-			this->pictureBox28->Name = L"pictureBox28";
-			this->pictureBox28->Size = System::Drawing::Size(42, 40);
-			this->pictureBox28->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox28->TabIndex = 19;
-			this->pictureBox28->TabStop = false;
-			// 
-			// pictureBox29
-			// 
-			this->pictureBox29->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox29.Image")));
-			this->pictureBox29->Location = System::Drawing::Point(15, 483);
-			this->pictureBox29->Name = L"pictureBox29";
-			this->pictureBox29->Size = System::Drawing::Size(42, 40);
-			this->pictureBox29->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox29->TabIndex = 20;
-			this->pictureBox29->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
-			// 
-			// pictureBox31
-			// 
-			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
-			this->pictureBox31->Name = L"pictureBox31";
-			this->pictureBox31->Size = System::Drawing::Size(42, 40);
-			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox31->TabIndex = 22;
-			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox32
-			// 
-			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
-			this->pictureBox32->Name = L"pictureBox32";
-			this->pictureBox32->Size = System::Drawing::Size(42, 40);
-			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox32->TabIndex = 23;
-			this->pictureBox32->TabStop = false;
+			this->button4->FlatAppearance->BorderSize = 0;
+			this->button4->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
+			this->button4->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
+			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button4->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button4->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button4->Location = System::Drawing::Point(62, 311);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(219, 40);
+			this->button4->TabIndex = 4;
+			this->button4->Text = L"Календарь";
+			this->button4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->button4->UseVisualStyleBackColor = true;
 			// 
 			// MyForm1
 			// 
 			this->AccessibleName = L"";
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 19);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1512, 756);
-			this->Controls->Add(this->label38);
-			this->Controls->Add(this->header);
-			this->Controls->Add(this->flowStats);
-			this->Controls->Add(this->panelControlBar);
+			this->ClientSize = System::Drawing::Size(1522, 685);
 			this->Controls->Add(this->flowEmployeeList);
 			this->Controls->Add(this->sidebar);
+			this->Controls->Add(this->header);
 			this->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->MinimumSize = System::Drawing::Size(800, 600);
 			this->Name = L"MyForm1";
 			this->Text = L"MainFormDesigner.h";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &MyForm1::MyForm1_Load);
 			this->header->ResumeLayout(false);
 			this->header->PerformLayout();
@@ -2211,6 +2229,8 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			this->panelSearchBox->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->лупа))->EndInit();
 			this->flowEmployeeList->ResumeLayout(false);
+			this->panel49->ResumeLayout(false);
+			this->panel49->PerformLayout();
 			this->cardTemplate->ResumeLayout(false);
 			this->cardTemplate->PerformLayout();
 			this->panel2->ResumeLayout(false);
@@ -2264,18 +2284,17 @@ private: System::Windows::Forms::PictureBox^ pictureBox26;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			this->sidebar->ResumeLayout(false);
 			this->sidebar->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox26))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox24))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion
