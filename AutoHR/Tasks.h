@@ -254,16 +254,16 @@ namespace AutoHR {
 			this->header->Controls->Add(this->panel3);
 			this->header->Controls->Add(this->button9);
 			this->header->Dock = System::Windows::Forms::DockStyle::Top;
-			this->header->Location = System::Drawing::Point(0, 0);
+			this->header->Location = System::Drawing::Point(283, 0);
 			this->header->Name = L"header";
-			this->header->Size = System::Drawing::Size(1479, 50);
+			this->header->Size = System::Drawing::Size(1196, 50);
 			this->header->TabIndex = 2;
 			// 
 			// pictureBox5
 			// 
 			this->pictureBox5->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
-			this->pictureBox5->Location = System::Drawing::Point(1419, 6);
+			this->pictureBox5->Location = System::Drawing::Point(1136, 6);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(49, 36);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -275,7 +275,7 @@ namespace AutoHR {
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->label2->AutoSize = true;
 			this->label2->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->label2->Location = System::Drawing::Point(1311, 14);
+			this->label2->Location = System::Drawing::Point(1028, 14);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(103, 13);
 			this->label2->TabIndex = 2;
@@ -285,7 +285,7 @@ namespace AutoHR {
 			// 
 			this->pictureBox6->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
-			this->pictureBox6->Location = System::Drawing::Point(1250, 14);
+			this->pictureBox6->Location = System::Drawing::Point(967, 14);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(23, 20);
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -295,7 +295,7 @@ namespace AutoHR {
 			// button12
 			// 
 			this->button12->Anchor = System::Windows::Forms::AnchorStyles::Right;
-			this->button12->Location = System::Drawing::Point(1244, 8);
+			this->button12->Location = System::Drawing::Point(961, 8);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(36, 33);
 			this->button12->TabIndex = 6;
@@ -305,7 +305,7 @@ namespace AutoHR {
 			// 
 			this->textBox1->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox1->Location = System::Drawing::Point(1037, 20);
+			this->textBox1->Location = System::Drawing::Point(754, 20);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 13);
 			this->textBox1->TabIndex = 2;
@@ -314,7 +314,7 @@ namespace AutoHR {
 			// 
 			this->pictureBox4->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(1196, 14);
+			this->pictureBox4->Location = System::Drawing::Point(913, 14);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(23, 20);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -325,7 +325,7 @@ namespace AutoHR {
 			// 
 			this->panel3->Anchor = System::Windows::Forms::AnchorStyles::Right;
 			this->panel3->Controls->Add(this->pictureBox3);
-			this->panel3->Location = System::Drawing::Point(995, 11);
+			this->panel3->Location = System::Drawing::Point(712, 11);
 			this->panel3->Name = L"panel3";
 			this->panel3->Size = System::Drawing::Size(36, 31);
 			this->panel3->TabIndex = 2;
@@ -343,7 +343,7 @@ namespace AutoHR {
 			// button9
 			// 
 			this->button9->Anchor = System::Windows::Forms::AnchorStyles::Right;
-			this->button9->Location = System::Drawing::Point(1190, 8);
+			this->button9->Location = System::Drawing::Point(907, 8);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(36, 33);
 			this->button9->TabIndex = 2;
@@ -377,10 +377,10 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->button3);
 			this->sidebar->Controls->Add(this->button2);
 			this->sidebar->Dock = System::Windows::Forms::DockStyle::Left;
-			this->sidebar->Location = System::Drawing::Point(0, 50);
+			this->sidebar->Location = System::Drawing::Point(0, 0);
 			this->sidebar->Name = L"sidebar";
 			this->sidebar->Padding = System::Windows::Forms::Padding(0, 0, 30, 0);
-			this->sidebar->Size = System::Drawing::Size(283, 870);
+			this->sidebar->Size = System::Drawing::Size(283, 920);
 			this->sidebar->TabIndex = 8;
 			// 
 			// pnlProfile
@@ -1122,8 +1122,8 @@ namespace AutoHR {
 			this->Controls->Add(this->panelRight);
 			this->Controls->Add(this->panelLeft);
 			this->Controls->Add(this->panelTaskHeader);
-			this->Controls->Add(this->sidebar);
 			this->Controls->Add(this->header);
+			this->Controls->Add(this->sidebar);
 			this->Name = L"Tasks";
 			this->Text = L"Tasks";
 			this->header->ResumeLayout(false);
