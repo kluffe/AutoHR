@@ -206,22 +206,22 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->panelGeneral = (gcnew System::Windows::Forms::Panel());
+			this->panelPostMeta = (gcnew System::Windows::Forms::Panel());
+			this->panelActionCenter = (gcnew System::Windows::Forms::Panel());
+			this->button14 = (gcnew System::Windows::Forms::Button());
+			this->panel5 = (gcnew System::Windows::Forms::Panel());
+			this->pictureBox36 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox35 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox34 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBoxOpros = (gcnew System::Windows::Forms::PictureBox());
+			this->richTextBox = (gcnew System::Windows::Forms::RichTextBox());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox33 = (gcnew System::Windows::Forms::PictureBox());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->panelAnnounceHeader = (gcnew System::Windows::Forms::Panel());
 			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->panelPostMeta = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox33 = (gcnew System::Windows::Forms::PictureBox());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->richTextBox = (gcnew System::Windows::Forms::RichTextBox());
-			this->pictureBoxOpros = (gcnew System::Windows::Forms::PictureBox());
-			this->panelActionCenter = (gcnew System::Windows::Forms::Panel());
-			this->panel5 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox34 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox35 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox36 = (gcnew System::Windows::Forms::PictureBox());
-			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
@@ -264,15 +264,15 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->panelGeneral->SuspendLayout();
-			this->panelAnnounceHeader->SuspendLayout();
 			this->panelPostMeta->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox33))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxOpros))->BeginInit();
 			this->panelActionCenter->SuspendLayout();
 			this->panel5->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox34))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox35))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox36))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox35))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox34))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxOpros))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox33))->BeginInit();
+			this->panelAnnounceHeader->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// header
@@ -415,6 +415,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->sidebar->Padding = System::Windows::Forms::Padding(0, 0, 30, 0);
 			this->sidebar->Size = System::Drawing::Size(283, 831);
 			this->sidebar->TabIndex = 3;
+			this->sidebar->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Dashboard::sidebar_Paint);
 			// 
 			// pnlProfile
 			// 
@@ -1096,6 +1097,141 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->panelGeneral->Size = System::Drawing::Size(702, 743);
 			this->panelGeneral->TabIndex = 2;
 			// 
+			// panelPostMeta
+			// 
+			this->panelPostMeta->Controls->Add(this->panelActionCenter);
+			this->panelPostMeta->Controls->Add(this->pictureBoxOpros);
+			this->panelPostMeta->Controls->Add(this->richTextBox);
+			this->panelPostMeta->Controls->Add(this->label11);
+			this->panelPostMeta->Controls->Add(this->pictureBox33);
+			this->panelPostMeta->Controls->Add(this->label10);
+			this->panelPostMeta->Controls->Add(this->label9);
+			this->panelPostMeta->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panelPostMeta->Location = System::Drawing::Point(0, 61);
+			this->panelPostMeta->Name = L"panelPostMeta";
+			this->panelPostMeta->Size = System::Drawing::Size(702, 682);
+			this->panelPostMeta->TabIndex = 2;
+			// 
+			// panelActionCenter
+			// 
+			this->panelActionCenter->Controls->Add(this->button14);
+			this->panelActionCenter->Controls->Add(this->panel5);
+			this->panelActionCenter->Dock = System::Windows::Forms::DockStyle::Bottom;
+			this->panelActionCenter->Location = System::Drawing::Point(0, 633);
+			this->panelActionCenter->Name = L"panelActionCenter";
+			this->panelActionCenter->Size = System::Drawing::Size(702, 49);
+			this->panelActionCenter->TabIndex = 7;
+			// 
+			// button14
+			// 
+			this->button14->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->button14->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button14->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button14->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button14->Location = System::Drawing::Point(12, 9);
+			this->button14->Name = L"button14";
+			this->button14->Size = System::Drawing::Size(178, 33);
+			this->button14->TabIndex = 9;
+			this->button14->Text = L"Сделать предложение...";
+			this->button14->UseVisualStyleBackColor = false;
+			// 
+			// panel5
+			// 
+			this->panel5->Controls->Add(this->pictureBox36);
+			this->panel5->Controls->Add(this->pictureBox35);
+			this->panel5->Controls->Add(this->pictureBox34);
+			this->panel5->Dock = System::Windows::Forms::DockStyle::Right;
+			this->panel5->Location = System::Drawing::Point(478, 0);
+			this->panel5->Name = L"panel5";
+			this->panel5->Size = System::Drawing::Size(224, 49);
+			this->panel5->TabIndex = 8;
+			// 
+			// pictureBox36
+			// 
+			this->pictureBox36->Location = System::Drawing::Point(99, 16);
+			this->pictureBox36->Name = L"pictureBox36";
+			this->pictureBox36->Size = System::Drawing::Size(20, 20);
+			this->pictureBox36->TabIndex = 2;
+			this->pictureBox36->TabStop = false;
+			// 
+			// pictureBox35
+			// 
+			this->pictureBox35->Location = System::Drawing::Point(170, 16);
+			this->pictureBox35->Name = L"pictureBox35";
+			this->pictureBox35->Size = System::Drawing::Size(20, 20);
+			this->pictureBox35->TabIndex = 1;
+			this->pictureBox35->TabStop = false;
+			// 
+			// pictureBox34
+			// 
+			this->pictureBox34->Location = System::Drawing::Point(24, 16);
+			this->pictureBox34->Name = L"pictureBox34";
+			this->pictureBox34->Size = System::Drawing::Size(20, 20);
+			this->pictureBox34->TabIndex = 0;
+			this->pictureBox34->TabStop = false;
+			// 
+			// pictureBoxOpros
+			// 
+			this->pictureBoxOpros->Location = System::Drawing::Point(67, 187);
+			this->pictureBoxOpros->Name = L"pictureBoxOpros";
+			this->pictureBoxOpros->Size = System::Drawing::Size(546, 412);
+			this->pictureBoxOpros->TabIndex = 6;
+			this->pictureBoxOpros->TabStop = false;
+			// 
+			// richTextBox
+			// 
+			this->richTextBox->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->richTextBox->BorderStyle = System::Windows::Forms::BorderStyle::None;
+			this->richTextBox->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox->Location = System::Drawing::Point(13, 76);
+			this->richTextBox->Name = L"richTextBox";
+			this->richTextBox->Size = System::Drawing::Size(655, 105);
+			this->richTextBox->TabIndex = 5;
+			this->richTextBox->Text = resources->GetString(L"richTextBox.Text");
+			this->richTextBox->TextChanged += gcnew System::EventHandler(this, &Dashboard::richTextBox_TextChanged);
+			// 
+			// label11
+			// 
+			this->label11->AutoSize = true;
+			this->label11->ForeColor = System::Drawing::SystemColors::AppWorkspace;
+			this->label11->Location = System::Drawing::Point(124, 47);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(74, 13);
+			this->label11->TabIndex = 4;
+			this->label11->Text = L"дата и время";
+			// 
+			// pictureBox33
+			// 
+			this->pictureBox33->Location = System::Drawing::Point(15, 40);
+			this->pictureBox33->Name = L"pictureBox33";
+			this->pictureBox33->Size = System::Drawing::Size(30, 30);
+			this->pictureBox33->TabIndex = 2;
+			this->pictureBox33->TabStop = false;
+			// 
+			// label10
+			// 
+			this->label10->AutoSize = true;
+			this->label10->Location = System::Drawing::Point(51, 47);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(67, 13);
+			this->label10->TabIndex = 3;
+			this->label10->Text = L"Имя автора";
+			// 
+			// label9
+			// 
+			this->label9->AutoSize = true;
+			this->label9->Dock = System::Windows::Forms::DockStyle::Top;
+			this->label9->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label9->ForeColor = System::Drawing::Color::SteelBlue;
+			this->label9->Location = System::Drawing::Point(0, 0);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(339, 30);
+			this->label9->TabIndex = 1;
+			this->label9->Text = L"Нам важно знать ваше мнение!";
+			// 
 			// panelAnnounceHeader
 			// 
 			this->panelAnnounceHeader->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -1134,141 +1270,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->label1->Text = L"Обьявления";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			this->label1->Click += gcnew System::EventHandler(this, &Dashboard::label1_Click);
-			// 
-			// label9
-			// 
-			this->label9->AutoSize = true;
-			this->label9->Dock = System::Windows::Forms::DockStyle::Top;
-			this->label9->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label9->ForeColor = System::Drawing::Color::SteelBlue;
-			this->label9->Location = System::Drawing::Point(0, 0);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(339, 30);
-			this->label9->TabIndex = 1;
-			this->label9->Text = L"Нам важно знать ваше мнение!";
-			// 
-			// panelPostMeta
-			// 
-			this->panelPostMeta->Controls->Add(this->panelActionCenter);
-			this->panelPostMeta->Controls->Add(this->pictureBoxOpros);
-			this->panelPostMeta->Controls->Add(this->richTextBox);
-			this->panelPostMeta->Controls->Add(this->label11);
-			this->panelPostMeta->Controls->Add(this->pictureBox33);
-			this->panelPostMeta->Controls->Add(this->label10);
-			this->panelPostMeta->Controls->Add(this->label9);
-			this->panelPostMeta->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->panelPostMeta->Location = System::Drawing::Point(0, 61);
-			this->panelPostMeta->Name = L"panelPostMeta";
-			this->panelPostMeta->Size = System::Drawing::Size(702, 682);
-			this->panelPostMeta->TabIndex = 2;
-			// 
-			// pictureBox33
-			// 
-			this->pictureBox33->Location = System::Drawing::Point(15, 40);
-			this->pictureBox33->Name = L"pictureBox33";
-			this->pictureBox33->Size = System::Drawing::Size(30, 30);
-			this->pictureBox33->TabIndex = 2;
-			this->pictureBox33->TabStop = false;
-			// 
-			// label10
-			// 
-			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(51, 47);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(67, 13);
-			this->label10->TabIndex = 3;
-			this->label10->Text = L"Имя автора";
-			// 
-			// label11
-			// 
-			this->label11->AutoSize = true;
-			this->label11->ForeColor = System::Drawing::SystemColors::AppWorkspace;
-			this->label11->Location = System::Drawing::Point(124, 47);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(74, 13);
-			this->label11->TabIndex = 4;
-			this->label11->Text = L"дата и время";
-			// 
-			// richTextBox
-			// 
-			this->richTextBox->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->richTextBox->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->richTextBox->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox->Location = System::Drawing::Point(13, 76);
-			this->richTextBox->Name = L"richTextBox";
-			this->richTextBox->Size = System::Drawing::Size(655, 105);
-			this->richTextBox->TabIndex = 5;
-			this->richTextBox->Text = resources->GetString(L"richTextBox.Text");
-			this->richTextBox->TextChanged += gcnew System::EventHandler(this, &Dashboard::richTextBox_TextChanged);
-			// 
-			// pictureBoxOpros
-			// 
-			this->pictureBoxOpros->Location = System::Drawing::Point(67, 187);
-			this->pictureBoxOpros->Name = L"pictureBoxOpros";
-			this->pictureBoxOpros->Size = System::Drawing::Size(546, 412);
-			this->pictureBoxOpros->TabIndex = 6;
-			this->pictureBoxOpros->TabStop = false;
-			// 
-			// panelActionCenter
-			// 
-			this->panelActionCenter->Controls->Add(this->button14);
-			this->panelActionCenter->Controls->Add(this->panel5);
-			this->panelActionCenter->Dock = System::Windows::Forms::DockStyle::Bottom;
-			this->panelActionCenter->Location = System::Drawing::Point(0, 633);
-			this->panelActionCenter->Name = L"panelActionCenter";
-			this->panelActionCenter->Size = System::Drawing::Size(702, 49);
-			this->panelActionCenter->TabIndex = 7;
-			// 
-			// panel5
-			// 
-			this->panel5->Controls->Add(this->pictureBox36);
-			this->panel5->Controls->Add(this->pictureBox35);
-			this->panel5->Controls->Add(this->pictureBox34);
-			this->panel5->Dock = System::Windows::Forms::DockStyle::Right;
-			this->panel5->Location = System::Drawing::Point(478, 0);
-			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(224, 49);
-			this->panel5->TabIndex = 8;
-			// 
-			// pictureBox34
-			// 
-			this->pictureBox34->Location = System::Drawing::Point(24, 16);
-			this->pictureBox34->Name = L"pictureBox34";
-			this->pictureBox34->Size = System::Drawing::Size(20, 20);
-			this->pictureBox34->TabIndex = 0;
-			this->pictureBox34->TabStop = false;
-			// 
-			// pictureBox35
-			// 
-			this->pictureBox35->Location = System::Drawing::Point(170, 16);
-			this->pictureBox35->Name = L"pictureBox35";
-			this->pictureBox35->Size = System::Drawing::Size(20, 20);
-			this->pictureBox35->TabIndex = 1;
-			this->pictureBox35->TabStop = false;
-			// 
-			// pictureBox36
-			// 
-			this->pictureBox36->Location = System::Drawing::Point(99, 16);
-			this->pictureBox36->Name = L"pictureBox36";
-			this->pictureBox36->Size = System::Drawing::Size(20, 20);
-			this->pictureBox36->TabIndex = 2;
-			this->pictureBox36->TabStop = false;
-			// 
-			// button14
-			// 
-			this->button14->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->button14->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button14->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->button14->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button14->Location = System::Drawing::Point(12, 9);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(178, 33);
-			this->button14->TabIndex = 9;
-			this->button14->Text = L"Сделать предложение...";
-			this->button14->UseVisualStyleBackColor = false;
 			// 
 			// Dashboard
 			// 
@@ -1329,17 +1330,17 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->panelGeneral->ResumeLayout(false);
-			this->panelAnnounceHeader->ResumeLayout(false);
-			this->panelAnnounceHeader->PerformLayout();
 			this->panelPostMeta->ResumeLayout(false);
 			this->panelPostMeta->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox33))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxOpros))->EndInit();
 			this->panelActionCenter->ResumeLayout(false);
 			this->panel5->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox34))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox35))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox36))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox35))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox34))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxOpros))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox33))->EndInit();
+			this->panelAnnounceHeader->ResumeLayout(false);
+			this->panelAnnounceHeader->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -1355,6 +1356,8 @@ private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Form
 private: System::Void Dashboard_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void richTextBox_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void sidebar_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 }
 };
 }
