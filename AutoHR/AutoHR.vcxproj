@@ -127,6 +127,7 @@
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
     <ClCompile Include="readings.cpp" />
+    <ClCompile Include="recruting.cpp" />
     <ClCompile Include="RegisterForm.cpp" />
     <ClCompile Include="Tasks.cpp" />
   </ItemGroup>
@@ -151,6 +152,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="readings.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="recruting.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="RegisterForm.h">
@@ -183,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="readings.resx">
       <DependentUpon>readings.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recruting.resx">
+      <DependentUpon>recruting.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.h</DependentUpon>
