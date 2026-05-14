@@ -127,6 +127,7 @@
     <ClCompile Include="Dashboard.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="projects.cpp" />
     <ClCompile Include="readings.cpp" />
     <ClCompile Include="recruting.cpp" />
     <ClCompile Include="RegisterForm.cpp" />
@@ -153,6 +154,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Employee.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="projects.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="readings.h">
@@ -191,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="projects.resx">
+      <DependentUpon>projects.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="readings.resx">
       <DependentUpon>readings.h</DependentUpon>
