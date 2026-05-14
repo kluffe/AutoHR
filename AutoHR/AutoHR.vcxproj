@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Activities.cpp" />
+    <ClCompile Include="BASE.cpp" />
     <ClCompile Include="calendar.cpp" />
     <ClCompile Include="Dashboard.cpp" />
     <ClCompile Include="MyForm.cpp" />
@@ -133,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Activities.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BASE.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="calendar.h">
@@ -167,6 +171,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Activities.resx">
       <DependentUpon>Activities.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE.resx">
+      <DependentUpon>BASE.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="calendar.resx">
       <DependentUpon>calendar.h</DependentUpon>
