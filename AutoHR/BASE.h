@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 namespace AutoHR {
 
@@ -143,19 +143,19 @@ namespace AutoHR {
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->panelTOP = (gcnew System::Windows::Forms::Panel());
-			this->panelNAV = (gcnew System::Windows::Forms::Panel());
-			this->panelFILES = (gcnew System::Windows::Forms::Panel());
-			this->treeView1 = (gcnew System::Windows::Forms::TreeView());
-			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->panelNAV = (gcnew System::Windows::Forms::Panel());
+			this->treeView1 = (gcnew System::Windows::Forms::TreeView());
+			this->panelFILES = (gcnew System::Windows::Forms::Panel());
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->button14 = (gcnew System::Windows::Forms::Button());
+			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->sidebar->SuspendLayout();
 			this->pnlProfile->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
@@ -680,6 +680,41 @@ namespace AutoHR {
 			this->panelTOP->Size = System::Drawing::Size(1224, 70);
 			this->panelTOP->TabIndex = 25;
 			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label3->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label3->Location = System::Drawing::Point(21, 18);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(159, 32);
+			this->label3->TabIndex = 2;
+			this->label3->Text = L"База знаний";
+			// 
+			// textBox2
+			// 
+			this->textBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
+			this->textBox2->Location = System::Drawing::Point(1004, 27);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(126, 20);
+			this->textBox2->TabIndex = 1;
+			// 
+			// label1
+			// 
+			this->label1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
+			this->label1->AutoSize = true;
+			this->label1->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->label1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			this->label1->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label1->Location = System::Drawing::Point(868, 27);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(130, 21);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"Документация :";
+			// 
 			// panelNAV
 			// 
 			this->panelNAV->Controls->Add(this->treeView1);
@@ -688,16 +723,6 @@ namespace AutoHR {
 			this->panelNAV->Name = L"panelNAV";
 			this->panelNAV->Size = System::Drawing::Size(248, 745);
 			this->panelNAV->TabIndex = 26;
-			// 
-			// panelFILES
-			// 
-			this->panelFILES->Controls->Add(this->dataGridView1);
-			this->panelFILES->Controls->Add(this->panel1);
-			this->panelFILES->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->panelFILES->Location = System::Drawing::Point(531, 120);
-			this->panelFILES->Name = L"panelFILES";
-			this->panelFILES->Size = System::Drawing::Size(976, 745);
-			this->panelFILES->TabIndex = 27;
 			// 
 			// treeView1
 			// 
@@ -729,27 +754,15 @@ namespace AutoHR {
 			this->treeView1->Size = System::Drawing::Size(248, 745);
 			this->treeView1->TabIndex = 0;
 			// 
-			// label1
+			// panelFILES
 			// 
-			this->label1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
-			this->label1->AutoSize = true;
-			this->label1->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->label1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			this->label1->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label1->Location = System::Drawing::Point(868, 27);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(130, 21);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"Документация :";
-			// 
-			// textBox2
-			// 
-			this->textBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
-			this->textBox2->Location = System::Drawing::Point(1004, 27);
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(126, 20);
-			this->textBox2->TabIndex = 1;
+			this->panelFILES->Controls->Add(this->dataGridView1);
+			this->panelFILES->Controls->Add(this->panel1);
+			this->panelFILES->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panelFILES->Location = System::Drawing::Point(531, 120);
+			this->panelFILES->Name = L"panelFILES";
+			this->panelFILES->Size = System::Drawing::Size(976, 745);
+			this->panelFILES->TabIndex = 27;
 			// 
 			// dataGridView1
 			// 
@@ -767,45 +780,6 @@ namespace AutoHR {
 			this->dataGridView1->SelectionMode = System::Windows::Forms::DataGridViewSelectionMode::FullRowSelect;
 			this->dataGridView1->Size = System::Drawing::Size(756, 745);
 			this->dataGridView1->TabIndex = 0;
-			// 
-			// panel1
-			// 
-			this->panel1->BackColor = System::Drawing::Color::Thistle;
-			this->panel1->Controls->Add(this->button14);
-			this->panel1->Controls->Add(this->button13);
-			this->panel1->Dock = System::Windows::Forms::DockStyle::Right;
-			this->panel1->Location = System::Drawing::Point(756, 0);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(220, 745);
-			this->panel1->TabIndex = 1;
-			// 
-			// button13
-			// 
-			this->button13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
-			this->button13->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->button13->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button13->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			this->button13->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button13->Location = System::Drawing::Point(25, 571);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(140, 60);
-			this->button13->TabIndex = 0;
-			this->button13->Text = L"Загрузка файлов";
-			this->button13->UseVisualStyleBackColor = false;
-			// 
-			// button14
-			// 
-			this->button14->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
-			this->button14->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->button14->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button14->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			this->button14->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button14->Location = System::Drawing::Point(25, 659);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(140, 60);
-			this->button14->TabIndex = 1;
-			this->button14->Text = L"История изменений";
-			this->button14->UseVisualStyleBackColor = false;
 			// 
 			// Column1
 			// 
@@ -826,18 +800,44 @@ namespace AutoHR {
 			this->Column3->HeaderText = L"Автор";
 			this->Column3->Name = L"Column3";
 			// 
-			// label3
+			// panel1
 			// 
-			this->label3->AutoSize = true;
-			this->label3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label3->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label3->Location = System::Drawing::Point(21, 18);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(159, 32);
-			this->label3->TabIndex = 2;
-			this->label3->Text = L"База знаний";
+			this->panel1->BackColor = System::Drawing::Color::Thistle;
+			this->panel1->Controls->Add(this->button14);
+			this->panel1->Controls->Add(this->button13);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Right;
+			this->panel1->Location = System::Drawing::Point(756, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(220, 745);
+			this->panel1->TabIndex = 1;
+			// 
+			// button14
+			// 
+			this->button14->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
+			this->button14->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->button14->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button14->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			this->button14->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button14->Location = System::Drawing::Point(25, 659);
+			this->button14->Name = L"button14";
+			this->button14->Size = System::Drawing::Size(140, 60);
+			this->button14->TabIndex = 1;
+			this->button14->Text = L"История изменений";
+			this->button14->UseVisualStyleBackColor = false;
+			// 
+			// button13
+			// 
+			this->button13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
+			this->button13->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->button13->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button13->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			this->button13->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button13->Location = System::Drawing::Point(25, 571);
+			this->button13->Name = L"button13";
+			this->button13->Size = System::Drawing::Size(140, 60);
+			this->button13->TabIndex = 0;
+			this->button13->Text = L"Загрузка файлов";
+			this->button13->UseVisualStyleBackColor = false;
 			// 
 			// BASE
 			// 
