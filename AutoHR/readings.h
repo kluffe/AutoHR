@@ -41,7 +41,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -54,7 +54,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -120,7 +120,6 @@ namespace AutoHR {
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -133,7 +132,6 @@ namespace AutoHR {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
@@ -150,7 +148,12 @@ namespace AutoHR {
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->dataGridViewREPORTS = (gcnew System::Windows::Forms::DataGridView());
+			this->panel4 = (gcnew System::Windows::Forms::Panel());
+			this->chart1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonPDF = (gcnew System::Windows::Forms::Button());
+			this->buttonEXCEL = (gcnew System::Windows::Forms::Button());
 			this->panelnavigation = (gcnew System::Windows::Forms::Panel());
 			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->buttonSTAFFreprt = (gcnew System::Windows::Forms::Button());
@@ -159,19 +162,13 @@ namespace AutoHR {
 			this->buttonVACATION = (gcnew System::Windows::Forms::Button());
 			this->buttonEFFICIENCY = (gcnew System::Windows::Forms::Button());
 			this->buttonHIRINGreport = (gcnew System::Windows::Forms::Button());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->buttonEXCEL = (gcnew System::Windows::Forms::Button());
-			this->buttonPDF = (gcnew System::Windows::Forms::Button());
-			this->chart1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
-			this->dataGridViewREPORTS = (gcnew System::Windows::Forms::DataGridView());
 			this->sidebar->SuspendLayout();
 			this->pnlProfile->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -186,13 +183,13 @@ namespace AutoHR {
 			this->panel3->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->panel1->SuspendLayout();
-			this->panel2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridViewREPORTS))->BeginInit();
+			this->panel4->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
+			this->groupBox1->SuspendLayout();
 			this->panelnavigation->SuspendLayout();
 			this->flowLayoutPanel1->SuspendLayout();
-			this->panel4->SuspendLayout();
-			this->groupBox1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridViewREPORTS))->BeginInit();
+			this->panel2->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// sidebar
@@ -203,7 +200,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -216,7 +212,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -264,7 +259,7 @@ namespace AutoHR {
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(14, 589);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -274,22 +269,12 @@ namespace AutoHR {
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(14, 534);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -373,7 +358,7 @@ namespace AutoHR {
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(61, 589);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -452,26 +437,6 @@ namespace AutoHR {
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -483,7 +448,7 @@ namespace AutoHR {
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(61, 534);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -694,17 +659,81 @@ namespace AutoHR {
 			this->panel1->Size = System::Drawing::Size(1170, 846);
 			this->panel1->TabIndex = 25;
 			// 
-			// panel2
+			// dataGridViewREPORTS
 			// 
-			this->panel2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel2->Controls->Add(this->label1);
-			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel2->Location = System::Drawing::Point(20, 20);
-			this->panel2->Name = L"panel2";
-			this->panel2->Padding = System::Windows::Forms::Padding(20);
-			this->panel2->Size = System::Drawing::Size(1130, 55);
-			this->panel2->TabIndex = 0;
+			this->dataGridViewREPORTS->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridViewREPORTS->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->dataGridViewREPORTS->Location = System::Drawing::Point(386, 75);
+			this->dataGridViewREPORTS->Name = L"dataGridViewREPORTS";
+			this->dataGridViewREPORTS->Size = System::Drawing::Size(502, 751);
+			this->dataGridViewREPORTS->TabIndex = 3;
+			// 
+			// panel4
+			// 
+			this->panel4->Controls->Add(this->chart1);
+			this->panel4->Controls->Add(this->groupBox1);
+			this->panel4->Dock = System::Windows::Forms::DockStyle::Right;
+			this->panel4->Location = System::Drawing::Point(888, 75);
+			this->panel4->Name = L"panel4";
+			this->panel4->Size = System::Drawing::Size(262, 751);
+			this->panel4->TabIndex = 2;
+			// 
+			// chart1
+			// 
+			chartArea1->Name = L"ChartArea1";
+			this->chart1->ChartAreas->Add(chartArea1);
+			legend1->Name = L"Legend1";
+			this->chart1->Legends->Add(legend1);
+			this->chart1->Location = System::Drawing::Point(18, 131);
+			this->chart1->Name = L"chart1";
+			this->chart1->Palette = System::Windows::Forms::DataVisualization::Charting::ChartColorPalette::SeaGreen;
+			series1->ChartArea = L"ChartArea1";
+			series1->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Pie;
+			series1->Legend = L"Legend1";
+			series1->Name = L"Series1";
+			this->chart1->Series->Add(series1);
+			this->chart1->Size = System::Drawing::Size(224, 194);
+			this->chart1->TabIndex = 1;
+			this->chart1->Text = L"chart1";
+			title1->Name = L"Title1";
+			title1->Text = L"Статистика за месяц";
+			this->chart1->Titles->Add(title1);
+			// 
+			// groupBox1
+			// 
+			this->groupBox1->Controls->Add(this->buttonPDF);
+			this->groupBox1->Controls->Add(this->buttonEXCEL);
+			this->groupBox1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->groupBox1->Location = System::Drawing::Point(18, 25);
+			this->groupBox1->Name = L"groupBox1";
+			this->groupBox1->Size = System::Drawing::Size(224, 90);
+			this->groupBox1->TabIndex = 0;
+			this->groupBox1->TabStop = false;
+			this->groupBox1->Text = L"Файлы и таблицы";
+			// 
+			// buttonPDF
+			// 
+			this->buttonPDF->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->buttonPDF->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonPDF->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->buttonPDF->Location = System::Drawing::Point(125, 40);
+			this->buttonPDF->Name = L"buttonPDF";
+			this->buttonPDF->Size = System::Drawing::Size(75, 23);
+			this->buttonPDF->TabIndex = 1;
+			this->buttonPDF->Text = L"PDF";
+			this->buttonPDF->UseVisualStyleBackColor = false;
+			// 
+			// buttonEXCEL
+			// 
+			this->buttonEXCEL->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->buttonEXCEL->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonEXCEL->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->buttonEXCEL->Location = System::Drawing::Point(16, 40);
+			this->buttonEXCEL->Name = L"buttonEXCEL";
+			this->buttonEXCEL->Size = System::Drawing::Size(75, 23);
+			this->buttonEXCEL->TabIndex = 0;
+			this->buttonEXCEL->Text = L"Excel";
+			this->buttonEXCEL->UseVisualStyleBackColor = false;
 			// 
 			// panelnavigation
 			// 
@@ -807,6 +836,18 @@ namespace AutoHR {
 			this->buttonHIRINGreport->Text = L"Отчеты по найму";
 			this->buttonHIRINGreport->UseVisualStyleBackColor = true;
 			// 
+			// panel2
+			// 
+			this->panel2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel2->Controls->Add(this->label1);
+			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel2->Location = System::Drawing::Point(20, 20);
+			this->panel2->Name = L"panel2";
+			this->panel2->Padding = System::Windows::Forms::Padding(20);
+			this->panel2->Size = System::Drawing::Size(1130, 55);
+			this->panel2->TabIndex = 0;
+			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
@@ -818,82 +859,6 @@ namespace AutoHR {
 			this->label1->Size = System::Drawing::Size(90, 30);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Отчеты";
-			// 
-			// panel4
-			// 
-			this->panel4->Controls->Add(this->chart1);
-			this->panel4->Controls->Add(this->groupBox1);
-			this->panel4->Dock = System::Windows::Forms::DockStyle::Right;
-			this->panel4->Location = System::Drawing::Point(888, 75);
-			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(262, 751);
-			this->panel4->TabIndex = 2;
-			// 
-			// groupBox1
-			// 
-			this->groupBox1->Controls->Add(this->buttonPDF);
-			this->groupBox1->Controls->Add(this->buttonEXCEL);
-			this->groupBox1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->groupBox1->Location = System::Drawing::Point(18, 25);
-			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(224, 90);
-			this->groupBox1->TabIndex = 0;
-			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Файлы и таблицы";
-			// 
-			// buttonEXCEL
-			// 
-			this->buttonEXCEL->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->buttonEXCEL->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonEXCEL->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->buttonEXCEL->Location = System::Drawing::Point(16, 40);
-			this->buttonEXCEL->Name = L"buttonEXCEL";
-			this->buttonEXCEL->Size = System::Drawing::Size(75, 23);
-			this->buttonEXCEL->TabIndex = 0;
-			this->buttonEXCEL->Text = L"Excel";
-			this->buttonEXCEL->UseVisualStyleBackColor = false;
-			// 
-			// buttonPDF
-			// 
-			this->buttonPDF->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->buttonPDF->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonPDF->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->buttonPDF->Location = System::Drawing::Point(125, 40);
-			this->buttonPDF->Name = L"buttonPDF";
-			this->buttonPDF->Size = System::Drawing::Size(75, 23);
-			this->buttonPDF->TabIndex = 1;
-			this->buttonPDF->Text = L"PDF";
-			this->buttonPDF->UseVisualStyleBackColor = false;
-			// 
-			// chart1
-			// 
-			chartArea1->Name = L"ChartArea1";
-			this->chart1->ChartAreas->Add(chartArea1);
-			legend1->Name = L"Legend1";
-			this->chart1->Legends->Add(legend1);
-			this->chart1->Location = System::Drawing::Point(18, 131);
-			this->chart1->Name = L"chart1";
-			this->chart1->Palette = System::Windows::Forms::DataVisualization::Charting::ChartColorPalette::SeaGreen;
-			series1->ChartArea = L"ChartArea1";
-			series1->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Pie;
-			series1->Legend = L"Legend1";
-			series1->Name = L"Series1";
-			this->chart1->Series->Add(series1);
-			this->chart1->Size = System::Drawing::Size(224, 194);
-			this->chart1->TabIndex = 1;
-			this->chart1->Text = L"chart1";
-			title1->Name = L"Title1";
-			title1->Text = L"Статистика за месяц";
-			this->chart1->Titles->Add(title1);
-			// 
-			// dataGridViewREPORTS
-			// 
-			this->dataGridViewREPORTS->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridViewREPORTS->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->dataGridViewREPORTS->Location = System::Drawing::Point(386, 75);
-			this->dataGridViewREPORTS->Name = L"dataGridViewREPORTS";
-			this->dataGridViewREPORTS->Size = System::Drawing::Size(502, 751);
-			this->dataGridViewREPORTS->TabIndex = 3;
 			// 
 			// readings
 			// 
@@ -912,7 +877,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
@@ -928,14 +892,14 @@ namespace AutoHR {
 			this->panel3->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->panel1->ResumeLayout(false);
-			this->panel2->ResumeLayout(false);
-			this->panel2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridViewREPORTS))->EndInit();
+			this->panel4->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
+			this->groupBox1->ResumeLayout(false);
 			this->panelnavigation->ResumeLayout(false);
 			this->flowLayoutPanel1->ResumeLayout(false);
-			this->panel4->ResumeLayout(false);
-			this->groupBox1->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridViewREPORTS))->EndInit();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
 			this->ResumeLayout(false);
 
 		}

@@ -51,7 +51,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -64,7 +64,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -356,7 +356,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -369,55 +368,54 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->panelcalendar = (gcnew System::Windows::Forms::Panel());
-			this->panelnavigation = (gcnew System::Windows::Forms::Panel());
-			this->panelfilt = (gcnew System::Windows::Forms::Panel());
 			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
-			this->labelDATE = (gcnew System::Windows::Forms::Label());
-			this->buttonFILTR = (gcnew System::Windows::Forms::Button());
-			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->buttonMONTH = (gcnew System::Windows::Forms::Button());
-			this->buttonWEEK = (gcnew System::Windows::Forms::Button());
-			this->buttonDAY = (gcnew System::Windows::Forms::Button());
-			this->buttonEVENT = (gcnew System::Windows::Forms::Button());
-			this->label6ПН = (gcnew System::Windows::Forms::Label());
-			this->labelВТ = (gcnew System::Windows::Forms::Label());
-			this->labelСР = (gcnew System::Windows::Forms::Label());
-			this->labelЧТ = (gcnew System::Windows::Forms::Label());
-			this->labelПТ = (gcnew System::Windows::Forms::Label());
-			this->СБ = (gcnew System::Windows::Forms::Label());
-			this->labelВС = (gcnew System::Windows::Forms::Label());
-			this->labeCALENDAR = (gcnew System::Windows::Forms::Label());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->labelИМЯ = (gcnew System::Windows::Forms::Label());
-			this->labelОТПУСК = (gcnew System::Windows::Forms::Label());
-			this->пальма = (gcnew System::Windows::Forms::PictureBox());
-			this->labelЧИСЛО = (gcnew System::Windows::Forms::Label());
-			this->flowLayoutPanel2 = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->flowLayoutPanel3 = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBoxДОМИК = (gcnew System::Windows::Forms::PictureBox());
-			this->labelРАБОТАИЗДОМА = (gcnew System::Windows::Forms::Label());
-			this->labelИМЯ1 = (gcnew System::Windows::Forms::Label());
+			this->flowLayoutPanel8 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->flowLayoutPanel5 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->panel5 = (gcnew System::Windows::Forms::Panel());
 			this->flowLayoutPanel4 = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
 			this->pictureBoxПлюсик = (gcnew System::Windows::Forms::PictureBox());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->flowLayoutPanel5 = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label15 = (gcnew System::Windows::Forms::Label());
-			this->panel5 = (gcnew System::Windows::Forms::Panel());
-			this->flowLayoutPanel8 = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->flowLayoutPanel3 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->pictureBoxДОМИК = (gcnew System::Windows::Forms::PictureBox());
+			this->labelРАБОТАИЗДОМА = (gcnew System::Windows::Forms::Label());
+			this->labelИМЯ1 = (gcnew System::Windows::Forms::Label());
+			this->labelВС = (gcnew System::Windows::Forms::Label());
+			this->СБ = (gcnew System::Windows::Forms::Label());
+			this->labelПТ = (gcnew System::Windows::Forms::Label());
+			this->labelЧТ = (gcnew System::Windows::Forms::Label());
+			this->labelСР = (gcnew System::Windows::Forms::Label());
+			this->labelВТ = (gcnew System::Windows::Forms::Label());
+			this->flowLayoutPanel2 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->labelЧИСЛО = (gcnew System::Windows::Forms::Label());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->пальма = (gcnew System::Windows::Forms::PictureBox());
+			this->labelОТПУСК = (gcnew System::Windows::Forms::Label());
+			this->labelИМЯ = (gcnew System::Windows::Forms::Label());
+			this->label6ПН = (gcnew System::Windows::Forms::Label());
+			this->panelfilt = (gcnew System::Windows::Forms::Panel());
+			this->buttonEVENT = (gcnew System::Windows::Forms::Button());
+			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->buttonMONTH = (gcnew System::Windows::Forms::Button());
+			this->buttonWEEK = (gcnew System::Windows::Forms::Button());
+			this->buttonDAY = (gcnew System::Windows::Forms::Button());
+			this->buttonFILTR = (gcnew System::Windows::Forms::Button());
+			this->labelDATE = (gcnew System::Windows::Forms::Label());
+			this->panelnavigation = (gcnew System::Windows::Forms::Panel());
+			this->labeCALENDAR = (gcnew System::Windows::Forms::Label());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
@@ -429,7 +427,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -438,21 +435,21 @@ private: System::Windows::Forms::Panel^ panel8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
 			this->panelcalendar->SuspendLayout();
-			this->panelnavigation->SuspendLayout();
-			this->panelfilt->SuspendLayout();
 			this->tableLayoutPanel1->SuspendLayout();
-			this->flowLayoutPanel1->SuspendLayout();
-			this->panel1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->пальма))->BeginInit();
-			this->flowLayoutPanel2->SuspendLayout();
-			this->flowLayoutPanel3->SuspendLayout();
-			this->panel2->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxДОМИК))->BeginInit();
+			this->flowLayoutPanel8->SuspendLayout();
+			this->flowLayoutPanel5->SuspendLayout();
 			this->flowLayoutPanel4->SuspendLayout();
 			this->panel4->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxПлюсик))->BeginInit();
-			this->flowLayoutPanel5->SuspendLayout();
-			this->flowLayoutPanel8->SuspendLayout();
+			this->flowLayoutPanel3->SuspendLayout();
+			this->panel2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxДОМИК))->BeginInit();
+			this->flowLayoutPanel2->SuspendLayout();
+			this->panel1->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->пальма))->BeginInit();
+			this->panelfilt->SuspendLayout();
+			this->flowLayoutPanel1->SuspendLayout();
+			this->panelnavigation->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// header
@@ -570,7 +567,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -583,7 +579,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -631,7 +626,7 @@ private: System::Windows::Forms::Panel^ panel8;
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(14, 588);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -641,22 +636,12 @@ private: System::Windows::Forms::Panel^ panel8;
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(14, 533);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -740,7 +725,7 @@ private: System::Windows::Forms::Panel^ panel8;
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(61, 588);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -819,26 +804,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -850,7 +815,7 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(61, 533);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -950,29 +915,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->panelcalendar->Size = System::Drawing::Size(1105, 810);
 			this->panelcalendar->TabIndex = 9;
 			// 
-			// panelnavigation
-			// 
-			this->panelnavigation->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panelnavigation->Controls->Add(this->labeCALENDAR);
-			this->panelnavigation->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panelnavigation->Location = System::Drawing::Point(0, 0);
-			this->panelnavigation->Name = L"panelnavigation";
-			this->panelnavigation->Size = System::Drawing::Size(1105, 50);
-			this->panelnavigation->TabIndex = 0;
-			// 
-			// panelfilt
-			// 
-			this->panelfilt->Controls->Add(this->buttonEVENT);
-			this->panelfilt->Controls->Add(this->flowLayoutPanel1);
-			this->panelfilt->Controls->Add(this->buttonFILTR);
-			this->panelfilt->Controls->Add(this->labelDATE);
-			this->panelfilt->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panelfilt->Location = System::Drawing::Point(0, 50);
-			this->panelfilt->Name = L"panelfilt";
-			this->panelfilt->Size = System::Drawing::Size(1105, 80);
-			this->panelfilt->TabIndex = 1;
-			// 
 			// tableLayoutPanel1
 			// 
 			this->tableLayoutPanel1->CellBorderStyle = System::Windows::Forms::TableLayoutPanelCellBorderStyle::Single;
@@ -990,7 +932,7 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				16.66667F)));
 			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
-				136)));
+				138)));
 			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
 				20)));
 			this->tableLayoutPanel1->Controls->Add(this->flowLayoutPanel8, 6, 1);
@@ -1018,307 +960,68 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->tableLayoutPanel1->Size = System::Drawing::Size(1105, 680);
 			this->tableLayoutPanel1->TabIndex = 2;
 			// 
-			// labelDATE
+			// flowLayoutPanel8
 			// 
-			this->labelDATE->AutoSize = true;
-			this->labelDATE->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelDATE->Location = System::Drawing::Point(486, 21);
-			this->labelDATE->Name = L"labelDATE";
-			this->labelDATE->Size = System::Drawing::Size(114, 37);
-			this->labelDATE->TabIndex = 0;
-			this->labelDATE->Text = L"Май 20";
+			this->flowLayoutPanel8->BackColor = System::Drawing::SystemColors::Control;
+			this->flowLayoutPanel8->Controls->Add(this->label18);
+			this->flowLayoutPanel8->Controls->Add(this->panel8);
+			this->flowLayoutPanel8->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowLayoutPanel8->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowLayoutPanel8->Location = System::Drawing::Point(964, 35);
+			this->flowLayoutPanel8->Name = L"flowLayoutPanel8";
+			this->flowLayoutPanel8->Padding = System::Windows::Forms::Padding(5);
+			this->flowLayoutPanel8->Size = System::Drawing::Size(137, 122);
+			this->flowLayoutPanel8->TabIndex = 5;
 			// 
-			// buttonFILTR
+			// label18
 			// 
-			this->buttonFILTR->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->buttonFILTR->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonFILTR->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->buttonFILTR->Location = System::Drawing::Point(13, 21);
-			this->buttonFILTR->Name = L"buttonFILTR";
-			this->buttonFILTR->Size = System::Drawing::Size(105, 37);
-			this->buttonFILTR->TabIndex = 1;
-			this->buttonFILTR->Text = L"Фильтр";
-			this->buttonFILTR->UseVisualStyleBackColor = false;
+			this->label18->AutoSize = true;
+			this->label18->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->label18->ForeColor = System::Drawing::Color::Red;
+			this->label18->Location = System::Drawing::Point(8, 5);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(27, 20);
+			this->label18->TabIndex = 0;
+			this->label18->Text = L"23";
 			// 
-			// flowLayoutPanel1
+			// panel8
 			// 
-			this->flowLayoutPanel1->Controls->Add(this->buttonMONTH);
-			this->flowLayoutPanel1->Controls->Add(this->buttonWEEK);
-			this->flowLayoutPanel1->Controls->Add(this->buttonDAY);
-			this->flowLayoutPanel1->Location = System::Drawing::Point(848, 21);
-			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
-			this->flowLayoutPanel1->Size = System::Drawing::Size(247, 38);
-			this->flowLayoutPanel1->TabIndex = 2;
+			this->panel8->Location = System::Drawing::Point(8, 28);
+			this->panel8->Name = L"panel8";
+			this->panel8->Size = System::Drawing::Size(110, 74);
+			this->panel8->TabIndex = 1;
 			// 
-			// buttonMONTH
+			// flowLayoutPanel5
 			// 
-			this->buttonMONTH->BackColor = System::Drawing::Color::MediumPurple;
-			this->buttonMONTH->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonMONTH->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->buttonMONTH->ForeColor = System::Drawing::Color::White;
-			this->buttonMONTH->Location = System::Drawing::Point(3, 3);
-			this->buttonMONTH->Name = L"buttonMONTH";
-			this->buttonMONTH->Size = System::Drawing::Size(75, 31);
-			this->buttonMONTH->TabIndex = 0;
-			this->buttonMONTH->Text = L"Месяц";
-			this->buttonMONTH->UseVisualStyleBackColor = false;
+			this->flowLayoutPanel5->BackColor = System::Drawing::Color::Bisque;
+			this->flowLayoutPanel5->Controls->Add(this->label15);
+			this->flowLayoutPanel5->Controls->Add(this->panel5);
+			this->flowLayoutPanel5->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowLayoutPanel5->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowLayoutPanel5->Location = System::Drawing::Point(484, 35);
+			this->flowLayoutPanel5->Name = L"flowLayoutPanel5";
+			this->flowLayoutPanel5->Padding = System::Windows::Forms::Padding(5);
+			this->flowLayoutPanel5->Size = System::Drawing::Size(153, 122);
+			this->flowLayoutPanel5->TabIndex = 4;
 			// 
-			// buttonWEEK
+			// label15
 			// 
-			this->buttonWEEK->BackColor = System::Drawing::Color::MediumPurple;
-			this->buttonWEEK->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonWEEK->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->buttonWEEK->ForeColor = System::Drawing::Color::White;
-			this->buttonWEEK->Location = System::Drawing::Point(84, 3);
-			this->buttonWEEK->Name = L"buttonWEEK";
-			this->buttonWEEK->Size = System::Drawing::Size(75, 31);
-			this->buttonWEEK->TabIndex = 1;
-			this->buttonWEEK->Text = L"Неделя";
-			this->buttonWEEK->UseVisualStyleBackColor = false;
+			this->label15->AutoSize = true;
+			this->label15->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label15->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->label15->Location = System::Drawing::Point(8, 5);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(27, 20);
+			this->label15->TabIndex = 0;
+			this->label15->Text = L"20";
 			// 
-			// buttonDAY
+			// panel5
 			// 
-			this->buttonDAY->BackColor = System::Drawing::Color::MediumPurple;
-			this->buttonDAY->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonDAY->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->buttonDAY->ForeColor = System::Drawing::Color::White;
-			this->buttonDAY->Location = System::Drawing::Point(165, 3);
-			this->buttonDAY->Name = L"buttonDAY";
-			this->buttonDAY->Size = System::Drawing::Size(75, 31);
-			this->buttonDAY->TabIndex = 2;
-			this->buttonDAY->Text = L"День";
-			this->buttonDAY->UseVisualStyleBackColor = false;
-			// 
-			// buttonEVENT
-			// 
-			this->buttonEVENT->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->buttonEVENT->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->buttonEVENT->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->buttonEVENT->Location = System::Drawing::Point(689, 18);
-			this->buttonEVENT->Name = L"buttonEVENT";
-			this->buttonEVENT->Size = System::Drawing::Size(138, 43);
-			this->buttonEVENT->TabIndex = 3;
-			this->buttonEVENT->Text = L"Новое событие";
-			this->buttonEVENT->UseVisualStyleBackColor = false;
-			// 
-			// label6ПН
-			// 
-			this->label6ПН->AutoSize = true;
-			this->label6ПН->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label6ПН->Location = System::Drawing::Point(4, 1);
-			this->label6ПН->Name = L"label6ПН";
-			this->label6ПН->Size = System::Drawing::Size(39, 25);
-			this->label6ПН->TabIndex = 1;
-			this->label6ПН->Text = L"ПН";
-			// 
-			// labelВТ
-			// 
-			this->labelВТ->AutoSize = true;
-			this->labelВТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelВТ->Location = System::Drawing::Point(165, 1);
-			this->labelВТ->Name = L"labelВТ";
-			this->labelВТ->Size = System::Drawing::Size(33, 25);
-			this->labelВТ->TabIndex = 2;
-			this->labelВТ->Text = L"ВТ";
-			// 
-			// labelСР
-			// 
-			this->labelСР->AutoSize = true;
-			this->labelСР->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelСР->Location = System::Drawing::Point(326, 1);
-			this->labelСР->Name = L"labelСР";
-			this->labelСР->Size = System::Drawing::Size(35, 25);
-			this->labelСР->TabIndex = 3;
-			this->labelСР->Text = L"СР";
-			// 
-			// labelЧТ
-			// 
-			this->labelЧТ->AutoSize = true;
-			this->labelЧТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelЧТ->Location = System::Drawing::Point(487, 1);
-			this->labelЧТ->Name = L"labelЧТ";
-			this->labelЧТ->Size = System::Drawing::Size(35, 25);
-			this->labelЧТ->TabIndex = 4;
-			this->labelЧТ->Text = L"ЧТ";
-			// 
-			// labelПТ
-			// 
-			this->labelПТ->AutoSize = true;
-			this->labelПТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelПТ->Location = System::Drawing::Point(648, 1);
-			this->labelПТ->Name = L"labelПТ";
-			this->labelПТ->Size = System::Drawing::Size(36, 25);
-			this->labelПТ->TabIndex = 5;
-			this->labelПТ->Text = L"ПТ";
-			// 
-			// СБ
-			// 
-			this->СБ->AutoSize = true;
-			this->СБ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->СБ->Location = System::Drawing::Point(809, 1);
-			this->СБ->Name = L"СБ";
-			this->СБ->Size = System::Drawing::Size(35, 25);
-			this->СБ->TabIndex = 6;
-			this->СБ->Text = L"СБ";
-			// 
-			// labelВС
-			// 
-			this->labelВС->AutoSize = true;
-			this->labelВС->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelВС->Location = System::Drawing::Point(970, 1);
-			this->labelВС->Name = L"labelВС";
-			this->labelВС->Size = System::Drawing::Size(35, 25);
-			this->labelВС->TabIndex = 7;
-			this->labelВС->Text = L"ВС";
-			// 
-			// labeCALENDAR
-			// 
-			this->labeCALENDAR->AutoSize = true;
-			this->labeCALENDAR->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
-			this->labeCALENDAR->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->labeCALENDAR->Location = System::Drawing::Point(7, 7);
-			this->labeCALENDAR->Name = L"labeCALENDAR";
-			this->labeCALENDAR->Size = System::Drawing::Size(162, 37);
-			this->labeCALENDAR->TabIndex = 0;
-			this->labeCALENDAR->Text = L"Календарь";
-			// 
-			// panel1
-			// 
-			this->panel1->Controls->Add(this->пальма);
-			this->panel1->Controls->Add(this->labelОТПУСК);
-			this->panel1->Controls->Add(this->labelИМЯ);
-			this->panel1->Location = System::Drawing::Point(8, 28);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(119, 74);
-			this->panel1->TabIndex = 1;
-			// 
-			// labelИМЯ
-			// 
-			this->labelИМЯ->AutoSize = true;
-			this->labelИМЯ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F));
-			this->labelИМЯ->Location = System::Drawing::Point(14, 11);
-			this->labelИМЯ->Name = L"labelИМЯ";
-			this->labelИМЯ->Size = System::Drawing::Size(92, 13);
-			this->labelИМЯ->TabIndex = 0;
-			this->labelИМЯ->Text = L"имя сотрудника";
-			// 
-			// labelОТПУСК
-			// 
-			this->labelОТПУСК->AutoSize = true;
-			this->labelОТПУСК->BackColor = System::Drawing::Color::SkyBlue;
-			this->labelОТПУСК->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->labelОТПУСК->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelОТПУСК->Location = System::Drawing::Point(59, 47);
-			this->labelОТПУСК->Name = L"labelОТПУСК";
-			this->labelОТПУСК->Size = System::Drawing::Size(42, 13);
-			this->labelОТПУСК->TabIndex = 1;
-			this->labelОТПУСК->Text = L"отпуск";
-			// 
-			// пальма
-			// 
-			this->пальма->Location = System::Drawing::Point(24, 41);
-			this->пальма->Name = L"пальма";
-			this->пальма->Size = System::Drawing::Size(29, 25);
-			this->пальма->TabIndex = 2;
-			this->пальма->TabStop = false;
-			// 
-			// labelЧИСЛО
-			// 
-			this->labelЧИСЛО->AutoSize = true;
-			this->labelЧИСЛО->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->labelЧИСЛО->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->labelЧИСЛО->Location = System::Drawing::Point(8, 5);
-			this->labelЧИСЛО->Name = L"labelЧИСЛО";
-			this->labelЧИСЛО->Size = System::Drawing::Size(18, 20);
-			this->labelЧИСЛО->TabIndex = 0;
-			this->labelЧИСЛО->Text = L"4";
-			// 
-			// flowLayoutPanel2
-			// 
-			this->flowLayoutPanel2->Controls->Add(this->labelЧИСЛО);
-			this->flowLayoutPanel2->Controls->Add(this->panel1);
-			this->flowLayoutPanel2->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowLayoutPanel2->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel2->Location = System::Drawing::Point(4, 35);
-			this->flowLayoutPanel2->Name = L"flowLayoutPanel2";
-			this->flowLayoutPanel2->Padding = System::Windows::Forms::Padding(5);
-			this->flowLayoutPanel2->Size = System::Drawing::Size(154, 122);
-			this->flowLayoutPanel2->TabIndex = 0;
-			// 
-			// flowLayoutPanel3
-			// 
-			this->flowLayoutPanel3->Controls->Add(this->label3);
-			this->flowLayoutPanel3->Controls->Add(this->panel2);
-			this->flowLayoutPanel3->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowLayoutPanel3->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel3->Location = System::Drawing::Point(165, 35);
-			this->flowLayoutPanel3->Name = L"flowLayoutPanel3";
-			this->flowLayoutPanel3->Padding = System::Windows::Forms::Padding(5);
-			this->flowLayoutPanel3->Size = System::Drawing::Size(154, 122);
-			this->flowLayoutPanel3->TabIndex = 2;
-			// 
-			// label3
-			// 
-			this->label3->AutoSize = true;
-			this->label3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->label3->Location = System::Drawing::Point(8, 5);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(18, 20);
-			this->label3->TabIndex = 0;
-			this->label3->Text = L"4";
-			// 
-			// panel2
-			// 
-			this->panel2->Controls->Add(this->pictureBoxДОМИК);
-			this->panel2->Controls->Add(this->labelРАБОТАИЗДОМА);
-			this->panel2->Controls->Add(this->labelИМЯ1);
-			this->panel2->Location = System::Drawing::Point(8, 28);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(119, 74);
-			this->panel2->TabIndex = 1;
-			// 
-			// pictureBoxДОМИК
-			// 
-			this->pictureBoxДОМИК->Location = System::Drawing::Point(11, 41);
-			this->pictureBoxДОМИК->Name = L"pictureBoxДОМИК";
-			this->pictureBoxДОМИК->Size = System::Drawing::Size(29, 25);
-			this->pictureBoxДОМИК->TabIndex = 2;
-			this->pictureBoxДОМИК->TabStop = false;
-			// 
-			// labelРАБОТАИЗДОМА
-			// 
-			this->labelРАБОТАИЗДОМА->AutoSize = true;
-			this->labelРАБОТАИЗДОМА->BackColor = System::Drawing::Color::LightPink;
-			this->labelРАБОТАИЗДОМА->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->labelРАБОТАИЗДОМА->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->labelРАБОТАИЗДОМА->Location = System::Drawing::Point(46, 40);
-			this->labelРАБОТАИЗДОМА->Name = L"labelРАБОТАИЗДОМА";
-			this->labelРАБОТАИЗДОМА->Size = System::Drawing::Size(60, 26);
-			this->labelРАБОТАИЗДОМА->TabIndex = 1;
-			this->labelРАБОТАИЗДОМА->Text = L"работа из\r\n дома";
-			// 
-			// labelИМЯ1
-			// 
-			this->labelИМЯ1->AutoSize = true;
-			this->labelИМЯ1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F));
-			this->labelИМЯ1->Location = System::Drawing::Point(14, 11);
-			this->labelИМЯ1->Name = L"labelИМЯ1";
-			this->labelИМЯ1->Size = System::Drawing::Size(92, 13);
-			this->labelИМЯ1->TabIndex = 0;
-			this->labelИМЯ1->Text = L"имя сотрудника";
+			this->panel5->Location = System::Drawing::Point(8, 28);
+			this->panel5->Name = L"panel5";
+			this->panel5->Size = System::Drawing::Size(119, 74);
+			this->panel5->TabIndex = 1;
 			// 
 			// flowLayoutPanel4
 			// 
@@ -1326,10 +1029,10 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->flowLayoutPanel4->Controls->Add(this->panel4);
 			this->flowLayoutPanel4->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->flowLayoutPanel4->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel4->Location = System::Drawing::Point(326, 35);
+			this->flowLayoutPanel4->Location = System::Drawing::Point(324, 35);
 			this->flowLayoutPanel4->Name = L"flowLayoutPanel4";
 			this->flowLayoutPanel4->Padding = System::Windows::Forms::Padding(5);
-			this->flowLayoutPanel4->Size = System::Drawing::Size(154, 122);
+			this->flowLayoutPanel4->Size = System::Drawing::Size(153, 122);
 			this->flowLayoutPanel4->TabIndex = 3;
 			// 
 			// label4
@@ -1384,68 +1087,330 @@ private: System::Windows::Forms::Panel^ panel8;
 			this->label14->TabIndex = 0;
 			this->label14->Text = L"имя сотрудника";
 			// 
-			// flowLayoutPanel5
+			// flowLayoutPanel3
 			// 
-			this->flowLayoutPanel5->BackColor = System::Drawing::Color::Bisque;
-			this->flowLayoutPanel5->Controls->Add(this->label15);
-			this->flowLayoutPanel5->Controls->Add(this->panel5);
-			this->flowLayoutPanel5->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowLayoutPanel5->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel5->Location = System::Drawing::Point(487, 35);
-			this->flowLayoutPanel5->Name = L"flowLayoutPanel5";
-			this->flowLayoutPanel5->Padding = System::Windows::Forms::Padding(5);
-			this->flowLayoutPanel5->Size = System::Drawing::Size(154, 122);
-			this->flowLayoutPanel5->TabIndex = 4;
+			this->flowLayoutPanel3->Controls->Add(this->label3);
+			this->flowLayoutPanel3->Controls->Add(this->panel2);
+			this->flowLayoutPanel3->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowLayoutPanel3->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowLayoutPanel3->Location = System::Drawing::Point(164, 35);
+			this->flowLayoutPanel3->Name = L"flowLayoutPanel3";
+			this->flowLayoutPanel3->Padding = System::Windows::Forms::Padding(5);
+			this->flowLayoutPanel3->Size = System::Drawing::Size(153, 122);
+			this->flowLayoutPanel3->TabIndex = 2;
 			// 
-			// label15
+			// label3
 			// 
-			this->label15->AutoSize = true;
-			this->label15->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label15->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->label15->Location = System::Drawing::Point(8, 5);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(27, 20);
-			this->label15->TabIndex = 0;
-			this->label15->Text = L"20";
+			this->label3->AutoSize = true;
+			this->label3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->label3->Location = System::Drawing::Point(8, 5);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(18, 20);
+			this->label3->TabIndex = 0;
+			this->label3->Text = L"4";
 			// 
-			// panel5
+			// panel2
 			// 
-			this->panel5->Location = System::Drawing::Point(8, 28);
-			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(119, 74);
-			this->panel5->TabIndex = 1;
+			this->panel2->Controls->Add(this->pictureBoxДОМИК);
+			this->panel2->Controls->Add(this->labelРАБОТАИЗДОМА);
+			this->panel2->Controls->Add(this->labelИМЯ1);
+			this->panel2->Location = System::Drawing::Point(8, 28);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(119, 74);
+			this->panel2->TabIndex = 1;
 			// 
-			// flowLayoutPanel8
+			// pictureBoxДОМИК
 			// 
-			this->flowLayoutPanel8->BackColor = System::Drawing::SystemColors::Control;
-			this->flowLayoutPanel8->Controls->Add(this->label18);
-			this->flowLayoutPanel8->Controls->Add(this->panel8);
-			this->flowLayoutPanel8->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowLayoutPanel8->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel8->Location = System::Drawing::Point(970, 35);
-			this->flowLayoutPanel8->Name = L"flowLayoutPanel8";
-			this->flowLayoutPanel8->Padding = System::Windows::Forms::Padding(5);
-			this->flowLayoutPanel8->Size = System::Drawing::Size(131, 122);
-			this->flowLayoutPanel8->TabIndex = 5;
+			this->pictureBoxДОМИК->Location = System::Drawing::Point(11, 41);
+			this->pictureBoxДОМИК->Name = L"pictureBoxДОМИК";
+			this->pictureBoxДОМИК->Size = System::Drawing::Size(29, 25);
+			this->pictureBoxДОМИК->TabIndex = 2;
+			this->pictureBoxДОМИК->TabStop = false;
 			// 
-			// label18
+			// labelРАБОТАИЗДОМА
 			// 
-			this->label18->AutoSize = true;
-			this->label18->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->label18->ForeColor = System::Drawing::Color::Red;
-			this->label18->Location = System::Drawing::Point(8, 5);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(27, 20);
-			this->label18->TabIndex = 0;
-			this->label18->Text = L"23";
+			this->labelРАБОТАИЗДОМА->AutoSize = true;
+			this->labelРАБОТАИЗДОМА->BackColor = System::Drawing::Color::LightPink;
+			this->labelРАБОТАИЗДОМА->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->labelРАБОТАИЗДОМА->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelРАБОТАИЗДОМА->Location = System::Drawing::Point(46, 40);
+			this->labelРАБОТАИЗДОМА->Name = L"labelРАБОТАИЗДОМА";
+			this->labelРАБОТАИЗДОМА->Size = System::Drawing::Size(60, 26);
+			this->labelРАБОТАИЗДОМА->TabIndex = 1;
+			this->labelРАБОТАИЗДОМА->Text = L"работа из\r\n дома";
 			// 
-			// panel8
+			// labelИМЯ1
 			// 
-			this->panel8->Location = System::Drawing::Point(8, 28);
-			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(110, 74);
-			this->panel8->TabIndex = 1;
+			this->labelИМЯ1->AutoSize = true;
+			this->labelИМЯ1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F));
+			this->labelИМЯ1->Location = System::Drawing::Point(14, 11);
+			this->labelИМЯ1->Name = L"labelИМЯ1";
+			this->labelИМЯ1->Size = System::Drawing::Size(92, 13);
+			this->labelИМЯ1->TabIndex = 0;
+			this->labelИМЯ1->Text = L"имя сотрудника";
+			// 
+			// labelВС
+			// 
+			this->labelВС->AutoSize = true;
+			this->labelВС->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelВС->Location = System::Drawing::Point(964, 1);
+			this->labelВС->Name = L"labelВС";
+			this->labelВС->Size = System::Drawing::Size(35, 25);
+			this->labelВС->TabIndex = 7;
+			this->labelВС->Text = L"ВС";
+			// 
+			// СБ
+			// 
+			this->СБ->AutoSize = true;
+			this->СБ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->СБ->Location = System::Drawing::Point(804, 1);
+			this->СБ->Name = L"СБ";
+			this->СБ->Size = System::Drawing::Size(35, 25);
+			this->СБ->TabIndex = 6;
+			this->СБ->Text = L"СБ";
+			// 
+			// labelПТ
+			// 
+			this->labelПТ->AutoSize = true;
+			this->labelПТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelПТ->Location = System::Drawing::Point(644, 1);
+			this->labelПТ->Name = L"labelПТ";
+			this->labelПТ->Size = System::Drawing::Size(36, 25);
+			this->labelПТ->TabIndex = 5;
+			this->labelПТ->Text = L"ПТ";
+			// 
+			// labelЧТ
+			// 
+			this->labelЧТ->AutoSize = true;
+			this->labelЧТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelЧТ->Location = System::Drawing::Point(484, 1);
+			this->labelЧТ->Name = L"labelЧТ";
+			this->labelЧТ->Size = System::Drawing::Size(35, 25);
+			this->labelЧТ->TabIndex = 4;
+			this->labelЧТ->Text = L"ЧТ";
+			// 
+			// labelСР
+			// 
+			this->labelСР->AutoSize = true;
+			this->labelСР->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelСР->Location = System::Drawing::Point(324, 1);
+			this->labelСР->Name = L"labelСР";
+			this->labelСР->Size = System::Drawing::Size(35, 25);
+			this->labelСР->TabIndex = 3;
+			this->labelСР->Text = L"СР";
+			// 
+			// labelВТ
+			// 
+			this->labelВТ->AutoSize = true;
+			this->labelВТ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelВТ->Location = System::Drawing::Point(164, 1);
+			this->labelВТ->Name = L"labelВТ";
+			this->labelВТ->Size = System::Drawing::Size(33, 25);
+			this->labelВТ->TabIndex = 2;
+			this->labelВТ->Text = L"ВТ";
+			// 
+			// flowLayoutPanel2
+			// 
+			this->flowLayoutPanel2->Controls->Add(this->labelЧИСЛО);
+			this->flowLayoutPanel2->Controls->Add(this->panel1);
+			this->flowLayoutPanel2->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowLayoutPanel2->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowLayoutPanel2->Location = System::Drawing::Point(4, 35);
+			this->flowLayoutPanel2->Name = L"flowLayoutPanel2";
+			this->flowLayoutPanel2->Padding = System::Windows::Forms::Padding(5);
+			this->flowLayoutPanel2->Size = System::Drawing::Size(153, 122);
+			this->flowLayoutPanel2->TabIndex = 0;
+			// 
+			// labelЧИСЛО
+			// 
+			this->labelЧИСЛО->AutoSize = true;
+			this->labelЧИСЛО->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->labelЧИСЛО->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->labelЧИСЛО->Location = System::Drawing::Point(8, 5);
+			this->labelЧИСЛО->Name = L"labelЧИСЛО";
+			this->labelЧИСЛО->Size = System::Drawing::Size(18, 20);
+			this->labelЧИСЛО->TabIndex = 0;
+			this->labelЧИСЛО->Text = L"4";
+			// 
+			// panel1
+			// 
+			this->panel1->Controls->Add(this->пальма);
+			this->panel1->Controls->Add(this->labelОТПУСК);
+			this->panel1->Controls->Add(this->labelИМЯ);
+			this->panel1->Location = System::Drawing::Point(8, 28);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(119, 74);
+			this->panel1->TabIndex = 1;
+			// 
+			// пальма
+			// 
+			this->пальма->Location = System::Drawing::Point(24, 41);
+			this->пальма->Name = L"пальма";
+			this->пальма->Size = System::Drawing::Size(29, 25);
+			this->пальма->TabIndex = 2;
+			this->пальма->TabStop = false;
+			// 
+			// labelОТПУСК
+			// 
+			this->labelОТПУСК->AutoSize = true;
+			this->labelОТПУСК->BackColor = System::Drawing::Color::SkyBlue;
+			this->labelОТПУСК->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->labelОТПУСК->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelОТПУСК->Location = System::Drawing::Point(59, 47);
+			this->labelОТПУСК->Name = L"labelОТПУСК";
+			this->labelОТПУСК->Size = System::Drawing::Size(42, 13);
+			this->labelОТПУСК->TabIndex = 1;
+			this->labelОТПУСК->Text = L"отпуск";
+			// 
+			// labelИМЯ
+			// 
+			this->labelИМЯ->AutoSize = true;
+			this->labelИМЯ->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F));
+			this->labelИМЯ->Location = System::Drawing::Point(14, 11);
+			this->labelИМЯ->Name = L"labelИМЯ";
+			this->labelИМЯ->Size = System::Drawing::Size(92, 13);
+			this->labelИМЯ->TabIndex = 0;
+			this->labelИМЯ->Text = L"имя сотрудника";
+			// 
+			// label6ПН
+			// 
+			this->label6ПН->AutoSize = true;
+			this->label6ПН->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label6ПН->Location = System::Drawing::Point(4, 1);
+			this->label6ПН->Name = L"label6ПН";
+			this->label6ПН->Size = System::Drawing::Size(39, 25);
+			this->label6ПН->TabIndex = 1;
+			this->label6ПН->Text = L"ПН";
+			// 
+			// panelfilt
+			// 
+			this->panelfilt->Controls->Add(this->buttonEVENT);
+			this->panelfilt->Controls->Add(this->flowLayoutPanel1);
+			this->panelfilt->Controls->Add(this->buttonFILTR);
+			this->panelfilt->Controls->Add(this->labelDATE);
+			this->panelfilt->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panelfilt->Location = System::Drawing::Point(0, 50);
+			this->panelfilt->Name = L"panelfilt";
+			this->panelfilt->Size = System::Drawing::Size(1105, 80);
+			this->panelfilt->TabIndex = 1;
+			// 
+			// buttonEVENT
+			// 
+			this->buttonEVENT->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->buttonEVENT->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonEVENT->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->buttonEVENT->Location = System::Drawing::Point(689, 18);
+			this->buttonEVENT->Name = L"buttonEVENT";
+			this->buttonEVENT->Size = System::Drawing::Size(138, 43);
+			this->buttonEVENT->TabIndex = 3;
+			this->buttonEVENT->Text = L"Новое событие";
+			this->buttonEVENT->UseVisualStyleBackColor = false;
+			// 
+			// flowLayoutPanel1
+			// 
+			this->flowLayoutPanel1->Controls->Add(this->buttonMONTH);
+			this->flowLayoutPanel1->Controls->Add(this->buttonWEEK);
+			this->flowLayoutPanel1->Controls->Add(this->buttonDAY);
+			this->flowLayoutPanel1->Location = System::Drawing::Point(848, 21);
+			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
+			this->flowLayoutPanel1->Size = System::Drawing::Size(247, 38);
+			this->flowLayoutPanel1->TabIndex = 2;
+			// 
+			// buttonMONTH
+			// 
+			this->buttonMONTH->BackColor = System::Drawing::Color::MediumPurple;
+			this->buttonMONTH->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonMONTH->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->buttonMONTH->ForeColor = System::Drawing::Color::White;
+			this->buttonMONTH->Location = System::Drawing::Point(3, 3);
+			this->buttonMONTH->Name = L"buttonMONTH";
+			this->buttonMONTH->Size = System::Drawing::Size(75, 31);
+			this->buttonMONTH->TabIndex = 0;
+			this->buttonMONTH->Text = L"Месяц";
+			this->buttonMONTH->UseVisualStyleBackColor = false;
+			// 
+			// buttonWEEK
+			// 
+			this->buttonWEEK->BackColor = System::Drawing::Color::MediumPurple;
+			this->buttonWEEK->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonWEEK->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->buttonWEEK->ForeColor = System::Drawing::Color::White;
+			this->buttonWEEK->Location = System::Drawing::Point(84, 3);
+			this->buttonWEEK->Name = L"buttonWEEK";
+			this->buttonWEEK->Size = System::Drawing::Size(75, 31);
+			this->buttonWEEK->TabIndex = 1;
+			this->buttonWEEK->Text = L"Неделя";
+			this->buttonWEEK->UseVisualStyleBackColor = false;
+			// 
+			// buttonDAY
+			// 
+			this->buttonDAY->BackColor = System::Drawing::Color::MediumPurple;
+			this->buttonDAY->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonDAY->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->buttonDAY->ForeColor = System::Drawing::Color::White;
+			this->buttonDAY->Location = System::Drawing::Point(165, 3);
+			this->buttonDAY->Name = L"buttonDAY";
+			this->buttonDAY->Size = System::Drawing::Size(75, 31);
+			this->buttonDAY->TabIndex = 2;
+			this->buttonDAY->Text = L"День";
+			this->buttonDAY->UseVisualStyleBackColor = false;
+			// 
+			// buttonFILTR
+			// 
+			this->buttonFILTR->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->buttonFILTR->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->buttonFILTR->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->buttonFILTR->Location = System::Drawing::Point(13, 21);
+			this->buttonFILTR->Name = L"buttonFILTR";
+			this->buttonFILTR->Size = System::Drawing::Size(105, 37);
+			this->buttonFILTR->TabIndex = 1;
+			this->buttonFILTR->Text = L"Фильтр";
+			this->buttonFILTR->UseVisualStyleBackColor = false;
+			// 
+			// labelDATE
+			// 
+			this->labelDATE->AutoSize = true;
+			this->labelDATE->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->labelDATE->Location = System::Drawing::Point(486, 21);
+			this->labelDATE->Name = L"labelDATE";
+			this->labelDATE->Size = System::Drawing::Size(114, 37);
+			this->labelDATE->TabIndex = 0;
+			this->labelDATE->Text = L"Май 20";
+			// 
+			// panelnavigation
+			// 
+			this->panelnavigation->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panelnavigation->Controls->Add(this->labeCALENDAR);
+			this->panelnavigation->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panelnavigation->Location = System::Drawing::Point(0, 0);
+			this->panelnavigation->Name = L"panelnavigation";
+			this->panelnavigation->Size = System::Drawing::Size(1105, 50);
+			this->panelnavigation->TabIndex = 0;
+			// 
+			// labeCALENDAR
+			// 
+			this->labeCALENDAR->AutoSize = true;
+			this->labeCALENDAR->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
+			this->labeCALENDAR->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->labeCALENDAR->Location = System::Drawing::Point(7, 7);
+			this->labeCALENDAR->Name = L"labeCALENDAR";
+			this->labeCALENDAR->Size = System::Drawing::Size(162, 37);
+			this->labeCALENDAR->TabIndex = 0;
+			this->labeCALENDAR->Text = L"Календарь";
 			// 
 			// calendar
 			// 
@@ -1471,7 +1436,6 @@ private: System::Windows::Forms::Panel^ panel8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
@@ -1480,32 +1444,32 @@ private: System::Windows::Forms::Panel^ panel8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
 			this->panelcalendar->ResumeLayout(false);
-			this->panelnavigation->ResumeLayout(false);
-			this->panelnavigation->PerformLayout();
-			this->panelfilt->ResumeLayout(false);
-			this->panelfilt->PerformLayout();
 			this->tableLayoutPanel1->ResumeLayout(false);
 			this->tableLayoutPanel1->PerformLayout();
-			this->flowLayoutPanel1->ResumeLayout(false);
-			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->пальма))->EndInit();
-			this->flowLayoutPanel2->ResumeLayout(false);
-			this->flowLayoutPanel2->PerformLayout();
-			this->flowLayoutPanel3->ResumeLayout(false);
-			this->flowLayoutPanel3->PerformLayout();
-			this->panel2->ResumeLayout(false);
-			this->panel2->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxДОМИК))->EndInit();
+			this->flowLayoutPanel8->ResumeLayout(false);
+			this->flowLayoutPanel8->PerformLayout();
+			this->flowLayoutPanel5->ResumeLayout(false);
+			this->flowLayoutPanel5->PerformLayout();
 			this->flowLayoutPanel4->ResumeLayout(false);
 			this->flowLayoutPanel4->PerformLayout();
 			this->panel4->ResumeLayout(false);
 			this->panel4->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxПлюсик))->EndInit();
-			this->flowLayoutPanel5->ResumeLayout(false);
-			this->flowLayoutPanel5->PerformLayout();
-			this->flowLayoutPanel8->ResumeLayout(false);
-			this->flowLayoutPanel8->PerformLayout();
+			this->flowLayoutPanel3->ResumeLayout(false);
+			this->flowLayoutPanel3->PerformLayout();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxДОМИК))->EndInit();
+			this->flowLayoutPanel2->ResumeLayout(false);
+			this->flowLayoutPanel2->PerformLayout();
+			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->пальма))->EndInit();
+			this->panelfilt->ResumeLayout(false);
+			this->panelfilt->PerformLayout();
+			this->flowLayoutPanel1->ResumeLayout(false);
+			this->panelnavigation->ResumeLayout(false);
+			this->panelnavigation->PerformLayout();
 			this->ResumeLayout(false);
 
 		}

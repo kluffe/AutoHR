@@ -7,6 +7,7 @@ using namespace System::Windows::Forms;
 
 [STAThread]
 void main(array<String^>^ args) {
+	setlocale(LC_ALL, "Russian");
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	AutoHR::MyForm form;

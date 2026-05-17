@@ -52,7 +52,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -65,7 +65,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -154,7 +154,6 @@ namespace AutoHR {
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -167,46 +166,45 @@ namespace AutoHR {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->panelTaskHeader = (gcnew System::Windows::Forms::Panel());
-			this->panelLeft = (gcnew System::Windows::Forms::Panel());
-			this->panelRight = (gcnew System::Windows::Forms::Panel());
 			this->panelCreateTask = (gcnew System::Windows::Forms::Panel());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->дляКнопки = (gcnew System::Windows::Forms::PictureBox());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-			this->дляДедлайна = (gcnew System::Windows::Forms::PictureBox());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->button13 = (gcnew System::Windows::Forms::Button());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->panel6 = (gcnew System::Windows::Forms::Panel());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->panelLeft = (gcnew System::Windows::Forms::Panel());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->дляДедлайна = (gcnew System::Windows::Forms::PictureBox());
+			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->panel5 = (gcnew System::Windows::Forms::Panel());
 			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->panel6 = (gcnew System::Windows::Forms::Panel());
-			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->panelRight = (gcnew System::Windows::Forms::Panel());
 			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
-			this->panel7 = (gcnew System::Windows::Forms::Panel());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->label18 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->panel7 = (gcnew System::Windows::Forms::Panel());
+			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
@@ -218,7 +216,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -227,17 +224,17 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
 			this->panelTaskHeader->SuspendLayout();
-			this->panelLeft->SuspendLayout();
-			this->panelRight->SuspendLayout();
 			this->panelCreateTask->SuspendLayout();
-			this->panel1->SuspendLayout();
-			this->panel2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляКнопки))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляДедлайна))->BeginInit();
+			this->panel6->SuspendLayout();
+			this->panelLeft->SuspendLayout();
+			this->panel1->SuspendLayout();
 			this->panel4->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->panel2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляДедлайна))->BeginInit();
 			this->panel5->SuspendLayout();
-			this->panel6->SuspendLayout();
+			this->panelRight->SuspendLayout();
 			this->tableLayoutPanel1->SuspendLayout();
 			this->panel7->SuspendLayout();
 			this->SuspendLayout();
@@ -357,7 +354,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -370,7 +366,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -418,7 +413,7 @@ namespace AutoHR {
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(14, 588);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -428,22 +423,12 @@ namespace AutoHR {
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(14, 533);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -527,7 +512,7 @@ namespace AutoHR {
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(61, 588);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -606,26 +591,6 @@ namespace AutoHR {
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -637,7 +602,7 @@ namespace AutoHR {
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(61, 533);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -740,30 +705,6 @@ namespace AutoHR {
 			this->panelTaskHeader->Size = System::Drawing::Size(1196, 198);
 			this->panelTaskHeader->TabIndex = 9;
 			// 
-			// panelLeft
-			// 
-			this->panelLeft->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->panelLeft->Controls->Add(this->panel1);
-			this->panelLeft->Dock = System::Windows::Forms::DockStyle::Left;
-			this->panelLeft->Location = System::Drawing::Point(283, 248);
-			this->panelLeft->Name = L"panelLeft";
-			this->panelLeft->Padding = System::Windows::Forms::Padding(20);
-			this->panelLeft->Size = System::Drawing::Size(669, 672);
-			this->panelLeft->TabIndex = 10;
-			// 
-			// panelRight
-			// 
-			this->panelRight->BackColor = System::Drawing::Color::Silver;
-			this->panelRight->Controls->Add(this->tableLayoutPanel1);
-			this->panelRight->Controls->Add(this->panel7);
-			this->panelRight->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->panelRight->Location = System::Drawing::Point(952, 248);
-			this->panelRight->Name = L"panelRight";
-			this->panelRight->Padding = System::Windows::Forms::Padding(20);
-			this->panelRight->Size = System::Drawing::Size(527, 672);
-			this->panelRight->TabIndex = 11;
-			// 
 			// panelCreateTask
 			// 
 			this->panelCreateTask->BackColor = System::Drawing::Color::White;
@@ -779,41 +720,13 @@ namespace AutoHR {
 			this->panelCreateTask->Size = System::Drawing::Size(1156, 122);
 			this->panelCreateTask->TabIndex = 0;
 			// 
-			// textBox2
+			// дляКнопки
 			// 
-			this->textBox2->Location = System::Drawing::Point(175, 45);
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(100, 20);
-			this->textBox2->TabIndex = 0;
-			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
-			this->label1->Location = System::Drawing::Point(14, 45);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(146, 20);
-			this->label1->TabIndex = 1;
-			this->label1->Text = L"Название задачи - ";
-			// 
-			// label3
-			// 
-			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(441, 45);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(116, 20);
-			this->label3->TabIndex = 2;
-			this->label3->Text = L"Выбрать кого :";
-			// 
-			// comboBox1
-			// 
-			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Location = System::Drawing::Point(564, 45);
-			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(121, 21);
-			this->comboBox1->TabIndex = 3;
+			this->дляКнопки->Location = System::Drawing::Point(891, 36);
+			this->дляКнопки->Name = L"дляКнопки";
+			this->дляКнопки->Size = System::Drawing::Size(44, 40);
+			this->дляКнопки->TabIndex = 5;
+			this->дляКнопки->TabStop = false;
 			// 
 			// button13
 			// 
@@ -826,6 +739,77 @@ namespace AutoHR {
 			this->button13->Text = L"Создать";
 			this->button13->UseVisualStyleBackColor = false;
 			// 
+			// comboBox1
+			// 
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Location = System::Drawing::Point(564, 45);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(121, 21);
+			this->comboBox1->TabIndex = 3;
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label3->Location = System::Drawing::Point(441, 45);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(116, 20);
+			this->label3->TabIndex = 2;
+			this->label3->Text = L"Выбрать кого :";
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold));
+			this->label1->Location = System::Drawing::Point(14, 45);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(146, 20);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"Название задачи - ";
+			// 
+			// textBox2
+			// 
+			this->textBox2->Location = System::Drawing::Point(175, 45);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(100, 20);
+			this->textBox2->TabIndex = 0;
+			// 
+			// panel6
+			// 
+			this->panel6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel6->Controls->Add(this->label11);
+			this->panel6->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel6->Location = System::Drawing::Point(20, 20);
+			this->panel6->Name = L"panel6";
+			this->panel6->Size = System::Drawing::Size(1156, 55);
+			this->panel6->TabIndex = 1;
+			// 
+			// label11
+			// 
+			this->label11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label11->AutoSize = true;
+			this->label11->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
+			this->label11->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label11->Location = System::Drawing::Point(13, 13);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(174, 30);
+			this->label11->TabIndex = 0;
+			this->label11->Text = L"Создание задач";
+			// 
+			// panelLeft
+			// 
+			this->panelLeft->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
+				static_cast<System::Int32>(static_cast<System::Byte>(224)));
+			this->panelLeft->Controls->Add(this->panel1);
+			this->panelLeft->Dock = System::Windows::Forms::DockStyle::Left;
+			this->panelLeft->Location = System::Drawing::Point(283, 248);
+			this->panelLeft->Name = L"panelLeft";
+			this->panelLeft->Padding = System::Windows::Forms::Padding(20);
+			this->panelLeft->Size = System::Drawing::Size(669, 672);
+			this->panelLeft->TabIndex = 10;
+			// 
 			// panel1
 			// 
 			this->panel1->BackColor = System::Drawing::Color::White;
@@ -837,78 +821,6 @@ namespace AutoHR {
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(629, 632);
 			this->panel1->TabIndex = 0;
-			// 
-			// panel2
-			// 
-			this->panel2->Controls->Add(this->label6);
-			this->panel2->Controls->Add(this->label5);
-			this->panel2->Controls->Add(this->дляДедлайна);
-			this->panel2->Controls->Add(this->textBox3);
-			this->panel2->Controls->Add(this->label4);
-			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel2->Location = System::Drawing::Point(0, 55);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(629, 154);
-			this->panel2->TabIndex = 0;
-			// 
-			// label4
-			// 
-			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label4->Location = System::Drawing::Point(74, 20);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(226, 30);
-			this->label4->TabIndex = 0;
-			this->label4->Text = L"Название дедлайна :";
-			// 
-			// дляКнопки
-			// 
-			this->дляКнопки->Location = System::Drawing::Point(891, 36);
-			this->дляКнопки->Name = L"дляКнопки";
-			this->дляКнопки->Size = System::Drawing::Size(44, 40);
-			this->дляКнопки->TabIndex = 5;
-			this->дляКнопки->TabStop = false;
-			// 
-			// textBox3
-			// 
-			this->textBox3->Location = System::Drawing::Point(15, 77);
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(276, 20);
-			this->textBox3->TabIndex = 1;
-			// 
-			// дляДедлайна
-			// 
-			this->дляДедлайна->Location = System::Drawing::Point(15, 11);
-			this->дляДедлайна->Name = L"дляДедлайна";
-			this->дляДедлайна->Size = System::Drawing::Size(43, 39);
-			this->дляДедлайна->TabIndex = 2;
-			this->дляДедлайна->TabStop = false;
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			this->label5->Location = System::Drawing::Point(422, 93);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(66, 21);
-			this->label5->TabIndex = 3;
-			this->label5->Text = L"Статус :";
-			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)));
-			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			this->label6->ForeColor = System::Drawing::SystemColors::Control;
-			this->label6->Location = System::Drawing::Point(494, 93);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(102, 23);
-			this->label6->TabIndex = 4;
-			this->label6->Text = L"в процессе ";
 			// 
 			// panel4
 			// 
@@ -973,6 +885,70 @@ namespace AutoHR {
 			this->label9->TabIndex = 0;
 			this->label9->Text = L"Название дедлайна :";
 			// 
+			// panel2
+			// 
+			this->panel2->Controls->Add(this->label6);
+			this->panel2->Controls->Add(this->label5);
+			this->panel2->Controls->Add(this->дляДедлайна);
+			this->panel2->Controls->Add(this->textBox3);
+			this->panel2->Controls->Add(this->label4);
+			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel2->Location = System::Drawing::Point(0, 55);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(629, 154);
+			this->panel2->TabIndex = 0;
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->label6->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			this->label6->ForeColor = System::Drawing::SystemColors::Control;
+			this->label6->Location = System::Drawing::Point(494, 93);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(102, 23);
+			this->label6->TabIndex = 4;
+			this->label6->Text = L"в процессе ";
+			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			this->label5->Location = System::Drawing::Point(422, 93);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(66, 21);
+			this->label5->TabIndex = 3;
+			this->label5->Text = L"Статус :";
+			// 
+			// дляДедлайна
+			// 
+			this->дляДедлайна->Location = System::Drawing::Point(15, 11);
+			this->дляДедлайна->Name = L"дляДедлайна";
+			this->дляДедлайна->Size = System::Drawing::Size(43, 39);
+			this->дляДедлайна->TabIndex = 2;
+			this->дляДедлайна->TabStop = false;
+			// 
+			// textBox3
+			// 
+			this->textBox3->Location = System::Drawing::Point(15, 77);
+			this->textBox3->Name = L"textBox3";
+			this->textBox3->Size = System::Drawing::Size(276, 20);
+			this->textBox3->TabIndex = 1;
+			// 
+			// label4
+			// 
+			this->label4->AutoSize = true;
+			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label4->Location = System::Drawing::Point(74, 20);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(226, 30);
+			this->label4->TabIndex = 0;
+			this->label4->Text = L"Название дедлайна :";
+			// 
 			// panel5
 			// 
 			this->panel5->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -995,28 +971,17 @@ namespace AutoHR {
 			this->label10->TabIndex = 0;
 			this->label10->Text = L"Дедлайны";
 			// 
-			// panel6
+			// panelRight
 			// 
-			this->panel6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel6->Controls->Add(this->label11);
-			this->panel6->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel6->Location = System::Drawing::Point(20, 20);
-			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(1156, 55);
-			this->panel6->TabIndex = 1;
-			// 
-			// label11
-			// 
-			this->label11->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label11->AutoSize = true;
-			this->label11->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
-			this->label11->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label11->Location = System::Drawing::Point(13, 13);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(174, 30);
-			this->label11->TabIndex = 0;
-			this->label11->Text = L"Создание задач";
+			this->panelRight->BackColor = System::Drawing::Color::Silver;
+			this->panelRight->Controls->Add(this->tableLayoutPanel1);
+			this->panelRight->Controls->Add(this->panel7);
+			this->panelRight->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panelRight->Location = System::Drawing::Point(952, 248);
+			this->panelRight->Name = L"panelRight";
+			this->panelRight->Padding = System::Windows::Forms::Padding(20);
+			this->panelRight->Size = System::Drawing::Size(527, 672);
+			this->panelRight->TabIndex = 11;
 			// 
 			// tableLayoutPanel1
 			// 
@@ -1046,27 +1011,27 @@ namespace AutoHR {
 			this->tableLayoutPanel1->Size = System::Drawing::Size(487, 554);
 			this->tableLayoutPanel1->TabIndex = 0;
 			// 
-			// panel7
+			// label18
 			// 
-			this->panel7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel7->Controls->Add(this->label12);
-			this->panel7->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel7->Location = System::Drawing::Point(20, 20);
-			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(487, 55);
-			this->panel7->TabIndex = 1;
+			this->label18->AutoSize = true;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
+			this->label18->ForeColor = System::Drawing::Color::Gray;
+			this->label18->Location = System::Drawing::Point(341, 7);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(77, 30);
+			this->label18->TabIndex = 5;
+			this->label18->Text = L"время";
 			// 
-			// label12
+			// label19
 			// 
-			this->label12->AutoSize = true;
-			this->label12->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
-			this->label12->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label12->Location = System::Drawing::Point(19, 14);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(157, 30);
-			this->label12->TabIndex = 0;
-			this->label12->Text = L"Напоминания";
+			this->label19->AutoSize = true;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
+			this->label19->ForeColor = System::Drawing::Color::Gray;
+			this->label19->Location = System::Drawing::Point(341, 39);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(77, 30);
+			this->label19->TabIndex = 6;
+			this->label19->Text = L"время";
 			// 
 			// label13
 			// 
@@ -1092,27 +1057,27 @@ namespace AutoHR {
 			this->label14->TabIndex = 1;
 			this->label14->Text = L"название задачи ";
 			// 
-			// label18
+			// panel7
 			// 
-			this->label18->AutoSize = true;
-			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
-			this->label18->ForeColor = System::Drawing::Color::Gray;
-			this->label18->Location = System::Drawing::Point(341, 7);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(77, 30);
-			this->label18->TabIndex = 5;
-			this->label18->Text = L"время";
+			this->panel7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel7->Controls->Add(this->label12);
+			this->panel7->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel7->Location = System::Drawing::Point(20, 20);
+			this->panel7->Name = L"panel7";
+			this->panel7->Size = System::Drawing::Size(487, 55);
+			this->panel7->TabIndex = 1;
 			// 
-			// label19
+			// label12
 			// 
-			this->label19->AutoSize = true;
-			this->label19->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
-			this->label19->ForeColor = System::Drawing::Color::Gray;
-			this->label19->Location = System::Drawing::Point(341, 39);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(77, 30);
-			this->label19->TabIndex = 6;
-			this->label19->Text = L"время";
+			this->label12->AutoSize = true;
+			this->label12->Font = (gcnew System::Drawing::Font(L"Segoe UI", 15.75F, System::Drawing::FontStyle::Bold));
+			this->label12->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label12->Location = System::Drawing::Point(19, 14);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(157, 30);
+			this->label12->TabIndex = 0;
+			this->label12->Text = L"Напоминания";
 			// 
 			// Tasks
 			// 
@@ -1140,7 +1105,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
@@ -1149,22 +1113,22 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
 			this->panelTaskHeader->ResumeLayout(false);
-			this->panelLeft->ResumeLayout(false);
-			this->panelRight->ResumeLayout(false);
 			this->panelCreateTask->ResumeLayout(false);
 			this->panelCreateTask->PerformLayout();
-			this->panel1->ResumeLayout(false);
-			this->panel2->ResumeLayout(false);
-			this->panel2->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляКнопки))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляДедлайна))->EndInit();
+			this->panel6->ResumeLayout(false);
+			this->panel6->PerformLayout();
+			this->panelLeft->ResumeLayout(false);
+			this->panel1->ResumeLayout(false);
 			this->panel4->ResumeLayout(false);
 			this->panel4->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->дляДедлайна))->EndInit();
 			this->panel5->ResumeLayout(false);
 			this->panel5->PerformLayout();
-			this->panel6->ResumeLayout(false);
-			this->panel6->PerformLayout();
+			this->panelRight->ResumeLayout(false);
 			this->tableLayoutPanel1->ResumeLayout(false);
 			this->tableLayoutPanel1->PerformLayout();
 			this->panel7->ResumeLayout(false);

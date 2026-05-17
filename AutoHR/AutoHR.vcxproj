@@ -162,7 +162,7 @@
     <ClInclude Include="readings.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="recruting.h">
+    <ClInclude Include="recruiting.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="RegisterForm.h">
@@ -202,8 +202,8 @@
     <EmbeddedResource Include="readings.resx">
       <DependentUpon>readings.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="recruting.resx">
-      <DependentUpon>recruting.h</DependentUpon>
+    <EmbeddedResource Include="recruiting.resx">
+      <DependentUpon>recruiting.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.h</DependentUpon>
