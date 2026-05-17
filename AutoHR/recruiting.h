@@ -41,7 +41,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -54,7 +54,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -133,18 +133,17 @@ namespace AutoHR {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(recruting::typeid));
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle16 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle17 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle18 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle19 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle20 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle1 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle2 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle3 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle4 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle5 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
 			this->sidebar = (gcnew System::Windows::Forms::Panel());
 			this->pnlProfile = (gcnew System::Windows::Forms::Panel());
 			this->name = (gcnew System::Windows::Forms::Label());
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -157,7 +156,6 @@ namespace AutoHR {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
@@ -174,39 +172,38 @@ namespace AutoHR {
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->panelОБЩИЙ = (gcnew System::Windows::Forms::Panel());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
-			this->flowLayoutPanelvacansies = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->panel5 = (gcnew System::Windows::Forms::Panel());
+			this->flowLayoutPanel2 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->panel6 = (gcnew System::Windows::Forms::Panel());
 			this->panel7 = (gcnew System::Windows::Forms::Panel());
 			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->flowLayoutPanel2 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->flowLayoutPanelvacansies = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->panel4 = (gcnew System::Windows::Forms::Panel());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->panel9 = (gcnew System::Windows::Forms::Panel());
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
 			this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column4 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column5 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-			this->panel8 = (gcnew System::Windows::Forms::Panel());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->panel9 = (gcnew System::Windows::Forms::Panel());
 			this->panel10 = (gcnew System::Windows::Forms::Panel());
 			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->sidebar->SuspendLayout();
 			this->pnlProfile->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -221,18 +218,18 @@ namespace AutoHR {
 			this->panel3->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->panelОБЩИЙ->SuspendLayout();
-			this->panel1->SuspendLayout();
 			this->tableLayoutPanel1->SuspendLayout();
-			this->flowLayoutPanelvacansies->SuspendLayout();
-			this->panel4->SuspendLayout();
 			this->panel5->SuspendLayout();
+			this->flowLayoutPanel2->SuspendLayout();
+			this->panel8->SuspendLayout();
 			this->flowLayoutPanel1->SuspendLayout();
 			this->panel7->SuspendLayout();
-			this->flowLayoutPanel2->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
-			this->panel8->SuspendLayout();
+			this->flowLayoutPanelvacansies->SuspendLayout();
+			this->panel4->SuspendLayout();
 			this->panel9->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->panel10->SuspendLayout();
+			this->panel1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// sidebar
@@ -243,7 +240,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -256,7 +252,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -304,7 +299,7 @@ namespace AutoHR {
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(14, 588);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -314,22 +309,12 @@ namespace AutoHR {
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(14, 533);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -413,7 +398,7 @@ namespace AutoHR {
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(61, 588);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -492,26 +477,6 @@ namespace AutoHR {
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -523,7 +488,7 @@ namespace AutoHR {
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(61, 533);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -730,30 +695,6 @@ namespace AutoHR {
 			this->panelОБЩИЙ->Size = System::Drawing::Size(1079, 833);
 			this->panelОБЩИЙ->TabIndex = 25;
 			// 
-			// panel1
-			// 
-			this->panel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel1->Controls->Add(this->label1);
-			this->panel1->Controls->Add(this->button13);
-			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1079, 55);
-			this->panel1->TabIndex = 0;
-			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label1->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label1->Location = System::Drawing::Point(15, 14);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(133, 32);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"Рекрутинг";
-			// 
 			// tableLayoutPanel1
 			// 
 			this->tableLayoutPanel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)),
@@ -773,6 +714,103 @@ namespace AutoHR {
 			this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 14.28571F)));
 			this->tableLayoutPanel1->Size = System::Drawing::Size(1079, 778);
 			this->tableLayoutPanel1->TabIndex = 1;
+			// 
+			// panel5
+			// 
+			this->panel5->Controls->Add(this->flowLayoutPanel2);
+			this->panel5->Controls->Add(this->flowLayoutPanel1);
+			this->panel5->Controls->Add(this->flowLayoutPanelvacansies);
+			this->panel5->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panel5->Location = System::Drawing::Point(4, 4);
+			this->panel5->Name = L"panel5";
+			this->panel5->Size = System::Drawing::Size(316, 770);
+			this->panel5->TabIndex = 1;
+			// 
+			// flowLayoutPanel2
+			// 
+			this->flowLayoutPanel2->BackColor = System::Drawing::SystemColors::ButtonFace;
+			this->flowLayoutPanel2->Controls->Add(this->panel8);
+			this->flowLayoutPanel2->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowLayoutPanel2->Location = System::Drawing::Point(0, 204);
+			this->flowLayoutPanel2->Name = L"flowLayoutPanel2";
+			this->flowLayoutPanel2->Size = System::Drawing::Size(316, 566);
+			this->flowLayoutPanel2->TabIndex = 4;
+			// 
+			// panel8
+			// 
+			this->panel8->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel8->Controls->Add(this->label7);
+			this->panel8->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel8->Location = System::Drawing::Point(3, 3);
+			this->panel8->Name = L"panel8";
+			this->panel8->Size = System::Drawing::Size(200, 52);
+			this->panel8->TabIndex = 0;
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label7->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label7->Location = System::Drawing::Point(12, 12);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(81, 25);
+			this->label7->TabIndex = 0;
+			this->label7->Text = L"Резюме";
+			// 
+			// flowLayoutPanel1
+			// 
+			this->flowLayoutPanel1->AutoScroll = true;
+			this->flowLayoutPanel1->BackColor = System::Drawing::SystemColors::ButtonFace;
+			this->flowLayoutPanel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->flowLayoutPanel1->Controls->Add(this->label5);
+			this->flowLayoutPanel1->Controls->Add(this->panel6);
+			this->flowLayoutPanel1->Controls->Add(this->panel7);
+			this->flowLayoutPanel1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->flowLayoutPanel1->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowLayoutPanel1->Location = System::Drawing::Point(0, 102);
+			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
+			this->flowLayoutPanel1->Size = System::Drawing::Size(316, 102);
+			this->flowLayoutPanel1->TabIndex = 3;
+			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label5->ForeColor = System::Drawing::SystemColors::ControlDarkDark;
+			this->label5->Location = System::Drawing::Point(3, 0);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(186, 25);
+			this->label5->TabIndex = 0;
+			this->label5->Text = L"Название вакансии";
+			// 
+			// panel6
+			// 
+			this->panel6->BackColor = System::Drawing::Color::Orange;
+			this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->panel6->Location = System::Drawing::Point(3, 28);
+			this->panel6->Name = L"panel6";
+			this->panel6->Size = System::Drawing::Size(180, 10);
+			this->panel6->TabIndex = 1;
+			// 
+			// panel7
+			// 
+			this->panel7->Controls->Add(this->label6);
+			this->panel7->Location = System::Drawing::Point(3, 44);
+			this->panel7->Name = L"panel7";
+			this->panel7->Size = System::Drawing::Size(76, 35);
+			this->panel7->TabIndex = 2;
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(3, 4);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(66, 26);
+			this->label6->TabIndex = 0;
+			this->label6->Text = L"кол-во \r\nкандидатов";
 			// 
 			// flowLayoutPanelvacansies
 			// 
@@ -828,91 +866,15 @@ namespace AutoHR {
 			this->label4->Text = L"кол-во \r\nкандидатов";
 			this->label4->Click += gcnew System::EventHandler(this, &recruting::label4_Click);
 			// 
-			// button13
+			// panel9
 			// 
-			this->button13->BackColor = System::Drawing::Color::MediumSeaGreen;
-			this->button13->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button13->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button13->Location = System::Drawing::Point(801, 11);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(262, 35);
-			this->button13->TabIndex = 1;
-			this->button13->Text = L"+ Добавить вакансию";
-			this->button13->UseVisualStyleBackColor = false;
-			// 
-			// panel5
-			// 
-			this->panel5->Controls->Add(this->flowLayoutPanel2);
-			this->panel5->Controls->Add(this->flowLayoutPanel1);
-			this->panel5->Controls->Add(this->flowLayoutPanelvacansies);
-			this->panel5->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->panel5->Location = System::Drawing::Point(4, 4);
-			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(316, 770);
-			this->panel5->TabIndex = 1;
-			// 
-			// flowLayoutPanel1
-			// 
-			this->flowLayoutPanel1->AutoScroll = true;
-			this->flowLayoutPanel1->BackColor = System::Drawing::SystemColors::ButtonFace;
-			this->flowLayoutPanel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->flowLayoutPanel1->Controls->Add(this->label5);
-			this->flowLayoutPanel1->Controls->Add(this->panel6);
-			this->flowLayoutPanel1->Controls->Add(this->panel7);
-			this->flowLayoutPanel1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->flowLayoutPanel1->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowLayoutPanel1->Location = System::Drawing::Point(0, 102);
-			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
-			this->flowLayoutPanel1->Size = System::Drawing::Size(316, 102);
-			this->flowLayoutPanel1->TabIndex = 3;
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label5->ForeColor = System::Drawing::SystemColors::ControlDarkDark;
-			this->label5->Location = System::Drawing::Point(3, 0);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(186, 25);
-			this->label5->TabIndex = 0;
-			this->label5->Text = L"Название вакансии";
-			// 
-			// panel6
-			// 
-			this->panel6->BackColor = System::Drawing::Color::Orange;
-			this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->panel6->Location = System::Drawing::Point(3, 28);
-			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(180, 10);
-			this->panel6->TabIndex = 1;
-			// 
-			// panel7
-			// 
-			this->panel7->Controls->Add(this->label6);
-			this->panel7->Location = System::Drawing::Point(3, 44);
-			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(76, 35);
-			this->panel7->TabIndex = 2;
-			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(3, 4);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(66, 26);
-			this->label6->TabIndex = 0;
-			this->label6->Text = L"кол-во \r\nкандидатов";
-			// 
-			// flowLayoutPanel2
-			// 
-			this->flowLayoutPanel2->BackColor = System::Drawing::SystemColors::ButtonFace;
-			this->flowLayoutPanel2->Controls->Add(this->panel8);
-			this->flowLayoutPanel2->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowLayoutPanel2->Location = System::Drawing::Point(0, 204);
-			this->flowLayoutPanel2->Name = L"flowLayoutPanel2";
-			this->flowLayoutPanel2->Size = System::Drawing::Size(316, 566);
-			this->flowLayoutPanel2->TabIndex = 4;
+			this->panel9->Controls->Add(this->dataGridView1);
+			this->panel9->Controls->Add(this->panel10);
+			this->panel9->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panel9->Location = System::Drawing::Point(327, 4);
+			this->panel9->Name = L"panel9";
+			this->panel9->Size = System::Drawing::Size(748, 770);
+			this->panel9->TabIndex = 2;
 			// 
 			// dataGridView1
 			// 
@@ -935,97 +897,64 @@ namespace AutoHR {
 			// Column1
 			// 
 			this->Column1->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			dataGridViewCellStyle16->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			dataGridViewCellStyle1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			dataGridViewCellStyle16->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			dataGridViewCellStyle1->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			dataGridViewCellStyle16->ForeColor = System::Drawing::Color::White;
-			dataGridViewCellStyle16->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
-			this->Column1->DefaultCellStyle = dataGridViewCellStyle16;
+			dataGridViewCellStyle1->ForeColor = System::Drawing::Color::White;
+			dataGridViewCellStyle1->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
+			this->Column1->DefaultCellStyle = dataGridViewCellStyle1;
 			this->Column1->HeaderText = L"Кандидаты";
 			this->Column1->Name = L"Column1";
 			// 
 			// Column2
 			// 
 			this->Column2->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			dataGridViewCellStyle17->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			dataGridViewCellStyle2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			dataGridViewCellStyle17->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			dataGridViewCellStyle2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			dataGridViewCellStyle17->ForeColor = System::Drawing::Color::White;
-			dataGridViewCellStyle17->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
-			this->Column2->DefaultCellStyle = dataGridViewCellStyle17;
+			dataGridViewCellStyle2->ForeColor = System::Drawing::Color::White;
+			dataGridViewCellStyle2->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
+			this->Column2->DefaultCellStyle = dataGridViewCellStyle2;
 			this->Column2->HeaderText = L"Собеседование";
 			this->Column2->Name = L"Column2";
 			// 
 			// Column3
 			// 
 			this->Column3->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			dataGridViewCellStyle18->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			dataGridViewCellStyle3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			dataGridViewCellStyle18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
-			dataGridViewCellStyle18->ForeColor = System::Drawing::Color::White;
-			dataGridViewCellStyle18->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
-			this->Column3->DefaultCellStyle = dataGridViewCellStyle18;
+			dataGridViewCellStyle3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
+			dataGridViewCellStyle3->ForeColor = System::Drawing::Color::White;
+			dataGridViewCellStyle3->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
+			this->Column3->DefaultCellStyle = dataGridViewCellStyle3;
 			this->Column3->HeaderText = L"Испытательный срок";
 			this->Column3->Name = L"Column3";
 			// 
 			// Column4
 			// 
 			this->Column4->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			dataGridViewCellStyle19->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			dataGridViewCellStyle4->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			dataGridViewCellStyle19->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
-			dataGridViewCellStyle19->ForeColor = System::Drawing::Color::White;
-			dataGridViewCellStyle19->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
-			this->Column4->DefaultCellStyle = dataGridViewCellStyle19;
+			dataGridViewCellStyle4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
+			dataGridViewCellStyle4->ForeColor = System::Drawing::Color::White;
+			dataGridViewCellStyle4->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
+			this->Column4->DefaultCellStyle = dataGridViewCellStyle4;
 			this->Column4->HeaderText = L"Интервью ";
 			this->Column4->Name = L"Column4";
 			// 
 			// Column5
 			// 
 			this->Column5->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			dataGridViewCellStyle20->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			dataGridViewCellStyle5->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			dataGridViewCellStyle20->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
-			dataGridViewCellStyle20->ForeColor = System::Drawing::Color::White;
-			dataGridViewCellStyle20->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
-			this->Column5->DefaultCellStyle = dataGridViewCellStyle20;
+			dataGridViewCellStyle5->Font = (gcnew System::Drawing::Font(L"Segoe UI", 20.25F, System::Drawing::FontStyle::Bold));
+			dataGridViewCellStyle5->ForeColor = System::Drawing::Color::White;
+			dataGridViewCellStyle5->SelectionBackColor = System::Drawing::Color::MediumSeaGreen;
+			this->Column5->DefaultCellStyle = dataGridViewCellStyle5;
 			this->Column5->HeaderText = L"Принятые";
 			this->Column5->Name = L"Column5";
-			// 
-			// panel8
-			// 
-			this->panel8->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel8->Controls->Add(this->label7);
-			this->panel8->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel8->Location = System::Drawing::Point(3, 3);
-			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(200, 52);
-			this->panel8->TabIndex = 0;
-			// 
-			// label7
-			// 
-			this->label7->AutoSize = true;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label7->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->label7->Location = System::Drawing::Point(12, 12);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(81, 25);
-			this->label7->TabIndex = 0;
-			this->label7->Text = L"Резюме";
-			// 
-			// panel9
-			// 
-			this->panel9->Controls->Add(this->dataGridView1);
-			this->panel9->Controls->Add(this->panel10);
-			this->panel9->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->panel9->Location = System::Drawing::Point(327, 4);
-			this->panel9->Name = L"panel9";
-			this->panel9->Size = System::Drawing::Size(748, 770);
-			this->panel9->TabIndex = 2;
 			// 
 			// panel10
 			// 
@@ -1049,6 +978,42 @@ namespace AutoHR {
 			this->label8->TabIndex = 0;
 			this->label8->Text = L"Воронка кандидатов";
 			// 
+			// panel1
+			// 
+			this->panel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel1->Controls->Add(this->label1);
+			this->panel1->Controls->Add(this->button13);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel1->Location = System::Drawing::Point(0, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(1079, 55);
+			this->panel1->TabIndex = 0;
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label1->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->label1->Location = System::Drawing::Point(15, 14);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(133, 32);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"Рекрутинг";
+			// 
+			// button13
+			// 
+			this->button13->BackColor = System::Drawing::Color::MediumSeaGreen;
+			this->button13->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 14.25F, System::Drawing::FontStyle::Bold));
+			this->button13->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->button13->Location = System::Drawing::Point(801, 11);
+			this->button13->Name = L"button13";
+			this->button13->Size = System::Drawing::Size(262, 35);
+			this->button13->TabIndex = 1;
+			this->button13->Text = L"+ Добавить вакансию";
+			this->button13->UseVisualStyleBackColor = false;
+			// 
 			// recruting
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -1066,7 +1031,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
@@ -1082,25 +1046,25 @@ namespace AutoHR {
 			this->panel3->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->panelОБЩИЙ->ResumeLayout(false);
-			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
 			this->tableLayoutPanel1->ResumeLayout(false);
-			this->flowLayoutPanelvacansies->ResumeLayout(false);
-			this->flowLayoutPanelvacansies->PerformLayout();
-			this->panel4->ResumeLayout(false);
-			this->panel4->PerformLayout();
 			this->panel5->ResumeLayout(false);
+			this->flowLayoutPanel2->ResumeLayout(false);
+			this->panel8->ResumeLayout(false);
+			this->panel8->PerformLayout();
 			this->flowLayoutPanel1->ResumeLayout(false);
 			this->flowLayoutPanel1->PerformLayout();
 			this->panel7->ResumeLayout(false);
 			this->panel7->PerformLayout();
-			this->flowLayoutPanel2->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
-			this->panel8->ResumeLayout(false);
-			this->panel8->PerformLayout();
+			this->flowLayoutPanelvacansies->ResumeLayout(false);
+			this->flowLayoutPanelvacansies->PerformLayout();
+			this->panel4->ResumeLayout(false);
+			this->panel4->PerformLayout();
 			this->panel9->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->panel10->ResumeLayout(false);
 			this->panel10->PerformLayout();
+			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			this->ResumeLayout(false);
 
 		}

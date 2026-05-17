@@ -41,7 +41,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -54,7 +54,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -102,18 +102,17 @@ namespace AutoHR {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(BASE::typeid));
-			System::Windows::Forms::TreeNode^ treeNode1 = (gcnew System::Windows::Forms::TreeNode(L"Инструкция"));
-			System::Windows::Forms::TreeNode^ treeNode2 = (gcnew System::Windows::Forms::TreeNode(L"FAQ"));
-			System::Windows::Forms::TreeNode^ treeNode3 = (gcnew System::Windows::Forms::TreeNode(L"Обучение"));
-			System::Windows::Forms::TreeNode^ treeNode4 = (gcnew System::Windows::Forms::TreeNode(L"Документы компании"));
-			System::Windows::Forms::TreeNode^ treeNode5 = (gcnew System::Windows::Forms::TreeNode(L"Правила и регламенты"));
+			System::Windows::Forms::TreeNode^ treeNode6 = (gcnew System::Windows::Forms::TreeNode(L"Инструкция"));
+			System::Windows::Forms::TreeNode^ treeNode7 = (gcnew System::Windows::Forms::TreeNode(L"FAQ"));
+			System::Windows::Forms::TreeNode^ treeNode8 = (gcnew System::Windows::Forms::TreeNode(L"Обучение"));
+			System::Windows::Forms::TreeNode^ treeNode9 = (gcnew System::Windows::Forms::TreeNode(L"Документы компании"));
+			System::Windows::Forms::TreeNode^ treeNode10 = (gcnew System::Windows::Forms::TreeNode(L"Правила и регламенты"));
 			this->sidebar = (gcnew System::Windows::Forms::Panel());
 			this->pnlProfile = (gcnew System::Windows::Forms::Panel());
 			this->name = (gcnew System::Windows::Forms::Label());
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -126,7 +125,6 @@ namespace AutoHR {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
@@ -161,7 +159,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -190,7 +187,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -203,7 +199,6 @@ namespace AutoHR {
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -251,7 +246,7 @@ namespace AutoHR {
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(15, 588);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -261,22 +256,12 @@ namespace AutoHR {
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(15, 533);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -360,7 +345,7 @@ namespace AutoHR {
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(62, 588);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -439,26 +424,6 @@ namespace AutoHR {
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -470,7 +435,7 @@ namespace AutoHR {
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(62, 533);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -731,27 +696,27 @@ namespace AutoHR {
 			this->treeView1->ItemHeight = 100;
 			this->treeView1->Location = System::Drawing::Point(0, 0);
 			this->treeView1->Name = L"treeView1";
-			treeNode1->Name = L"Node0";
-			treeNode1->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			treeNode6->Name = L"Node0";
+			treeNode6->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			treeNode1->Text = L"Инструкция";
-			treeNode2->Name = L"Node1";
-			treeNode2->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			treeNode2->Text = L"FAQ";
-			treeNode3->Name = L"Node2";
-			treeNode3->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			treeNode3->Text = L"Обучение";
-			treeNode4->Name = L"Node3";
-			treeNode4->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			treeNode4->Text = L"Документы компании";
-			treeNode5->Name = L"Node4";
-			treeNode5->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
-			treeNode5->Text = L"Правила и регламенты";
+			treeNode6->Text = L"Инструкция";
+			treeNode7->Name = L"Node1";
+			treeNode7->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			treeNode7->Text = L"FAQ";
+			treeNode8->Name = L"Node2";
+			treeNode8->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			treeNode8->Text = L"Обучение";
+			treeNode9->Name = L"Node3";
+			treeNode9->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			treeNode9->Text = L"Документы компании";
+			treeNode10->Name = L"Node4";
+			treeNode10->NodeFont = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 12, System::Drawing::FontStyle::Bold));
+			treeNode10->Text = L"Правила и регламенты";
 			this->treeView1->Nodes->AddRange(gcnew cli::array< System::Windows::Forms::TreeNode^  >(5) {
-				treeNode1, treeNode2, treeNode3,
-					treeNode4, treeNode5
+				treeNode6, treeNode7, treeNode8,
+					treeNode9, treeNode10
 			});
-			this->treeView1->Size = System::Drawing::Size(248, 745);
+			this->treeView1->Size = System::Drawing::Size(300, 745);
 			this->treeView1->TabIndex = 0;
 			// 
 			// panelFILES
@@ -858,7 +823,6 @@ namespace AutoHR {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();

@@ -51,7 +51,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -64,7 +64,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -178,7 +178,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -191,80 +190,79 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->panelMyActivities = (gcnew System::Windows::Forms::Panel());
-			this->panelProfileCard = (gcnew System::Windows::Forms::Panel());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->flowSkills = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->panelDeadlineGroup = (gcnew System::Windows::Forms::Panel());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->flowDeadlineCards = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->panelTaskCard = (gcnew System::Windows::Forms::Panel());
-			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->panel5 = (gcnew System::Windows::Forms::Panel());
-			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->panel6 = (gcnew System::Windows::Forms::Panel());
-			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->panel9 = (gcnew System::Windows::Forms::Panel());
-			this->label24 = (gcnew System::Windows::Forms::Label());
-			this->label25 = (gcnew System::Windows::Forms::Label());
-			this->panel10 = (gcnew System::Windows::Forms::Panel());
-			this->label26 = (gcnew System::Windows::Forms::Label());
-			this->panel11 = (gcnew System::Windows::Forms::Panel());
-			this->label27 = (gcnew System::Windows::Forms::Label());
-			this->label28 = (gcnew System::Windows::Forms::Label());
-			this->panel12 = (gcnew System::Windows::Forms::Panel());
-			this->label29 = (gcnew System::Windows::Forms::Label());
-			this->panel7 = (gcnew System::Windows::Forms::Panel());
-			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->panel8 = (gcnew System::Windows::Forms::Panel());
-			this->label23 = (gcnew System::Windows::Forms::Label());
 			this->panelLearning = (gcnew System::Windows::Forms::Panel());
-			this->panel13 = (gcnew System::Windows::Forms::Panel());
-			this->label30 = (gcnew System::Windows::Forms::Label());
-			this->label31 = (gcnew System::Windows::Forms::Label());
-			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
-			this->label32 = (gcnew System::Windows::Forms::Label());
-			this->label33 = (gcnew System::Windows::Forms::Label());
-			this->panel14 = (gcnew System::Windows::Forms::Panel());
-			this->panel15 = (gcnew System::Windows::Forms::Panel());
-			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
-			this->label34 = (gcnew System::Windows::Forms::Label());
-			this->label35 = (gcnew System::Windows::Forms::Label());
-			this->label36 = (gcnew System::Windows::Forms::Label());
 			this->panel16 = (gcnew System::Windows::Forms::Panel());
 			this->progressBar3 = (gcnew System::Windows::Forms::ProgressBar());
 			this->label37 = (gcnew System::Windows::Forms::Label());
 			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->label40 = (gcnew System::Windows::Forms::Label());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->panel15 = (gcnew System::Windows::Forms::Panel());
+			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
+			this->label34 = (gcnew System::Windows::Forms::Label());
+			this->label35 = (gcnew System::Windows::Forms::Label());
+			this->label36 = (gcnew System::Windows::Forms::Label());
+			this->panel14 = (gcnew System::Windows::Forms::Panel());
+			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
+			this->label33 = (gcnew System::Windows::Forms::Label());
+			this->label32 = (gcnew System::Windows::Forms::Label());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->panel13 = (gcnew System::Windows::Forms::Panel());
+			this->label30 = (gcnew System::Windows::Forms::Label());
+			this->panelDeadlineGroup = (gcnew System::Windows::Forms::Panel());
+			this->flowDeadlineCards = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->panelTaskCard = (gcnew System::Windows::Forms::Panel());
 			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->panel5 = (gcnew System::Windows::Forms::Panel());
+			this->panel4 = (gcnew System::Windows::Forms::Panel());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->panel6 = (gcnew System::Windows::Forms::Panel());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->panel11 = (gcnew System::Windows::Forms::Panel());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+			this->label27 = (gcnew System::Windows::Forms::Label());
+			this->label28 = (gcnew System::Windows::Forms::Label());
+			this->panel12 = (gcnew System::Windows::Forms::Panel());
+			this->label29 = (gcnew System::Windows::Forms::Label());
+			this->panel9 = (gcnew System::Windows::Forms::Panel());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->panel10 = (gcnew System::Windows::Forms::Panel());
+			this->label26 = (gcnew System::Windows::Forms::Label());
+			this->panel7 = (gcnew System::Windows::Forms::Panel());
 			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->panelProfileCard = (gcnew System::Windows::Forms::Panel());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->flowSkills = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->header->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
@@ -276,7 +274,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -285,22 +282,22 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->BeginInit();
 			this->panelMyActivities->SuspendLayout();
-			this->panelProfileCard->SuspendLayout();
-			this->panel1->SuspendLayout();
-			this->flowSkills->SuspendLayout();
+			this->panelLearning->SuspendLayout();
+			this->panel16->SuspendLayout();
+			this->panel15->SuspendLayout();
+			this->panel14->SuspendLayout();
+			this->panel13->SuspendLayout();
 			this->panelDeadlineGroup->SuspendLayout();
-			this->panel2->SuspendLayout();
 			this->flowDeadlineCards->SuspendLayout();
 			this->panelTaskCard->SuspendLayout();
 			this->panel4->SuspendLayout();
-			this->panel9->SuspendLayout();
 			this->panel11->SuspendLayout();
+			this->panel9->SuspendLayout();
 			this->panel7->SuspendLayout();
-			this->panelLearning->SuspendLayout();
-			this->panel13->SuspendLayout();
-			this->panel14->SuspendLayout();
-			this->panel15->SuspendLayout();
-			this->panel16->SuspendLayout();
+			this->panel2->SuspendLayout();
+			this->panelProfileCard->SuspendLayout();
+			this->flowSkills->SuspendLayout();
+			this->panel1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// header
@@ -418,7 +415,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -431,7 +427,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -479,7 +474,7 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(17, 588);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -489,22 +484,12 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(17, 533);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -588,7 +573,7 @@ private: System::Windows::Forms::TextBox^ textBox6;
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(64, 588);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -667,26 +652,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -698,7 +663,7 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(64, 533);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -801,6 +766,555 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->panelMyActivities->TabIndex = 9;
 			this->panelMyActivities->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Activities::panelMyActivities_Paint);
 			// 
+			// panelLearning
+			// 
+			this->panelLearning->AutoScroll = true;
+			this->panelLearning->BackColor = System::Drawing::SystemColors::Control;
+			this->panelLearning->Controls->Add(this->panel16);
+			this->panelLearning->Controls->Add(this->panel15);
+			this->panelLearning->Controls->Add(this->panel14);
+			this->panelLearning->Controls->Add(this->panel13);
+			this->panelLearning->Location = System::Drawing::Point(31, 374);
+			this->panelLearning->Name = L"panelLearning";
+			this->panelLearning->Size = System::Drawing::Size(330, 343);
+			this->panelLearning->TabIndex = 2;
+			// 
+			// panel16
+			// 
+			this->panel16->Controls->Add(this->progressBar3);
+			this->panel16->Controls->Add(this->label37);
+			this->panel16->Controls->Add(this->label38);
+			this->panel16->Controls->Add(this->label40);
+			this->panel16->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel16->Location = System::Drawing::Point(0, 221);
+			this->panel16->Name = L"panel16";
+			this->panel16->Size = System::Drawing::Size(330, 83);
+			this->panel16->TabIndex = 6;
+			// 
+			// progressBar3
+			// 
+			this->progressBar3->ForeColor = System::Drawing::Color::SpringGreen;
+			this->progressBar3->Location = System::Drawing::Point(8, 16);
+			this->progressBar3->Name = L"progressBar3";
+			this->progressBar3->Size = System::Drawing::Size(24, 64);
+			this->progressBar3->Step = 1;
+			this->progressBar3->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
+			this->progressBar3->TabIndex = 2;
+			// 
+			// label37
+			// 
+			this->label37->AutoSize = true;
+			this->label37->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label37->ForeColor = System::Drawing::SystemColors::GrayText;
+			this->label37->Location = System::Drawing::Point(195, 10);
+			this->label37->Name = L"label37";
+			this->label37->Size = System::Drawing::Size(79, 17);
+			this->label37->TabIndex = 4;
+			this->label37->Text = L"название...";
+			// 
+			// label38
+			// 
+			this->label38->AutoSize = true;
+			this->label38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label38->Location = System::Drawing::Point(38, 55);
+			this->label38->Name = L"label38";
+			this->label38->Size = System::Drawing::Size(50, 25);
+			this->label38->TabIndex = 3;
+			this->label38->Text = L"50%";
+			// 
+			// label40
+			// 
+			this->label40->AutoSize = true;
+			this->label40->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label40->Location = System::Drawing::Point(34, 7);
+			this->label40->Name = L"label40";
+			this->label40->Size = System::Drawing::Size(155, 20);
+			this->label40->TabIndex = 1;
+			this->label40->Text = L"Название тренинга :";
+			// 
+			// panel15
+			// 
+			this->panel15->Controls->Add(this->progressBar2);
+			this->panel15->Controls->Add(this->label34);
+			this->panel15->Controls->Add(this->label35);
+			this->panel15->Controls->Add(this->label36);
+			this->panel15->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel15->Location = System::Drawing::Point(0, 138);
+			this->panel15->Name = L"panel15";
+			this->panel15->Size = System::Drawing::Size(330, 83);
+			this->panel15->TabIndex = 6;
+			// 
+			// progressBar2
+			// 
+			this->progressBar2->ForeColor = System::Drawing::Color::SpringGreen;
+			this->progressBar2->Location = System::Drawing::Point(8, 13);
+			this->progressBar2->Name = L"progressBar2";
+			this->progressBar2->Size = System::Drawing::Size(24, 64);
+			this->progressBar2->Step = 1;
+			this->progressBar2->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
+			this->progressBar2->TabIndex = 2;
+			// 
+			// label34
+			// 
+			this->label34->AutoSize = true;
+			this->label34->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label34->ForeColor = System::Drawing::SystemColors::GrayText;
+			this->label34->Location = System::Drawing::Point(244, 10);
+			this->label34->Name = L"label34";
+			this->label34->Size = System::Drawing::Size(79, 17);
+			this->label34->TabIndex = 4;
+			this->label34->Text = L"название...";
+			// 
+			// label35
+			// 
+			this->label35->AutoSize = true;
+			this->label35->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label35->Location = System::Drawing::Point(36, 55);
+			this->label35->Name = L"label35";
+			this->label35->Size = System::Drawing::Size(50, 25);
+			this->label35->TabIndex = 3;
+			this->label35->Text = L"50%";
+			// 
+			// label36
+			// 
+			this->label36->AutoSize = true;
+			this->label36->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label36->Location = System::Drawing::Point(34, 7);
+			this->label36->Name = L"label36";
+			this->label36->Size = System::Drawing::Size(213, 20);
+			this->label36->TabIndex = 1;
+			this->label36->Text = L"Повышение квалификации:";
+			// 
+			// panel14
+			// 
+			this->panel14->Controls->Add(this->progressBar1);
+			this->panel14->Controls->Add(this->label33);
+			this->panel14->Controls->Add(this->label32);
+			this->panel14->Controls->Add(this->label31);
+			this->panel14->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel14->Location = System::Drawing::Point(0, 55);
+			this->panel14->Name = L"panel14";
+			this->panel14->Size = System::Drawing::Size(330, 83);
+			this->panel14->TabIndex = 5;
+			// 
+			// progressBar1
+			// 
+			this->progressBar1->ForeColor = System::Drawing::Color::SpringGreen;
+			this->progressBar1->Location = System::Drawing::Point(8, 13);
+			this->progressBar1->Name = L"progressBar1";
+			this->progressBar1->Size = System::Drawing::Size(24, 64);
+			this->progressBar1->Step = 1;
+			this->progressBar1->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
+			this->progressBar1->TabIndex = 2;
+			this->progressBar1->Click += gcnew System::EventHandler(this, &Activities::progressBar1_Click);
+			// 
+			// label33
+			// 
+			this->label33->AutoSize = true;
+			this->label33->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label33->ForeColor = System::Drawing::SystemColors::GrayText;
+			this->label33->Location = System::Drawing::Point(170, 10);
+			this->label33->Name = L"label33";
+			this->label33->Size = System::Drawing::Size(48, 17);
+			this->label33->TabIndex = 4;
+			this->label33->Text = L"курс...";
+			// 
+			// label32
+			// 
+			this->label32->AutoSize = true;
+			this->label32->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label32->Location = System::Drawing::Point(38, 52);
+			this->label32->Name = L"label32";
+			this->label32->Size = System::Drawing::Size(50, 25);
+			this->label32->TabIndex = 3;
+			this->label32->Text = L"50%";
+			// 
+			// label31
+			// 
+			this->label31->AutoSize = true;
+			this->label31->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label31->Location = System::Drawing::Point(34, 7);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(130, 20);
+			this->label31->TabIndex = 1;
+			this->label31->Text = L"Название курса :";
+			// 
+			// panel13
+			// 
+			this->panel13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel13->Controls->Add(this->label30);
+			this->panel13->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel13->Location = System::Drawing::Point(0, 0);
+			this->panel13->Name = L"panel13";
+			this->panel13->Size = System::Drawing::Size(330, 55);
+			this->panel13->TabIndex = 0;
+			// 
+			// label30
+			// 
+			this->label30->AutoSize = true;
+			this->label30->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label30->ForeColor = System::Drawing::Color::SpringGreen;
+			this->label30->Location = System::Drawing::Point(13, 14);
+			this->label30->Name = L"label30";
+			this->label30->Size = System::Drawing::Size(210, 25);
+			this->label30->TabIndex = 0;
+			this->label30->Text = L"Обучение и развитие";
+			// 
+			// panelDeadlineGroup
+			// 
+			this->panelDeadlineGroup->Controls->Add(this->flowDeadlineCards);
+			this->panelDeadlineGroup->Controls->Add(this->panel2);
+			this->panelDeadlineGroup->Location = System::Drawing::Point(403, 37);
+			this->panelDeadlineGroup->Name = L"panelDeadlineGroup";
+			this->panelDeadlineGroup->Size = System::Drawing::Size(772, 697);
+			this->panelDeadlineGroup->TabIndex = 1;
+			// 
+			// flowDeadlineCards
+			// 
+			this->flowDeadlineCards->AutoScroll = true;
+			this->flowDeadlineCards->BackColor = System::Drawing::SystemColors::Control;
+			this->flowDeadlineCards->Controls->Add(this->panelTaskCard);
+			this->flowDeadlineCards->Controls->Add(this->panel4);
+			this->flowDeadlineCards->Controls->Add(this->panel11);
+			this->flowDeadlineCards->Controls->Add(this->panel9);
+			this->flowDeadlineCards->Controls->Add(this->panel7);
+			this->flowDeadlineCards->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->flowDeadlineCards->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
+			this->flowDeadlineCards->Location = System::Drawing::Point(0, 55);
+			this->flowDeadlineCards->Margin = System::Windows::Forms::Padding(20);
+			this->flowDeadlineCards->Name = L"flowDeadlineCards";
+			this->flowDeadlineCards->Padding = System::Windows::Forms::Padding(5);
+			this->flowDeadlineCards->Size = System::Drawing::Size(772, 642);
+			this->flowDeadlineCards->TabIndex = 1;
+			this->flowDeadlineCards->WrapContents = false;
+			// 
+			// panelTaskCard
+			// 
+			this->panelTaskCard->Controls->Add(this->label15);
+			this->panelTaskCard->Controls->Add(this->textBox2);
+			this->panelTaskCard->Controls->Add(this->label17);
+			this->panelTaskCard->Controls->Add(this->label16);
+			this->panelTaskCard->Controls->Add(this->panel5);
+			this->panelTaskCard->Location = System::Drawing::Point(8, 8);
+			this->panelTaskCard->Name = L"panelTaskCard";
+			this->panelTaskCard->Size = System::Drawing::Size(744, 100);
+			this->panelTaskCard->TabIndex = 0;
+			// 
+			// label15
+			// 
+			this->label15->AutoSize = true;
+			this->label15->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
+			this->label15->Location = System::Drawing::Point(11, 17);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(164, 21);
+			this->label15->TabIndex = 3;
+			this->label15->Text = L"- Название задачи :";
+			// 
+			// textBox2
+			// 
+			this->textBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox2->Location = System::Drawing::Point(188, 21);
+			this->textBox2->Multiline = true;
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(100, 20);
+			this->textBox2->TabIndex = 3;
+			// 
+			// label17
+			// 
+			this->label17->AutoSize = true;
+			this->label17->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label17->Location = System::Drawing::Point(113, 79);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(75, 15);
+			this->label17->TabIndex = 2;
+			this->label17->Text = L"15 мая 18:00";
+			// 
+			// label16
+			// 
+			this->label16->AutoSize = true;
+			this->label16->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label16->Location = System::Drawing::Point(33, 79);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(45, 15);
+			this->label16->TabIndex = 1;
+			this->label16->Text = L"- Срок ";
+			this->label16->Click += gcnew System::EventHandler(this, &Activities::label16_Click);
+			// 
+			// panel5
+			// 
+			this->panel5->BackColor = System::Drawing::Color::OrangeRed;
+			this->panel5->Location = System::Drawing::Point(3, 75);
+			this->panel5->Name = L"panel5";
+			this->panel5->Size = System::Drawing::Size(24, 22);
+			this->panel5->TabIndex = 2;
+			// 
+			// panel4
+			// 
+			this->panel4->Controls->Add(this->textBox3);
+			this->panel4->Controls->Add(this->label18);
+			this->panel4->Controls->Add(this->label19);
+			this->panel4->Controls->Add(this->panel6);
+			this->panel4->Controls->Add(this->label20);
+			this->panel4->Location = System::Drawing::Point(8, 114);
+			this->panel4->Name = L"panel4";
+			this->panel4->Size = System::Drawing::Size(744, 100);
+			this->panel4->TabIndex = 3;
+			// 
+			// textBox3
+			// 
+			this->textBox3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox3->Location = System::Drawing::Point(188, 17);
+			this->textBox3->Multiline = true;
+			this->textBox3->Name = L"textBox3";
+			this->textBox3->Size = System::Drawing::Size(100, 20);
+			this->textBox3->TabIndex = 4;
+			// 
+			// label18
+			// 
+			this->label18->AutoSize = true;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label18->Location = System::Drawing::Point(113, 79);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(75, 15);
+			this->label18->TabIndex = 2;
+			this->label18->Text = L"15 мая 18:00";
+			// 
+			// label19
+			// 
+			this->label19->AutoSize = true;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label19->Location = System::Drawing::Point(33, 79);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(45, 15);
+			this->label19->TabIndex = 1;
+			this->label19->Text = L"- Срок ";
+			// 
+			// panel6
+			// 
+			this->panel6->BackColor = System::Drawing::Color::OrangeRed;
+			this->panel6->Location = System::Drawing::Point(3, 75);
+			this->panel6->Name = L"panel6";
+			this->panel6->Size = System::Drawing::Size(24, 22);
+			this->panel6->TabIndex = 2;
+			// 
+			// label20
+			// 
+			this->label20->AutoSize = true;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
+			this->label20->Location = System::Drawing::Point(14, 13);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(164, 21);
+			this->label20->TabIndex = 0;
+			this->label20->Text = L"- Название задачи :";
+			// 
+			// panel11
+			// 
+			this->panel11->Controls->Add(this->textBox4);
+			this->panel11->Controls->Add(this->label27);
+			this->panel11->Controls->Add(this->label28);
+			this->panel11->Controls->Add(this->panel12);
+			this->panel11->Controls->Add(this->label29);
+			this->panel11->Location = System::Drawing::Point(8, 220);
+			this->panel11->Name = L"panel11";
+			this->panel11->Size = System::Drawing::Size(744, 100);
+			this->panel11->TabIndex = 3;
+			// 
+			// textBox4
+			// 
+			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox4->Location = System::Drawing::Point(184, 14);
+			this->textBox4->Multiline = true;
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(100, 20);
+			this->textBox4->TabIndex = 5;
+			// 
+			// label27
+			// 
+			this->label27->AutoSize = true;
+			this->label27->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label27->Location = System::Drawing::Point(113, 79);
+			this->label27->Name = L"label27";
+			this->label27->Size = System::Drawing::Size(75, 15);
+			this->label27->TabIndex = 2;
+			this->label27->Text = L"15 мая 18:00";
+			// 
+			// label28
+			// 
+			this->label28->AutoSize = true;
+			this->label28->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label28->Location = System::Drawing::Point(33, 79);
+			this->label28->Name = L"label28";
+			this->label28->Size = System::Drawing::Size(45, 15);
+			this->label28->TabIndex = 1;
+			this->label28->Text = L"- Срок ";
+			// 
+			// panel12
+			// 
+			this->panel12->BackColor = System::Drawing::Color::Orange;
+			this->panel12->Location = System::Drawing::Point(3, 75);
+			this->panel12->Name = L"panel12";
+			this->panel12->Size = System::Drawing::Size(24, 22);
+			this->panel12->TabIndex = 2;
+			// 
+			// label29
+			// 
+			this->label29->AutoSize = true;
+			this->label29->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
+			this->label29->Location = System::Drawing::Point(14, 13);
+			this->label29->Name = L"label29";
+			this->label29->Size = System::Drawing::Size(164, 21);
+			this->label29->TabIndex = 0;
+			this->label29->Text = L"- Название задачи :";
+			this->label29->Click += gcnew System::EventHandler(this, &Activities::label29_Click);
+			// 
+			// panel9
+			// 
+			this->panel9->Controls->Add(this->textBox5);
+			this->panel9->Controls->Add(this->label24);
+			this->panel9->Controls->Add(this->label25);
+			this->panel9->Controls->Add(this->panel10);
+			this->panel9->Controls->Add(this->label26);
+			this->panel9->Location = System::Drawing::Point(8, 326);
+			this->panel9->Name = L"panel9";
+			this->panel9->Size = System::Drawing::Size(744, 100);
+			this->panel9->TabIndex = 3;
+			// 
+			// textBox5
+			// 
+			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox5->Location = System::Drawing::Point(188, 18);
+			this->textBox5->Multiline = true;
+			this->textBox5->Name = L"textBox5";
+			this->textBox5->Size = System::Drawing::Size(100, 20);
+			this->textBox5->TabIndex = 6;
+			// 
+			// label24
+			// 
+			this->label24->AutoSize = true;
+			this->label24->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label24->Location = System::Drawing::Point(113, 79);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(75, 15);
+			this->label24->TabIndex = 2;
+			this->label24->Text = L"15 мая 18:00";
+			// 
+			// label25
+			// 
+			this->label25->AutoSize = true;
+			this->label25->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label25->Location = System::Drawing::Point(33, 79);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(45, 15);
+			this->label25->TabIndex = 1;
+			this->label25->Text = L"- Срок ";
+			// 
+			// panel10
+			// 
+			this->panel10->BackColor = System::Drawing::Color::Orange;
+			this->panel10->Location = System::Drawing::Point(3, 75);
+			this->panel10->Name = L"panel10";
+			this->panel10->Size = System::Drawing::Size(24, 22);
+			this->panel10->TabIndex = 2;
+			// 
+			// label26
+			// 
+			this->label26->AutoSize = true;
+			this->label26->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
+			this->label26->Location = System::Drawing::Point(15, 14);
+			this->label26->Name = L"label26";
+			this->label26->Size = System::Drawing::Size(164, 21);
+			this->label26->TabIndex = 0;
+			this->label26->Text = L"- Название задачи :";
+			this->label26->Click += gcnew System::EventHandler(this, &Activities::label26_Click);
+			// 
+			// panel7
+			// 
+			this->panel7->Controls->Add(this->textBox6);
+			this->panel7->Controls->Add(this->label21);
+			this->panel7->Controls->Add(this->label22);
+			this->panel7->Controls->Add(this->panel8);
+			this->panel7->Controls->Add(this->label23);
+			this->panel7->Location = System::Drawing::Point(8, 432);
+			this->panel7->Name = L"panel7";
+			this->panel7->Size = System::Drawing::Size(744, 100);
+			this->panel7->TabIndex = 4;
+			// 
+			// textBox6
+			// 
+			this->textBox6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox6->Location = System::Drawing::Point(188, 17);
+			this->textBox6->Multiline = true;
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(100, 20);
+			this->textBox6->TabIndex = 7;
+			// 
+			// label21
+			// 
+			this->label21->AutoSize = true;
+			this->label21->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label21->Location = System::Drawing::Point(113, 79);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(75, 15);
+			this->label21->TabIndex = 2;
+			this->label21->Text = L"15 мая 18:00";
+			// 
+			// label22
+			// 
+			this->label22->AutoSize = true;
+			this->label22->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
+			this->label22->Location = System::Drawing::Point(33, 79);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(45, 15);
+			this->label22->TabIndex = 1;
+			this->label22->Text = L"- Срок ";
+			// 
+			// panel8
+			// 
+			this->panel8->BackColor = System::Drawing::Color::LimeGreen;
+			this->panel8->Location = System::Drawing::Point(3, 75);
+			this->panel8->Name = L"panel8";
+			this->panel8->Size = System::Drawing::Size(24, 22);
+			this->panel8->TabIndex = 2;
+			// 
+			// label23
+			// 
+			this->label23->AutoSize = true;
+			this->label23->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
+			this->label23->Location = System::Drawing::Point(11, 13);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(168, 21);
+			this->label23->TabIndex = 0;
+			this->label23->Text = L" - Название задачи :";
+			// 
+			// panel2
+			// 
+			this->panel2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->panel2->Controls->Add(this->label14);
+			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel2->Location = System::Drawing::Point(0, 0);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(772, 55);
+			this->panel2->TabIndex = 0;
+			// 
+			// label14
+			// 
+			this->label14->AutoSize = true;
+			this->label14->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label14->ForeColor = System::Drawing::SystemColors::Control;
+			this->label14->Location = System::Drawing::Point(18, 17);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(109, 25);
+			this->label14->TabIndex = 1;
+			this->label14->Text = L"Дедлайны";
+			// 
 			// panelProfileCard
 			// 
 			this->panelProfileCard->BackColor = System::Drawing::SystemColors::Control;
@@ -815,51 +1329,16 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->panelProfileCard->Size = System::Drawing::Size(330, 322);
 			this->panelProfileCard->TabIndex = 0;
 			// 
-			// label1
+			// label5
 			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label1->ForeColor = System::Drawing::SystemColors::Control;
-			this->label1->Location = System::Drawing::Point(12, 16);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(201, 25);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"Информация о себе";
-			// 
-			// panel1
-			// 
-			this->panel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel1->Controls->Add(this->label1);
-			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(328, 55);
-			this->panel1->TabIndex = 0;
-			// 
-			// label3
-			// 
-			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label3->ForeColor = System::Drawing::SystemColors::ControlText;
-			this->label3->Location = System::Drawing::Point(13, 93);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(147, 25);
-			this->label3->TabIndex = 1;
-			this->label3->Text = L"Опыт работы :";
-			// 
-			// label4
-			// 
-			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label4->ForeColor = System::Drawing::SystemColors::ControlDarkDark;
-			this->label4->Location = System::Drawing::Point(166, 97);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(61, 20);
-			this->label4->TabIndex = 2;
-			this->label4->Text = L"год/лет";
+			this->label5->AutoSize = true;
+			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label5->Location = System::Drawing::Point(13, 140);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(96, 25);
+			this->label5->TabIndex = 1;
+			this->label5->Text = L"Навыки :";
+			this->label5->Click += gcnew System::EventHandler(this, &Activities::label5_Click);
 			// 
 			// flowSkills
 			// 
@@ -878,17 +1357,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->flowSkills->Size = System::Drawing::Size(328, 152);
 			this->flowSkills->TabIndex = 1;
 			this->flowSkills->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Activities::flowSkills_Paint);
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label5->Location = System::Drawing::Point(13, 140);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(96, 25);
-			this->label5->TabIndex = 1;
-			this->label5->Text = L"Навыки :";
-			this->label5->Click += gcnew System::EventHandler(this, &Activities::label5_Click);
 			// 
 			// label6
 			// 
@@ -958,23 +1426,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->label9->TabIndex = 4;
 			this->label9->Text = L"UI/UX архитектура";
 			// 
-			// label10
-			// 
-			this->label10->AutoSize = true;
-			this->label10->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label10->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label10->Location = System::Drawing::Point(3, 111);
-			this->label10->Margin = System::Windows::Forms::Padding(3);
-			this->label10->Name = L"label10";
-			this->label10->Padding = System::Windows::Forms::Padding(5);
-			this->label10->Size = System::Drawing::Size(220, 30);
-			this->label10->TabIndex = 5;
-			this->label10->Text = L"Академический фундамент";
-			// 
 			// label11
 			// 
 			this->label11->AutoSize = true;
@@ -991,6 +1442,23 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->label11->Size = System::Drawing::Size(145, 30);
 			this->label11->TabIndex = 6;
 			this->label11->Text = L"SQL базы данных";
+			// 
+			// label13
+			// 
+			this->label13->AutoSize = true;
+			this->label13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
+				static_cast<System::Int32>(static_cast<System::Byte>(224)));
+			this->label13->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
+				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->label13->Location = System::Drawing::Point(3, 75);
+			this->label13->Margin = System::Windows::Forms::Padding(3);
+			this->label13->Name = L"label13";
+			this->label13->Padding = System::Windows::Forms::Padding(5);
+			this->label13->Size = System::Drawing::Size(156, 30);
+			this->label13->TabIndex = 8;
+			this->label13->Text = L"Командная работа";
 			// 
 			// label12
 			// 
@@ -1010,571 +1478,68 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->label12->Text = L"Тайм-менеджмент";
 			this->label12->Click += gcnew System::EventHandler(this, &Activities::label12_Click);
 			// 
-			// label13
+			// label10
 			// 
-			this->label13->AutoSize = true;
-			this->label13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
+			this->label10->AutoSize = true;
+			this->label10->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
 				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label13->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label10->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
+			this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label13->Location = System::Drawing::Point(3, 75);
-			this->label13->Margin = System::Windows::Forms::Padding(3);
-			this->label13->Name = L"label13";
-			this->label13->Padding = System::Windows::Forms::Padding(5);
-			this->label13->Size = System::Drawing::Size(156, 30);
-			this->label13->TabIndex = 8;
-			this->label13->Text = L"Командная работа";
+			this->label10->Location = System::Drawing::Point(3, 111);
+			this->label10->Margin = System::Windows::Forms::Padding(3);
+			this->label10->Name = L"label10";
+			this->label10->Padding = System::Windows::Forms::Padding(5);
+			this->label10->Size = System::Drawing::Size(220, 30);
+			this->label10->TabIndex = 5;
+			this->label10->Text = L"Академический фундамент";
 			// 
-			// panelDeadlineGroup
+			// label4
 			// 
-			this->panelDeadlineGroup->Controls->Add(this->flowDeadlineCards);
-			this->panelDeadlineGroup->Controls->Add(this->panel2);
-			this->panelDeadlineGroup->Location = System::Drawing::Point(403, 37);
-			this->panelDeadlineGroup->Name = L"panelDeadlineGroup";
-			this->panelDeadlineGroup->Size = System::Drawing::Size(772, 697);
-			this->panelDeadlineGroup->TabIndex = 1;
+			this->label4->AutoSize = true;
+			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label4->ForeColor = System::Drawing::SystemColors::ControlDarkDark;
+			this->label4->Location = System::Drawing::Point(166, 97);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(61, 20);
+			this->label4->TabIndex = 2;
+			this->label4->Text = L"год/лет";
 			// 
-			// panel2
+			// label3
 			// 
-			this->panel2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+			this->label3->AutoSize = true;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label3->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->label3->Location = System::Drawing::Point(13, 93);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(147, 25);
+			this->label3->TabIndex = 1;
+			this->label3->Text = L"Опыт работы :";
+			// 
+			// panel1
+			// 
+			this->panel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel2->Controls->Add(this->label14);
-			this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel2->Location = System::Drawing::Point(0, 0);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(772, 55);
-			this->panel2->TabIndex = 0;
-			// 
-			// label14
-			// 
-			this->label14->AutoSize = true;
-			this->label14->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label14->ForeColor = System::Drawing::SystemColors::Control;
-			this->label14->Location = System::Drawing::Point(18, 17);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(109, 25);
-			this->label14->TabIndex = 1;
-			this->label14->Text = L"Дедлайны";
-			// 
-			// flowDeadlineCards
-			// 
-			this->flowDeadlineCards->AutoScroll = true;
-			this->flowDeadlineCards->BackColor = System::Drawing::SystemColors::Control;
-			this->flowDeadlineCards->Controls->Add(this->panelTaskCard);
-			this->flowDeadlineCards->Controls->Add(this->panel4);
-			this->flowDeadlineCards->Controls->Add(this->panel11);
-			this->flowDeadlineCards->Controls->Add(this->panel9);
-			this->flowDeadlineCards->Controls->Add(this->panel7);
-			this->flowDeadlineCards->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->flowDeadlineCards->FlowDirection = System::Windows::Forms::FlowDirection::TopDown;
-			this->flowDeadlineCards->Location = System::Drawing::Point(0, 55);
-			this->flowDeadlineCards->Margin = System::Windows::Forms::Padding(20);
-			this->flowDeadlineCards->Name = L"flowDeadlineCards";
-			this->flowDeadlineCards->Padding = System::Windows::Forms::Padding(5);
-			this->flowDeadlineCards->Size = System::Drawing::Size(772, 642);
-			this->flowDeadlineCards->TabIndex = 1;
-			this->flowDeadlineCards->WrapContents = false;
-			// 
-			// panelTaskCard
-			// 
-			this->panelTaskCard->Controls->Add(this->label15);
-			this->panelTaskCard->Controls->Add(this->textBox2);
-			this->panelTaskCard->Controls->Add(this->label17);
-			this->panelTaskCard->Controls->Add(this->label16);
-			this->panelTaskCard->Controls->Add(this->panel5);
-			this->panelTaskCard->Location = System::Drawing::Point(8, 8);
-			this->panelTaskCard->Name = L"panelTaskCard";
-			this->panelTaskCard->Size = System::Drawing::Size(744, 100);
-			this->panelTaskCard->TabIndex = 0;
-			// 
-			// label16
-			// 
-			this->label16->AutoSize = true;
-			this->label16->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label16->Location = System::Drawing::Point(33, 79);
-			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(45, 15);
-			this->label16->TabIndex = 1;
-			this->label16->Text = L"- Срок ";
-			this->label16->Click += gcnew System::EventHandler(this, &Activities::label16_Click);
-			// 
-			// label17
-			// 
-			this->label17->AutoSize = true;
-			this->label17->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label17->Location = System::Drawing::Point(113, 79);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(75, 15);
-			this->label17->TabIndex = 2;
-			this->label17->Text = L"15 мая 18:00";
-			// 
-			// panel5
-			// 
-			this->panel5->BackColor = System::Drawing::Color::OrangeRed;
-			this->panel5->Location = System::Drawing::Point(3, 75);
-			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(24, 22);
-			this->panel5->TabIndex = 2;
-			// 
-			// panel4
-			// 
-			this->panel4->Controls->Add(this->textBox3);
-			this->panel4->Controls->Add(this->label18);
-			this->panel4->Controls->Add(this->label19);
-			this->panel4->Controls->Add(this->panel6);
-			this->panel4->Controls->Add(this->label20);
-			this->panel4->Location = System::Drawing::Point(8, 114);
-			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(744, 100);
-			this->panel4->TabIndex = 3;
-			// 
-			// label18
-			// 
-			this->label18->AutoSize = true;
-			this->label18->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label18->Location = System::Drawing::Point(113, 79);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(75, 15);
-			this->label18->TabIndex = 2;
-			this->label18->Text = L"15 мая 18:00";
-			// 
-			// label19
-			// 
-			this->label19->AutoSize = true;
-			this->label19->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label19->Location = System::Drawing::Point(33, 79);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(45, 15);
-			this->label19->TabIndex = 1;
-			this->label19->Text = L"- Срок ";
-			// 
-			// panel6
-			// 
-			this->panel6->BackColor = System::Drawing::Color::OrangeRed;
-			this->panel6->Location = System::Drawing::Point(3, 75);
-			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(24, 22);
-			this->panel6->TabIndex = 2;
-			// 
-			// label20
-			// 
-			this->label20->AutoSize = true;
-			this->label20->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
-			this->label20->Location = System::Drawing::Point(14, 13);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(164, 21);
-			this->label20->TabIndex = 0;
-			this->label20->Text = L"- Название задачи :";
-			// 
-			// panel9
-			// 
-			this->panel9->Controls->Add(this->textBox5);
-			this->panel9->Controls->Add(this->label24);
-			this->panel9->Controls->Add(this->label25);
-			this->panel9->Controls->Add(this->panel10);
-			this->panel9->Controls->Add(this->label26);
-			this->panel9->Location = System::Drawing::Point(8, 326);
-			this->panel9->Name = L"panel9";
-			this->panel9->Size = System::Drawing::Size(744, 100);
-			this->panel9->TabIndex = 3;
-			// 
-			// label24
-			// 
-			this->label24->AutoSize = true;
-			this->label24->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label24->Location = System::Drawing::Point(113, 79);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(75, 15);
-			this->label24->TabIndex = 2;
-			this->label24->Text = L"15 мая 18:00";
-			// 
-			// label25
-			// 
-			this->label25->AutoSize = true;
-			this->label25->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label25->Location = System::Drawing::Point(33, 79);
-			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(45, 15);
-			this->label25->TabIndex = 1;
-			this->label25->Text = L"- Срок ";
-			// 
-			// panel10
-			// 
-			this->panel10->BackColor = System::Drawing::Color::Orange;
-			this->panel10->Location = System::Drawing::Point(3, 75);
-			this->panel10->Name = L"panel10";
-			this->panel10->Size = System::Drawing::Size(24, 22);
-			this->panel10->TabIndex = 2;
-			// 
-			// label26
-			// 
-			this->label26->AutoSize = true;
-			this->label26->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
-			this->label26->Location = System::Drawing::Point(15, 14);
-			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(164, 21);
-			this->label26->TabIndex = 0;
-			this->label26->Text = L"- Название задачи :";
-			this->label26->Click += gcnew System::EventHandler(this, &Activities::label26_Click);
-			// 
-			// panel11
-			// 
-			this->panel11->Controls->Add(this->textBox4);
-			this->panel11->Controls->Add(this->label27);
-			this->panel11->Controls->Add(this->label28);
-			this->panel11->Controls->Add(this->panel12);
-			this->panel11->Controls->Add(this->label29);
-			this->panel11->Location = System::Drawing::Point(8, 220);
-			this->panel11->Name = L"panel11";
-			this->panel11->Size = System::Drawing::Size(744, 100);
-			this->panel11->TabIndex = 3;
-			// 
-			// label27
-			// 
-			this->label27->AutoSize = true;
-			this->label27->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label27->Location = System::Drawing::Point(113, 79);
-			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(75, 15);
-			this->label27->TabIndex = 2;
-			this->label27->Text = L"15 мая 18:00";
-			// 
-			// label28
-			// 
-			this->label28->AutoSize = true;
-			this->label28->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label28->Location = System::Drawing::Point(33, 79);
-			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(45, 15);
-			this->label28->TabIndex = 1;
-			this->label28->Text = L"- Срок ";
-			// 
-			// panel12
-			// 
-			this->panel12->BackColor = System::Drawing::Color::Orange;
-			this->panel12->Location = System::Drawing::Point(3, 75);
-			this->panel12->Name = L"panel12";
-			this->panel12->Size = System::Drawing::Size(24, 22);
-			this->panel12->TabIndex = 2;
-			// 
-			// label29
-			// 
-			this->label29->AutoSize = true;
-			this->label29->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
-			this->label29->Location = System::Drawing::Point(14, 13);
-			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(164, 21);
-			this->label29->TabIndex = 0;
-			this->label29->Text = L"- Название задачи :";
-			this->label29->Click += gcnew System::EventHandler(this, &Activities::label29_Click);
-			// 
-			// panel7
-			// 
-			this->panel7->Controls->Add(this->textBox6);
-			this->panel7->Controls->Add(this->label21);
-			this->panel7->Controls->Add(this->label22);
-			this->panel7->Controls->Add(this->panel8);
-			this->panel7->Controls->Add(this->label23);
-			this->panel7->Location = System::Drawing::Point(8, 432);
-			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(744, 100);
-			this->panel7->TabIndex = 4;
-			// 
-			// label21
-			// 
-			this->label21->AutoSize = true;
-			this->label21->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label21->Location = System::Drawing::Point(113, 79);
-			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(75, 15);
-			this->label21->TabIndex = 2;
-			this->label21->Text = L"15 мая 18:00";
-			// 
-			// label22
-			// 
-			this->label22->AutoSize = true;
-			this->label22->Font = (gcnew System::Drawing::Font(L"Segoe UI Semibold", 9, System::Drawing::FontStyle::Bold));
-			this->label22->Location = System::Drawing::Point(33, 79);
-			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(45, 15);
-			this->label22->TabIndex = 1;
-			this->label22->Text = L"- Срок ";
-			// 
-			// panel8
-			// 
-			this->panel8->BackColor = System::Drawing::Color::LimeGreen;
-			this->panel8->Location = System::Drawing::Point(3, 75);
-			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(24, 22);
-			this->panel8->TabIndex = 2;
-			// 
-			// label23
-			// 
-			this->label23->AutoSize = true;
-			this->label23->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
-			this->label23->Location = System::Drawing::Point(11, 13);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(168, 21);
-			this->label23->TabIndex = 0;
-			this->label23->Text = L" - Название задачи :";
-			// 
-			// panelLearning
-			// 
-			this->panelLearning->AutoScroll = true;
-			this->panelLearning->BackColor = System::Drawing::SystemColors::Control;
-			this->panelLearning->Controls->Add(this->panel16);
-			this->panelLearning->Controls->Add(this->panel15);
-			this->panelLearning->Controls->Add(this->panel14);
-			this->panelLearning->Controls->Add(this->panel13);
-			this->panelLearning->Location = System::Drawing::Point(31, 374);
-			this->panelLearning->Name = L"panelLearning";
-			this->panelLearning->Size = System::Drawing::Size(330, 343);
-			this->panelLearning->TabIndex = 2;
-			// 
-			// panel13
-			// 
-			this->panel13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->panel13->Controls->Add(this->label30);
-			this->panel13->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel13->Location = System::Drawing::Point(0, 0);
-			this->panel13->Name = L"panel13";
-			this->panel13->Size = System::Drawing::Size(330, 55);
-			this->panel13->TabIndex = 0;
-			// 
-			// label30
-			// 
-			this->label30->AutoSize = true;
-			this->label30->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label30->ForeColor = System::Drawing::Color::SpringGreen;
-			this->label30->Location = System::Drawing::Point(13, 14);
-			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(210, 25);
-			this->label30->TabIndex = 0;
-			this->label30->Text = L"Обучение и развитие";
-			// 
-			// label31
-			// 
-			this->label31->AutoSize = true;
-			this->label31->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label31->Location = System::Drawing::Point(34, 7);
-			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(130, 20);
-			this->label31->TabIndex = 1;
-			this->label31->Text = L"Название курса :";
-			// 
-			// progressBar1
-			// 
-			this->progressBar1->ForeColor = System::Drawing::Color::SpringGreen;
-			this->progressBar1->Location = System::Drawing::Point(8, 13);
-			this->progressBar1->Name = L"progressBar1";
-			this->progressBar1->Size = System::Drawing::Size(24, 64);
-			this->progressBar1->Step = 1;
-			this->progressBar1->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
-			this->progressBar1->TabIndex = 2;
-			this->progressBar1->Click += gcnew System::EventHandler(this, &Activities::progressBar1_Click);
-			// 
-			// label32
-			// 
-			this->label32->AutoSize = true;
-			this->label32->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label32->Location = System::Drawing::Point(38, 52);
-			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(50, 25);
-			this->label32->TabIndex = 3;
-			this->label32->Text = L"50%";
-			// 
-			// label33
-			// 
-			this->label33->AutoSize = true;
-			this->label33->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label33->ForeColor = System::Drawing::SystemColors::GrayText;
-			this->label33->Location = System::Drawing::Point(170, 10);
-			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(48, 17);
-			this->label33->TabIndex = 4;
-			this->label33->Text = L"курс...";
-			// 
-			// panel14
-			// 
-			this->panel14->Controls->Add(this->progressBar1);
-			this->panel14->Controls->Add(this->label33);
-			this->panel14->Controls->Add(this->label32);
-			this->panel14->Controls->Add(this->label31);
-			this->panel14->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel14->Location = System::Drawing::Point(0, 55);
-			this->panel14->Name = L"panel14";
-			this->panel14->Size = System::Drawing::Size(330, 83);
-			this->panel14->TabIndex = 5;
-			// 
-			// panel15
-			// 
-			this->panel15->Controls->Add(this->progressBar2);
-			this->panel15->Controls->Add(this->label34);
-			this->panel15->Controls->Add(this->label35);
-			this->panel15->Controls->Add(this->label36);
-			this->panel15->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel15->Location = System::Drawing::Point(0, 138);
-			this->panel15->Name = L"panel15";
-			this->panel15->Size = System::Drawing::Size(330, 83);
-			this->panel15->TabIndex = 6;
-			// 
-			// progressBar2
-			// 
-			this->progressBar2->ForeColor = System::Drawing::Color::SpringGreen;
-			this->progressBar2->Location = System::Drawing::Point(8, 13);
-			this->progressBar2->Name = L"progressBar2";
-			this->progressBar2->Size = System::Drawing::Size(24, 64);
-			this->progressBar2->Step = 1;
-			this->progressBar2->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
-			this->progressBar2->TabIndex = 2;
-			// 
-			// label34
-			// 
-			this->label34->AutoSize = true;
-			this->label34->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label34->ForeColor = System::Drawing::SystemColors::GrayText;
-			this->label34->Location = System::Drawing::Point(244, 10);
-			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(79, 17);
-			this->label34->TabIndex = 4;
-			this->label34->Text = L"название...";
-			// 
-			// label35
-			// 
-			this->label35->AutoSize = true;
-			this->label35->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label35->Location = System::Drawing::Point(36, 55);
-			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(50, 25);
-			this->label35->TabIndex = 3;
-			this->label35->Text = L"50%";
-			// 
-			// label36
-			// 
-			this->label36->AutoSize = true;
-			this->label36->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label36->Location = System::Drawing::Point(34, 7);
-			this->label36->Name = L"label36";
-			this->label36->Size = System::Drawing::Size(213, 20);
-			this->label36->TabIndex = 1;
-			this->label36->Text = L"Повышение квалификации:";
-			// 
-			// panel16
-			// 
-			this->panel16->Controls->Add(this->progressBar3);
-			this->panel16->Controls->Add(this->label37);
-			this->panel16->Controls->Add(this->label38);
-			this->panel16->Controls->Add(this->label40);
-			this->panel16->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel16->Location = System::Drawing::Point(0, 221);
-			this->panel16->Name = L"panel16";
-			this->panel16->Size = System::Drawing::Size(330, 83);
-			this->panel16->TabIndex = 6;
-			// 
-			// progressBar3
-			// 
-			this->progressBar3->ForeColor = System::Drawing::Color::SpringGreen;
-			this->progressBar3->Location = System::Drawing::Point(8, 16);
-			this->progressBar3->Name = L"progressBar3";
-			this->progressBar3->Size = System::Drawing::Size(24, 64);
-			this->progressBar3->Step = 1;
-			this->progressBar3->Style = System::Windows::Forms::ProgressBarStyle::Marquee;
-			this->progressBar3->TabIndex = 2;
-			// 
-			// label37
-			// 
-			this->label37->AutoSize = true;
-			this->label37->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label37->ForeColor = System::Drawing::SystemColors::GrayText;
-			this->label37->Location = System::Drawing::Point(195, 10);
-			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(79, 17);
-			this->label37->TabIndex = 4;
-			this->label37->Text = L"название...";
-			// 
-			// label38
-			// 
-			this->label38->AutoSize = true;
-			this->label38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
-			this->label38->Location = System::Drawing::Point(38, 55);
-			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(50, 25);
-			this->label38->TabIndex = 3;
-			this->label38->Text = L"50%";
-			// 
-			// label40
-			// 
-			this->label40->AutoSize = true;
-			this->label40->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label40->Location = System::Drawing::Point(34, 7);
-			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(155, 20);
-			this->label40->TabIndex = 1;
-			this->label40->Text = L"Название тренинга :";
-			// 
-			// textBox2
-			// 
-			this->textBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox2->Location = System::Drawing::Point(188, 21);
-			this->textBox2->Multiline = true;
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(100, 20);
-			this->textBox2->TabIndex = 3;
-			// 
-			// label15
-			// 
-			this->label15->AutoSize = true;
-			this->label15->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
-			this->label15->Location = System::Drawing::Point(11, 17);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(164, 21);
-			this->label15->TabIndex = 3;
-			this->label15->Text = L"- Название задачи :";
-			// 
-			// textBox3
-			// 
-			this->textBox3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox3->Location = System::Drawing::Point(188, 17);
-			this->textBox3->Multiline = true;
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(100, 20);
-			this->textBox3->TabIndex = 4;
-			// 
-			// textBox4
-			// 
-			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox4->Location = System::Drawing::Point(184, 14);
-			this->textBox4->Multiline = true;
-			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(100, 20);
-			this->textBox4->TabIndex = 5;
-			// 
-			// textBox5
-			// 
-			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox5->Location = System::Drawing::Point(188, 18);
-			this->textBox5->Multiline = true;
-			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(100, 20);
-			this->textBox5->TabIndex = 6;
-			// 
-			// textBox6
-			// 
-			this->textBox6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox6->Location = System::Drawing::Point(188, 17);
-			this->textBox6->Multiline = true;
-			this->textBox6->Name = L"textBox6";
-			this->textBox6->Size = System::Drawing::Size(100, 20);
-			this->textBox6->TabIndex = 7;
+			this->panel1->Controls->Add(this->label1);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel1->Location = System::Drawing::Point(0, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(328, 55);
+			this->panel1->TabIndex = 0;
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Bold));
+			this->label1->ForeColor = System::Drawing::SystemColors::Control;
+			this->label1->Location = System::Drawing::Point(12, 16);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(201, 25);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"Информация о себе";
 			// 
 			// Activities
 			// 
@@ -1600,7 +1565,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
@@ -1609,35 +1573,35 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox23))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox25))->EndInit();
 			this->panelMyActivities->ResumeLayout(false);
-			this->panelProfileCard->ResumeLayout(false);
-			this->panelProfileCard->PerformLayout();
-			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
-			this->flowSkills->ResumeLayout(false);
-			this->flowSkills->PerformLayout();
+			this->panelLearning->ResumeLayout(false);
+			this->panel16->ResumeLayout(false);
+			this->panel16->PerformLayout();
+			this->panel15->ResumeLayout(false);
+			this->panel15->PerformLayout();
+			this->panel14->ResumeLayout(false);
+			this->panel14->PerformLayout();
+			this->panel13->ResumeLayout(false);
+			this->panel13->PerformLayout();
 			this->panelDeadlineGroup->ResumeLayout(false);
-			this->panel2->ResumeLayout(false);
-			this->panel2->PerformLayout();
 			this->flowDeadlineCards->ResumeLayout(false);
 			this->panelTaskCard->ResumeLayout(false);
 			this->panelTaskCard->PerformLayout();
 			this->panel4->ResumeLayout(false);
 			this->panel4->PerformLayout();
-			this->panel9->ResumeLayout(false);
-			this->panel9->PerformLayout();
 			this->panel11->ResumeLayout(false);
 			this->panel11->PerformLayout();
+			this->panel9->ResumeLayout(false);
+			this->panel9->PerformLayout();
 			this->panel7->ResumeLayout(false);
 			this->panel7->PerformLayout();
-			this->panelLearning->ResumeLayout(false);
-			this->panel13->ResumeLayout(false);
-			this->panel13->PerformLayout();
-			this->panel14->ResumeLayout(false);
-			this->panel14->PerformLayout();
-			this->panel15->ResumeLayout(false);
-			this->panel15->PerformLayout();
-			this->panel16->ResumeLayout(false);
-			this->panel16->PerformLayout();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
+			this->panelProfileCard->ResumeLayout(false);
+			this->panelProfileCard->PerformLayout();
+			this->flowSkills->ResumeLayout(false);
+			this->flowSkills->PerformLayout();
+			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			this->ResumeLayout(false);
 
 		}

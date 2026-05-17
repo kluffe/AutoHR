@@ -52,7 +52,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::PictureBox^ photo;
 	private: System::Windows::Forms::PictureBox^ pictureBox32;
 	private: System::Windows::Forms::PictureBox^ pictureBox31;
-	private: System::Windows::Forms::PictureBox^ pictureBox30;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox29;
 	private: System::Windows::Forms::PictureBox^ pictureBox28;
 	private: System::Windows::Forms::PictureBox^ pictureBox27;
@@ -65,7 +65,7 @@ namespace AutoHR {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Label^ label39;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button7;
 	private: System::Windows::Forms::Button^ button6;
 	private: System::Windows::Forms::Button^ button5;
@@ -157,7 +157,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->photo = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox32 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox27 = (gcnew System::Windows::Forms::PictureBox());
@@ -170,7 +169,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
@@ -233,7 +231,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->BeginInit();
@@ -390,7 +387,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->sidebar->Controls->Add(this->pnlProfile);
 			this->sidebar->Controls->Add(this->pictureBox32);
 			this->sidebar->Controls->Add(this->pictureBox31);
-			this->sidebar->Controls->Add(this->pictureBox30);
 			this->sidebar->Controls->Add(this->pictureBox29);
 			this->sidebar->Controls->Add(this->pictureBox28);
 			this->sidebar->Controls->Add(this->pictureBox27);
@@ -403,7 +399,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->sidebar->Controls->Add(this->button4);
 			this->sidebar->Controls->Add(this->label39);
 			this->sidebar->Controls->Add(this->button1);
-			this->sidebar->Controls->Add(this->button8);
 			this->sidebar->Controls->Add(this->button7);
 			this->sidebar->Controls->Add(this->button6);
 			this->sidebar->Controls->Add(this->button5);
@@ -452,7 +447,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			// pictureBox32
 			// 
 			this->pictureBox32->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox32.Image")));
-			this->pictureBox32->Location = System::Drawing::Point(15, 650);
+			this->pictureBox32->Location = System::Drawing::Point(14, 592);
 			this->pictureBox32->Name = L"pictureBox32";
 			this->pictureBox32->Size = System::Drawing::Size(42, 40);
 			this->pictureBox32->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -462,22 +457,12 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			// pictureBox31
 			// 
 			this->pictureBox31->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox31.Image")));
-			this->pictureBox31->Location = System::Drawing::Point(15, 595);
+			this->pictureBox31->Location = System::Drawing::Point(14, 537);
 			this->pictureBox31->Name = L"pictureBox31";
 			this->pictureBox31->Size = System::Drawing::Size(42, 40);
 			this->pictureBox31->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox31->TabIndex = 22;
 			this->pictureBox31->TabStop = false;
-			// 
-			// pictureBox30
-			// 
-			this->pictureBox30->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox30.Image")));
-			this->pictureBox30->Location = System::Drawing::Point(15, 539);
-			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(42, 40);
-			this->pictureBox30->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox30->TabIndex = 21;
-			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox29
 			// 
@@ -561,7 +546,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 				static_cast<System::Byte>(204)));
 			this->button11->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button11->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button11->Location = System::Drawing::Point(62, 650);
+			this->button11->Location = System::Drawing::Point(61, 592);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(218, 40);
 			this->button11->TabIndex = 11;
@@ -640,26 +625,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->button1->UseVisualStyleBackColor = true;
 			// 
-			// button8
-			// 
-			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->FlatAppearance->BorderSize = 3;
-			this->button8->FlatAppearance->MouseDownBackColor = System::Drawing::Color::DarkBlue;
-			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::MidnightBlue;
-			this->button8->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
-			this->button8->ForeColor = System::Drawing::SystemColors::ButtonFace;
-			this->button8->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->Location = System::Drawing::Point(62, 539);
-			this->button8->Margin = System::Windows::Forms::Padding(5);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(219, 40);
-			this->button8->TabIndex = 8;
-			this->button8->Text = L"Опросы";
-			this->button8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button8->UseVisualStyleBackColor = true;
-			// 
 			// button7
 			// 
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
@@ -671,7 +636,7 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI Black", 14.25F, System::Drawing::FontStyle::Bold));
 			this->button7->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->button7->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button7->Location = System::Drawing::Point(62, 595);
+			this->button7->Location = System::Drawing::Point(61, 537);
 			this->button7->Margin = System::Windows::Forms::Padding(5);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(219, 40);
@@ -1296,7 +1261,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox34;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox32))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox27))->EndInit();
