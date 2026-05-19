@@ -77,18 +77,18 @@ namespace AutoHR {
 	private: System::Windows::Forms::Panel^ panelProfileCard;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::Panel^ panel1;
-	private: System::Windows::Forms::FlowLayoutPanel^ flowSkills;
+
 
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::Label^ label6;
-	private: System::Windows::Forms::Label^ label7;
-	private: System::Windows::Forms::Label^ label8;
-	private: System::Windows::Forms::Label^ label9;
-	private: System::Windows::Forms::Label^ label10;
-	private: System::Windows::Forms::Label^ label11;
-	private: System::Windows::Forms::Label^ label12;
-	private: System::Windows::Forms::Label^ label13;
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Panel^ panelDeadlineGroup;
 	private: System::Windows::Forms::FlowLayoutPanel^ flowDeadlineCards;
 
@@ -144,6 +144,9 @@ private: System::Windows::Forms::TextBox^ textBox3;
 private: System::Windows::Forms::TextBox^ textBox4;
 private: System::Windows::Forms::TextBox^ textBox5;
 private: System::Windows::Forms::TextBox^ textBox6;
+private: System::Windows::Forms::FlowLayoutPanel^ flowLayoutPanel1;
+private: System::Windows::Forms::ComboBox^ comboBox1;
+private: System::Windows::Forms::ComboBox^ comboBoxSkills;
 
 
 
@@ -241,20 +244,14 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->panelProfileCard = (gcnew System::Windows::Forms::Panel());
+			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
 			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->flowSkills = (gcnew System::Windows::Forms::FlowLayoutPanel());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->comboBoxSkills = (gcnew System::Windows::Forms::ComboBox());
 			this->sidebar->SuspendLayout();
 			this->pnlProfile->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->photo))->BeginInit();
@@ -282,7 +279,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->panel7->SuspendLayout();
 			this->panel2->SuspendLayout();
 			this->panelProfileCard->SuspendLayout();
-			this->flowSkills->SuspendLayout();
 			this->panel1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -1276,16 +1272,39 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			// 
 			this->panelProfileCard->BackColor = System::Drawing::SystemColors::Control;
 			this->panelProfileCard->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->panelProfileCard->Controls->Add(this->flowLayoutPanel1);
+			this->panelProfileCard->Controls->Add(this->comboBox1);
 			this->panelProfileCard->Controls->Add(this->label5);
-			this->panelProfileCard->Controls->Add(this->flowSkills);
 			this->panelProfileCard->Controls->Add(this->label4);
 			this->panelProfileCard->Controls->Add(this->label3);
 			this->panelProfileCard->Controls->Add(this->panel1);
+			this->panelProfileCard->Controls->Add(this->comboBoxSkills);
 			this->panelProfileCard->Location = System::Drawing::Point(0, 0);
 			this->panelProfileCard->Margin = System::Windows::Forms::Padding(4);
 			this->panelProfileCard->Name = L"panelProfileCard";
 			this->panelProfileCard->Size = System::Drawing::Size(439, 396);
 			this->panelProfileCard->TabIndex = 0;
+			// 
+			// flowLayoutPanel1
+			// 
+			this->flowLayoutPanel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->flowLayoutPanel1->Location = System::Drawing::Point(22, 225);
+			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
+			this->flowLayoutPanel1->Size = System::Drawing::Size(393, 156);
+			this->flowLayoutPanel1->TabIndex = 4;
+			this->flowLayoutPanel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Activities::flowLayoutPanel1_Paint);
+			// 
+			// comboBox1
+			// 
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(1) {
+				L"C++/CLI WinForms UI Git/GitHub UI/UX архитектура SQL базы данных Командная работа"
+					L" Тайм-менеджмент Академический фундамент"
+			});
+			this->comboBox1->Location = System::Drawing::Point(151, 177);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(264, 24);
+			this->comboBox1->TabIndex = 3;
 			// 
 			// label5
 			// 
@@ -1298,162 +1317,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->label5->TabIndex = 1;
 			this->label5->Text = L"Навыки :";
 			this->label5->Click += gcnew System::EventHandler(this, &Activities::label5_Click);
-			// 
-			// flowSkills
-			// 
-			this->flowSkills->AutoScroll = true;
-			this->flowSkills->Controls->Add(this->label6);
-			this->flowSkills->Controls->Add(this->label7);
-			this->flowSkills->Controls->Add(this->label8);
-			this->flowSkills->Controls->Add(this->label9);
-			this->flowSkills->Controls->Add(this->label11);
-			this->flowSkills->Controls->Add(this->label13);
-			this->flowSkills->Controls->Add(this->label12);
-			this->flowSkills->Controls->Add(this->label10);
-			this->flowSkills->Dock = System::Windows::Forms::DockStyle::Bottom;
-			this->flowSkills->Location = System::Drawing::Point(0, 207);
-			this->flowSkills->Margin = System::Windows::Forms::Padding(4);
-			this->flowSkills->Name = L"flowSkills";
-			this->flowSkills->Size = System::Drawing::Size(437, 187);
-			this->flowSkills->TabIndex = 1;
-			this->flowSkills->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Activities::flowSkills_Paint);
-			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label6->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label6->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label6->Location = System::Drawing::Point(4, 4);
-			this->label6->Margin = System::Windows::Forms::Padding(4);
-			this->label6->Name = L"label6";
-			this->label6->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label6->Size = System::Drawing::Size(100, 37);
-			this->label6->TabIndex = 1;
-			this->label6->Text = L"C++/CLI";
-			// 
-			// label7
-			// 
-			this->label7->AutoSize = true;
-			this->label7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label7->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label7->Location = System::Drawing::Point(112, 4);
-			this->label7->Margin = System::Windows::Forms::Padding(4);
-			this->label7->Name = L"label7";
-			this->label7->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label7->Size = System::Drawing::Size(142, 37);
-			this->label7->TabIndex = 2;
-			this->label7->Text = L"WinForms UI";
-			// 
-			// label8
-			// 
-			this->label8->AutoSize = true;
-			this->label8->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label8->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label8->Location = System::Drawing::Point(262, 4);
-			this->label8->Margin = System::Windows::Forms::Padding(4);
-			this->label8->Name = L"label8";
-			this->label8->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label8->Size = System::Drawing::Size(125, 37);
-			this->label8->TabIndex = 3;
-			this->label8->Text = L"Git/GitHub";
-			// 
-			// label9
-			// 
-			this->label9->AutoSize = true;
-			this->label9->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label9->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label9->Location = System::Drawing::Point(4, 49);
-			this->label9->Margin = System::Windows::Forms::Padding(4);
-			this->label9->Name = L"label9";
-			this->label9->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label9->Size = System::Drawing::Size(201, 37);
-			this->label9->TabIndex = 4;
-			this->label9->Text = L"UI/UX архитектура";
-			// 
-			// label11
-			// 
-			this->label11->AutoSize = true;
-			this->label11->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label11->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label11->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label11->Location = System::Drawing::Point(213, 49);
-			this->label11->Margin = System::Windows::Forms::Padding(4);
-			this->label11->Name = L"label11";
-			this->label11->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label11->Size = System::Drawing::Size(189, 37);
-			this->label11->TabIndex = 6;
-			this->label11->Text = L"SQL базы данных";
-			// 
-			// label13
-			// 
-			this->label13->AutoSize = true;
-			this->label13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label13->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label13->Location = System::Drawing::Point(4, 94);
-			this->label13->Margin = System::Windows::Forms::Padding(4);
-			this->label13->Name = L"label13";
-			this->label13->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label13->Size = System::Drawing::Size(202, 37);
-			this->label13->TabIndex = 8;
-			this->label13->Text = L"Командная работа";
-			// 
-			// label12
-			// 
-			this->label12->AutoSize = true;
-			this->label12->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label12->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label12->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label12->Location = System::Drawing::Point(214, 94);
-			this->label12->Margin = System::Windows::Forms::Padding(4);
-			this->label12->Name = L"label12";
-			this->label12->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label12->Size = System::Drawing::Size(201, 37);
-			this->label12->TabIndex = 7;
-			this->label12->Text = L"Тайм-менеджмент";
-			this->label12->Click += gcnew System::EventHandler(this, &Activities::label12_Click);
-			// 
-			// label10
-			// 
-			this->label10->AutoSize = true;
-			this->label10->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
-				static_cast<System::Int32>(static_cast<System::Byte>(224)));
-			this->label10->Font = (gcnew System::Drawing::Font(L"Segoe UI", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->label10->Location = System::Drawing::Point(4, 139);
-			this->label10->Margin = System::Windows::Forms::Padding(4);
-			this->label10->Name = L"label10";
-			this->label10->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
-			this->label10->Size = System::Drawing::Size(284, 37);
-			this->label10->TabIndex = 5;
-			this->label10->Text = L"Академический фундамент";
 			// 
 			// label4
 			// 
@@ -1504,6 +1367,30 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->label1->Size = System::Drawing::Size(256, 32);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Информация о себе";
+			// 
+			// comboBoxSkills
+			// 
+			
+			this->comboBoxSkills->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
+			this->comboBoxSkills->FormattingEnabled = true;
+
+			// Навыки разбиты на отдельные элементы массива для корректного отображения
+			this->comboBoxSkills->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
+				L"C++/CLI WinForms UI",
+					L"Git/GitHub",
+					L"UI/UX архитектура",
+					L"SQL базы данных",
+					L"Командная работа",
+					L"Тайм-менеджмент",
+					L"Академический фундамент"
+			});
+
+			// Задаем корректное положение выпадающего списка на форме
+			this->comboBoxSkills->Location = System::Drawing::Point(151, 177);
+			this->comboBoxSkills->Name = L"comboBoxSkills";
+			this->comboBoxSkills->Size = System::Drawing::Size(264, 24);
+			this->comboBoxSkills->TabIndex = 3;
+			this->comboBoxSkills->SelectedIndexChanged += gcnew System::EventHandler(this, &Activities::comboBoxSkills_SelectedIndexChanged);boBoxSkills->SelectedIndexChanged += gcnew System::EventHandler(this, &Activities::comboBoxSkills_SelectedIndexChanged);
 			// 
 			// Activities
 			// 
@@ -1556,8 +1443,6 @@ private: System::Windows::Forms::TextBox^ textBox6;
 			this->panel2->PerformLayout();
 			this->panelProfileCard->ResumeLayout(false);
 			this->panelProfileCard->PerformLayout();
-			this->flowSkills->ResumeLayout(false);
-			this->flowSkills->PerformLayout();
 			this->panel1->ResumeLayout(false);
 			this->panel1->PerformLayout();
 			this->ResumeLayout(false);
@@ -1591,6 +1476,52 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e);
 private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e);
 private: System::Void panel13_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
+private: System::Void flowLayoutPanel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+private: System::Void comboBoxSkills_SelectedIndexChanged(System::Object ^ sender, System::EventArgs ^ e) {
+	// Если ничего не выбрано, выходим
+	if (comboBoxSkills->SelectedIndex == -1) return;
+
+	String^ selectedSkill = comboBoxSkills->SelectedItem->ToString();
+
+	// Проверяем, нет ли уже такого навыка в flowSkills
+	for (int i = 0; i < flowSkills->Controls->Count; i++) {
+		if (flowSkills->Controls[i]->Text == selectedSkill) {
+			MessageBox::Show("Этот навык уже добавлен в ваш профиль!");
+			comboBoxSkills->SelectedIndex = -1; // Сбрасываем выбор
+			return;
+		}
+	}
+
+	// Создаем красивую интерактивную кнопку-тег
+	Button^ skillTag = gcnew Button();
+	skillTag->Text = selectedSkill;
+	skillTag->AutoSize = true;
+	skillTag->BackColor = Color::LightGray;
+	skillTag->FlatStyle = FlatStyle::Flat;
+	skillTag->FlatAppearance->BorderSize = 0;
+	skillTag->Font = gcnew System::Drawing::Font("Segoe UI", 9, System::Drawing::FontStyle::Bold);
+	skillTag->Margin = System::Windows::Forms::Padding(3);
+
+	// Привязываем событие удаления при клике на сам тег
+	skillTag->Click += gcnew System::EventHandler(this, &Activities::RemoveSkillTag_Click);
+
+	// Добавляем тег в ваш существующий flowSkills
+	flowSkills->Controls->Add(skillTag);
+
+	// Сбрасываем индекс в ComboBox для последующих выборов
+	comboBoxSkills->SelectedIndex = -1;
+}
+
+private: System::Void RemoveSkillTag_Click(System::Object ^ sender, System::EventArgs ^ e) {
+	// Определяем, на какой тег кликнули
+	Button^ clickedTag = dynamic_cast<Button^>(sender);
+	if (clickedTag != nullptr) {
+		// Удаляем его из панели flowSkills
+		flowSkills->Controls->Remove(clickedTag);
+		delete clickedTag; // Освобождаем память управления
+	}
+}
 }
 };
 }
